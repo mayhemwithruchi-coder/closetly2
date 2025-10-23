@@ -1,72 +1,63 @@
-from functools import wraps
-
-def require_api_key(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        api_key = request.headers.get('X-API-Key')
-        if api_key != 'YOUR_SECRET_KEY':
-            return jsonify({'error': 'Invalid API key'}), 401
-        return f(*args, **kwargs)
-    return decorated_function
-
-@app.route('/predict', methods=['POST'])
-@require_api_key
-def predict_price():
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
-
-limiter = Limiter(
-    app,
-    key_func=get_remote_address,
-    default_limits=["200 per day", "50 per hour"]
-)
-
-@app.route('/predict', methods=['POST'])
-@limiter.limit("10 per minute")
-def predict_price():
-    
-
-def get_real_time_prices(product_name, brand):
-    """Fetch real-time prices from Indian retailers (simplified)"""
-    # In production, integrate with Myntra API, Flipkart API, or similar
-    # This is a placeholder that returns mock data
-    
-    retailers = {
-        'Myntra': {'price': None, 'url': f"https://www.myntra.com/{product_name.replace(' ', '-')}"},
-        'Flipkart': {'price': None, 'url': f"https://www.flipkart.com/search?q={product_name}"},
-        'Amazon India': {'price': None, 'url': f"https://www.amazon.in/s?k={product_name}"},
-        'Ajio': {'price': None, 'url': f"https://www.ajio.com/search/?text={product_name}"},
-        'Lifestyle': {'price': None, 'url': f"https://www.lifestylestores.com/in/en/search/?text={product_name}"}
-    }
-    
-    """
+"""
 Flask API for Fashion Price Prediction
 Integrates ML model with web application
 """
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from functools import wraps
 import pickle
 import numpy as np
 import pandas as pd
 from datetime import datetime
-import requests
-from bs4 import BeautifulSoup
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for web app integration
 
+# Initialize rate limiter
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"]
+)
+
 # Load trained model and preprocessor
-with open('fashion_price_model.pkl', 'rb') as f:
-    model_data = pickle.load(f)
-    model = model_data['model']
-    model_name = model_data['model_name']
+try:
+    with open('fashion_price_model.pkl', 'rb') as f:
+        model_data = pickle.load(f)
+        model = model_data['model']
+        model_name = model_data['model_name']
 
-with open('fashion_preprocessor.pkl', 'rb') as f:
-    preprocessor_data = pickle.load(f)
-    label_encoders = preprocessor_data['label_encoders']
+    with open('fashion_preprocessor.pkl', 'rb') as f:
+        preprocessor_data = pickle.load(f)
+        label_encoders = preprocessor_data['label_encoders']
 
-print(f"Loaded {model_name} model successfully!")
+    print(f"Loaded {model_name} model successfully!")
+except FileNotFoundError as e:
+    print(f"Warning: Model files not found - {e}")
+    model = None
+    model_name = "Model not loaded"
+    label_encoders = {}
+
+
+# =====================================================
+# SECURITY & DECORATORS
+# =====================================================
+
+def require_api_key(f):
+    """API key authentication decorator"""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        # Use environment variable for API key in production
+        secret_key = os.environ.get('API_SECRET_KEY', 'YOUR_SECRET_KEY')
+        if api_key != secret_key:
+            return jsonify({'error': 'Invalid API key'}), 401
+        return f(*args, **kwargs)
+    return decorated_function
 
 
 # =====================================================
@@ -80,7 +71,7 @@ def encode_features(item_data):
         
         # Encode categorical features
         for col in ['brand', 'category', 'material', 'retailer', 'season']:
-            if col in item_data:
+            if col in item_data and col in label_encoders:
                 try:
                     encoded_val = label_encoders[col].transform([item_data[col]])[0]
                 except:
@@ -132,6 +123,7 @@ def home():
             '/predict': 'POST - Predict price for a fashion item',
             '/compare': 'POST - Compare prices across retailers',
             '/batch_predict': 'POST - Predict prices for multiple items',
+            '/available_options': 'GET - Get available options',
             '/health': 'GET - Check API health'
         }
     })
@@ -141,13 +133,14 @@ def home():
 def health():
     """Health check endpoint"""
     return jsonify({
-        'status': 'healthy',
+        'status': 'healthy' if model is not None else 'degraded',
         'model_loaded': model is not None,
         'timestamp': datetime.now().isoformat()
     })
 
 
 @app.route('/predict', methods=['POST'])
+@limiter.limit("10 per minute")
 def predict_price():
     """
     Predict price for a single fashion item
@@ -164,14 +157,27 @@ def predict_price():
     }
     """
     try:
+        if model is None:
+            return jsonify({
+                'error': 'Model not loaded. Please check server configuration.',
+                'success': False
+            }), 503
+        
         data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'error': 'No JSON data provided',
+                'success': False
+            }), 400
         
         # Validate required fields
         required_fields = ['brand', 'category']
         for field in required_fields:
             if field not in data:
                 return jsonify({
-                    'error': f'Missing required field: {field}'
+                    'error': f'Missing required field: {field}',
+                    'success': False
                 }), 400
         
         # Set defaults for optional fields
@@ -223,6 +229,7 @@ def predict_price():
 
 
 @app.route('/compare', methods=['POST'])
+@limiter.limit("20 per minute")
 def compare_prices():
     """
     Compare prices across multiple retailers
@@ -235,7 +242,20 @@ def compare_prices():
     }
     """
     try:
+        if model is None:
+            return jsonify({
+                'error': 'Model not loaded',
+                'success': False
+            }), 503
+        
         data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'error': 'No JSON data provided',
+                'success': False
+            }), 400
+        
         product_name = data.get('product_name', '')
         brand = data.get('brand', '')
         category = data.get('category', '')
@@ -285,6 +305,7 @@ def compare_prices():
 
 
 @app.route('/batch_predict', methods=['POST'])
+@limiter.limit("5 per minute")
 def batch_predict():
     """
     Predict prices for multiple items at once
@@ -298,7 +319,20 @@ def batch_predict():
     }
     """
     try:
+        if model is None:
+            return jsonify({
+                'error': 'Model not loaded',
+                'success': False
+            }), 503
+        
         data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'error': 'No JSON data provided',
+                'success': False
+            }), 400
+        
         items = data.get('items', [])
         
         if not items:
@@ -324,8 +358,8 @@ def batch_predict():
                 
                 predictions.append({
                     'item': {
-                        'brand': item['brand'],
-                        'category': item['category']
+                        'brand': item.get('brand', 'Unknown'),
+                        'category': item.get('category', 'Unknown')
                     },
                     'predicted_price': round(predicted_price, 2),
                     'success': True
@@ -355,12 +389,18 @@ def batch_predict():
 def get_available_options():
     """Get available brands, categories, materials, etc."""
     try:
+        if not label_encoders:
+            return jsonify({
+                'error': 'Label encoders not loaded',
+                'success': False
+            }), 503
+        
         options = {
-            'brands': list(label_encoders['brand'].classes_),
-            'categories': list(label_encoders['category'].classes_),
-            'materials': list(label_encoders['material'].classes_),
-            'retailers': list(label_encoders['retailer'].classes_),
-            'seasons': list(label_encoders['season'].classes_)
+            'brands': list(label_encoders['brand'].classes_) if 'brand' in label_encoders else [],
+            'categories': list(label_encoders['category'].classes_) if 'category' in label_encoders else [],
+            'materials': list(label_encoders['material'].classes_) if 'material' in label_encoders else [],
+            'retailers': list(label_encoders['retailer'].classes_) if 'retailer' in label_encoders else [],
+            'seasons': list(label_encoders['season'].classes_) if 'season' in label_encoders else []
         }
         
         return jsonify({
@@ -375,6 +415,34 @@ def get_available_options():
 
 
 # =====================================================
+# ERROR HANDLERS
+# =====================================================
+
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({
+        'error': 'Endpoint not found',
+        'success': False
+    }), 404
+
+
+@app.errorhandler(500)
+def internal_error(e):
+    return jsonify({
+        'error': 'Internal server error',
+        'success': False
+    }), 500
+
+
+@app.errorhandler(429)
+def ratelimit_handler(e):
+    return jsonify({
+        'error': 'Rate limit exceeded. Please try again later.',
+        'success': False
+    }), 429
+
+
+# =====================================================
 # RUN SERVER
 # =====================================================
 
@@ -386,4 +454,6 @@ if __name__ == '__main__':
     print("Starting server on http://localhost:5000")
     print("="*60 + "\n")
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use environment variable for port (required for Render)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
