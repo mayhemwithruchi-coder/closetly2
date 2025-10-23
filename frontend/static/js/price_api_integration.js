@@ -464,5 +464,27 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { FashionPriceAPI, priceAPI };
 }
-
+function generateResults() {
+    const bodyTypeInfo = bodyTypeRecommendations[selectedGender][bodyType];
+    
+    document.getElementById('bodyTypeName').textContent = bodyType;
+    document.getElementById('bodyTypeDescription').textContent = bodyTypeInfo.description;
+    
+    const colorPalette = document.getElementById('colorPalette');
+    colorPalette.innerHTML = '';
+    dominantColors.forEach(color => {
+        const swatch = document.createElement('div');
+        swatch.className = 'color-swatch';
+        swatch.style.backgroundColor = color;
+        colorPalette.appendChild(swatch);
+    });
+    
+    document.getElementById('colorDescription').textContent = 
+        userProfile.colorDescription || 'These colors complement your natural features!';
+    
+    generateStyleRecommendations();
+    
+    // Use ML-enhanced product recommendations
+    generateProductRecommendationsWithML();
+}
         
