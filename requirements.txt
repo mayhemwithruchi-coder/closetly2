@@ -1,0 +1,10 @@
+setuptools>=65.5.0
+wheel
+flask==2.3.0
+flask-cors==4.0.0
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.3.0
+# xgboost==1.7.0   # comment if you face build timeouts
+beautifulsoup4==4.12.0
+requests==2.31.0
