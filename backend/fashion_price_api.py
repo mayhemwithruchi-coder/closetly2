@@ -12,7 +12,6 @@ def require_api_key(f):
 @app.route('/predict', methods=['POST'])
 @require_api_key
 def predict_price():
-
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
