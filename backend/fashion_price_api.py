@@ -1,3 +1,32 @@
+from functools import wraps
+
+def require_api_key(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        if api_key != 'YOUR_SECRET_KEY':
+            return jsonify({'error': 'Invalid API key'}), 401
+        return f(*args, **kwargs)
+    return decorated_function
+
+@app.route('/predict', methods=['POST'])
+@require_api_key
+def predict_price():
+
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"]
+)
+
+@app.route('/predict', methods=['POST'])
+@limiter.limit("10 per minute")
+def predict_price():
+    
+
 def get_real_time_prices(product_name, brand):
     """Fetch real-time prices from Indian retailers (simplified)"""
     # In production, integrate with Myntra API, Flipkart API, or similar
