@@ -2,6 +2,13 @@
 Complete Closetly App for Render Deployment
 Serves HTML frontend + API backend in one app
 """
+from flask import Flask, send_file
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return send_file('closetly_india_complete.html')
 
 from flask import Flask, send_from_directory, request, jsonify
 from flask_cors import CORS
