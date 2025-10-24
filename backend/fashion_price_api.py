@@ -2,7 +2,26 @@
 Flask API for Fashion Price Prediction
 Integrates ML model with web application
 """
+import os
+import joblib
 
+def ensure_model_exists():
+    """Train model if it doesn't exist"""
+    if not os.path.exists('fashion_price_model.pkl'):
+        print("Training model on first run...")
+        from fashion_price_ml import main as train_model
+        train_model()
+
+# Call this before loading model
+ensure_model_exists()
+
+# Then load model as usual
+try:
+    model_data = joblib.load('fashion_price_model.pkl')
+    # ... rest of loading code
+except:
+    model = None
+    
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_limiter import Limiter
