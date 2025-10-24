@@ -1,6 +1,16 @@
 """
 Flask API for Fashion Price Prediction - Render Deployment Ready
 """
+from flask import Flask, send_file
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return send_file('closely_india_complete.html')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
