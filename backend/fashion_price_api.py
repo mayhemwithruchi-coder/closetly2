@@ -1,69 +1,94 @@
 """
-Flask API for Fashion Price Prediction
-Integrates ML model with web application
+Flask API for Fashion Price Prediction - Render Deployment Ready
 """
-import os
-import joblib
 
-def ensure_model_exists():
-    """Train model if it doesn't exist"""
-    if not os.path.exists('fashion_price_model.pkl'):
-        print("Training model on first run...")
-        from fashion_price_ml import main as train_model
-        train_model()
-
-# Call this before loading model
-ensure_model_exists()
-
-# Then load model as usual
-try:
-    model_data = joblib.load('fashion_price_model.pkl')
-    # ... rest of loading code
-except:
-    model = None
-    
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from functools import wraps
-import pickle
 import numpy as np
 import pandas as pd
 from datetime import datetime
 import os
+import sys
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for web app integration
+CORS(app)
 
 # Initialize rate limiter
 limiter = Limiter(
     app=app,
     key_func=get_remote_address,
-    default_limits=["200 per day", "50 per hour"]
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://"
 )
+
+# =====================================================
+# MODEL LOADING WITH AUTO-TRAINING
+# =====================================================
+
+def ensure_model_exists():
+    """Train model if it doesn't exist"""
+    model_path = 'fashion_price_model.pkl'
+    preprocessor_path = 'fashion_preprocessor.pkl'
+
+    if not os.path.exists(model_path) or not os.path.exists(preprocessor_path):
+        print("\n" + "="*60)
+        print("MODEL FILES NOT FOUND - TRAINING NEW MODEL")
+        print("="*60 + "\n")
+
+        try:
+            # Import the training module
+            # Assuming fashion_price_ml.py is in the current directory
+            sys.path.insert(0, '.')
+            from fashion_price_ml import main as train_model
+
+            print("Starting model training...")
+            train_model()
+            print("\n✅ Model training completed successfully!\n")
+
+        except ImportError as e:
+            print(f"❌ Import Error: {e}")
+            print("Make sure fashion_price_ml.py is in the same directory")
+            raise
+        except Exception as e:
+            print(f"❌ Error during training: {e}")
+            raise
+
+# Ensure model exists before loading
+ensure_model_exists()
 
 # Load trained model and preprocessor
 try:
+    import joblib
+
+    print("Loading model files...")
     with open('fashion_price_model.pkl', 'rb') as f:
-        model_data = pickle.load(f)
+        model_data = joblib.load(f)
         model = model_data['model']
         model_name = model_data['model_name']
 
     with open('fashion_preprocessor.pkl', 'rb') as f:
-        preprocessor_data = pickle.load(f)
+        preprocessor_data = joblib.load(f)
         label_encoders = preprocessor_data['label_encoders']
 
-    print(f"Loaded {model_name} model successfully!")
+    print(f"✅ Loaded {model_name} model successfully!\n")
+
 except FileNotFoundError as e:
-    print(f"Warning: Model files not found - {e}")
+    print(f"❌ Model files not found: {e}")
     model = None
     model_name = "Model not loaded"
+    label_encoders = {}
+except Exception as e:
+    print(f"❌ Error loading model: {e}")
+    model = None
+    model_name = "Model loading error"
     label_encoders = {}
 
 
 # =====================================================
-# SECURITY & DECORATORS
+# SECURITY
 # =====================================================
 
 def require_api_key(f):
@@ -71,7 +96,6 @@ def require_api_key(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         api_key = request.headers.get('X-API-Key')
-        # Use environment variable for API key in production
         secret_key = os.environ.get('API_SECRET_KEY', 'YOUR_SECRET_KEY')
         if api_key != secret_key:
             return jsonify({'error': 'Invalid API key'}), 401
@@ -87,44 +111,27 @@ def encode_features(item_data):
     """Encode item features for prediction"""
     try:
         encoded_features = []
-        
+
         # Encode categorical features
         for col in ['brand', 'category', 'material', 'retailer', 'season']:
             if col in item_data and col in label_encoders:
                 try:
                     encoded_val = label_encoders[col].transform([item_data[col]])[0]
                 except:
-                    # If brand/value not in training data, use most common value
+                    # If value not in training data, use 0
                     encoded_val = 0
                 encoded_features.append(encoded_val)
             else:
                 encoded_features.append(0)
-        
+
         # Add numerical features
         encoded_features.append(item_data.get('rating', 4.0))
         encoded_features.append(item_data.get('discount_percent', 0))
         encoded_features.append(item_data.get('brand_popularity', 100))
-        
+
         return encoded_features
     except Exception as e:
         raise ValueError(f"Error encoding features: {str(e)}")
-
-
-def get_real_time_prices(product_name, brand):
-    """Fetch real-time prices from Indian retailers (simplified)"""
-    # In production, integrate with Myntra API, Flipkart API, or similar
-    # This is a placeholder that returns mock data
-    
-    retailers = {
-        'Myntra': {'price': None, 'url': f"https://www.myntra.com/{product_name.replace(' ', '-')}"},
-        'Flipkart': {'price': None, 'url': f"https://www.flipkart.com/search?q={product_name}"},
-        'Amazon India': {'price': None, 'url': f"https://www.amazon.in/s?k={product_name}"},
-        'Ajio': {'price': None, 'url': f"https://www.ajio.com/search/?text={product_name}"},
-        'Lifestyle': {'price': None, 'url': f"https://www.lifestylestores.com/in/en/search/?text={product_name}"}
-    }
-    
-    # Placeholder: In real implementation, scrape or use APIs
-    return retailers
 
 
 # =====================================================
@@ -138,6 +145,8 @@ def home():
         'message': 'Fashion Price Prediction API',
         'version': '1.0',
         'model': model_name,
+        'model_loaded': model is not None,
+        'status': 'operational' if model is not None else 'degraded',
         'endpoints': {
             '/predict': 'POST - Predict price for a fashion item',
             '/compare': 'POST - Compare prices across retailers',
@@ -154,6 +163,7 @@ def health():
     return jsonify({
         'status': 'healthy' if model is not None else 'degraded',
         'model_loaded': model is not None,
+        'model_name': model_name,
         'timestamp': datetime.now().isoformat()
     })
 
@@ -163,14 +173,14 @@ def health():
 def predict_price():
     """
     Predict price for a single fashion item
-    
+
     Request JSON format:
     {
         "brand": "Zara",
         "category": "Blazer",
         "material": "Wool",
-        "retailer": "Nordstrom",
-        "season": "Fall",
+        "retailer": "Myntra",
+        "season": "Winter",
         "rating": 4.5,
         "discount_percent": 20
     }
@@ -178,18 +188,18 @@ def predict_price():
     try:
         if model is None:
             return jsonify({
-                'error': 'Model not loaded. Please check server configuration.',
+                'error': 'Model not loaded. Please check server logs.',
                 'success': False
             }), 503
-        
+
         data = request.get_json()
-        
+
         if not data:
             return jsonify({
                 'error': 'No JSON data provided',
                 'success': False
             }), 400
-        
+
         # Validate required fields
         required_fields = ['brand', 'category']
         for field in required_fields:
@@ -198,27 +208,27 @@ def predict_price():
                     'error': f'Missing required field: {field}',
                     'success': False
                 }), 400
-        
+
         # Set defaults for optional fields
         data.setdefault('material', 'Cotton')
-        data.setdefault('retailer', 'Amazon')
+        data.setdefault('retailer', 'Amazon India')
         data.setdefault('season', 'All-Season')
         data.setdefault('rating', 4.0)
         data.setdefault('discount_percent', 0)
         data.setdefault('brand_popularity', 100)
-        
+
         # Encode features and predict
         features = encode_features(data)
         predicted_price = model.predict([features])[0]
-        
+
         # Calculate price range (confidence interval)
-        price_std = predicted_price * 0.15  # 15% standard deviation
+        price_std = predicted_price * 0.15
         price_min = max(0, predicted_price - price_std)
         price_max = predicted_price + price_std
-        
+
         # Calculate original price if discount given
         original_price = predicted_price / (1 - data['discount_percent']/100) if data['discount_percent'] > 0 else predicted_price
-        
+
         return jsonify({
             'success': True,
             'item': {
@@ -234,12 +244,12 @@ def predict_price():
                     'max': round(price_max, 2)
                 },
                 'discount_percent': data['discount_percent'],
-                'currency': 'USD'
+                'currency': 'INR'
             },
             'model': model_name,
             'timestamp': datetime.now().isoformat()
         })
-        
+
     except Exception as e:
         return jsonify({
             'error': str(e),
@@ -250,38 +260,29 @@ def predict_price():
 @app.route('/compare', methods=['POST'])
 @limiter.limit("20 per minute")
 def compare_prices():
-    """
-    Compare prices across multiple retailers
-    
-    Request JSON format:
-    {
-        "product_name": "Women's Blazer",
-        "brand": "Zara",
-        "category": "Blazer"
-    }
-    """
+    """Compare prices across multiple retailers"""
     try:
         if model is None:
             return jsonify({
                 'error': 'Model not loaded',
                 'success': False
             }), 503
-        
+
         data = request.get_json()
-        
+
         if not data:
             return jsonify({
                 'error': 'No JSON data provided',
                 'success': False
             }), 400
-        
+
         product_name = data.get('product_name', '')
         brand = data.get('brand', '')
         category = data.get('category', '')
-        
-        retailers = ['Amazon', 'Walmart', 'Target', 'Nordstrom', 'Macy\'s', 'ASOS']
+
+        retailers = ['Myntra', 'Ajio', 'Flipkart', 'Amazon India', 'Lifestyle', 'Westside']
         comparisons = []
-        
+
         for retailer in retailers:
             item_data = {
                 'brand': brand,
@@ -293,20 +294,20 @@ def compare_prices():
                 'discount_percent': np.random.choice([0, 10, 15, 20, 25, 30]),
                 'brand_popularity': 100
             }
-            
+
             features = encode_features(item_data)
             predicted_price = model.predict([features])[0]
-            
+
             comparisons.append({
                 'retailer': retailer,
                 'predicted_price': round(predicted_price, 2),
                 'discount': item_data['discount_percent'],
                 'search_url': f"https://www.{retailer.lower().replace(' ', '')}.com/s?q={product_name}"
             })
-        
+
         # Sort by price
         comparisons.sort(key=lambda x: x['predicted_price'])
-        
+
         return jsonify({
             'success': True,
             'product': product_name,
@@ -315,7 +316,7 @@ def compare_prices():
             'best_deal': comparisons[0],
             'timestamp': datetime.now().isoformat()
         })
-        
+
     except Exception as e:
         return jsonify({
             'error': str(e),
@@ -326,55 +327,45 @@ def compare_prices():
 @app.route('/batch_predict', methods=['POST'])
 @limiter.limit("5 per minute")
 def batch_predict():
-    """
-    Predict prices for multiple items at once
-    
-    Request JSON format:
-    {
-        "items": [
-            {"brand": "Zara", "category": "Blazer", ...},
-            {"brand": "H&M", "category": "Dress", ...}
-        ]
-    }
-    """
+    """Predict prices for multiple items at once"""
     try:
         if model is None:
             return jsonify({
                 'error': 'Model not loaded',
                 'success': False
             }), 503
-        
+
         data = request.get_json()
-        
+
         if not data:
             return jsonify({
                 'error': 'No JSON data provided',
                 'success': False
             }), 400
-        
+
         items = data.get('items', [])
-        
+
         if not items:
             return jsonify({
                 'error': 'No items provided',
                 'success': False
             }), 400
-        
+
         predictions = []
-        
+
         for item in items:
             try:
                 # Set defaults
                 item.setdefault('material', 'Cotton')
-                item.setdefault('retailer', 'Amazon')
+                item.setdefault('retailer', 'Amazon India')
                 item.setdefault('season', 'All-Season')
                 item.setdefault('rating', 4.0)
                 item.setdefault('discount_percent', 0)
                 item.setdefault('brand_popularity', 100)
-                
+
                 features = encode_features(item)
                 predicted_price = model.predict([features])[0]
-                
+
                 predictions.append({
                     'item': {
                         'brand': item.get('brand', 'Unknown'),
@@ -389,14 +380,14 @@ def batch_predict():
                     'error': str(e),
                     'success': False
                 })
-        
+
         return jsonify({
             'success': True,
             'total_items': len(items),
             'predictions': predictions,
             'timestamp': datetime.now().isoformat()
         })
-        
+
     except Exception as e:
         return jsonify({
             'error': str(e),
@@ -413,7 +404,7 @@ def get_available_options():
                 'error': 'Label encoders not loaded',
                 'success': False
             }), 503
-        
+
         options = {
             'brands': list(label_encoders['brand'].classes_) if 'brand' in label_encoders else [],
             'categories': list(label_encoders['category'].classes_) if 'category' in label_encoders else [],
@@ -421,7 +412,7 @@ def get_available_options():
             'retailers': list(label_encoders['retailer'].classes_) if 'retailer' in label_encoders else [],
             'seasons': list(label_encoders['season'].classes_) if 'season' in label_encoders else []
         }
-        
+
         return jsonify({
             'success': True,
             'options': options
@@ -470,9 +461,9 @@ if __name__ == '__main__':
     print("FASHION PRICE PREDICTION API SERVER")
     print("="*60)
     print(f"Model: {model_name}")
-    print("Starting server on http://localhost:5000")
+    print(f"Model Loaded: {model is not None}")
+    print("Starting server...")
     print("="*60 + "\n")
-    
-    # Use environment variable for port (required for Render)
+
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=False, host='0.0.0.0', port=port)
