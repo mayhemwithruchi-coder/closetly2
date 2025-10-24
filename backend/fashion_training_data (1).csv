@@ -1,0 +1,2001 @@
+brand,category,material,retailer,season,rating,discount_percent,original_price,current_price,date_scraped
+Louis Philippe,Skirt,Synthetic,Westside,All-Season,4.2,60,2032.79,813.11,2025-10-24
+HRX,Shirt,Cotton,Flipkart,Monsoon,4.0,0,1425.45,1425.45,2025-10-24
+Allen Solly,Blazer,Silk,Max Fashion,Winter,4.7,15,4707.71,4001.56,2025-10-24
+Vero Moda,Coat,Linen,Myntra,Winter,3.7,50,11751.63,5875.81,2025-10-24
+Tommy Hilfiger,Coat,Polyester,Ajio,Spring,4.4,20,13217.24,10573.79,2025-10-24
+Allen Solly,Blazer,Blend,Ajio,Monsoon,4.3,25,2732.64,2049.48,2025-10-24
+Tommy Hilfiger,Polo,Polyester,Lifestyle,Summer,4.3,20,1729.64,1383.71,2025-10-24
+Peter England,Pants,Denim,Reliance Trends,Spring,3.4,15,944.99,803.24,2025-10-24
+Calvin Klein,Skirt,Synthetic,Myntra,Spring,4.4,15,1661.05,1411.89,2025-10-24
+Marks & Spencer,Sweater,Denim,Ajio,Monsoon,4.4,25,2898.46,2173.85,2025-10-24
+Breakbounce,Shirt,Wool,Westside,Spring,4.1,25,2737.77,2053.32,2025-10-24
+Levi's,Blazer,Cotton,Shoppers Stop,Winter,4.0,40,10635.76,6381.45,2025-10-24
+Marks & Spencer,Polo,Linen,Myntra,All-Season,4.4,0,3341.71,3341.71,2025-10-24
+US Polo Assn,Blazer,Wool,Amazon India,Summer,3.8,20,2580.12,2064.1,2025-10-24
+Marks & Spencer,Blazer,Synthetic,Flipkart,Monsoon,4.1,25,6412.93,4809.69,2025-10-24
+Tommy Hilfiger,Coat,Blend,Max Fashion,Summer,4.4,60,27082.6,10833.04,2025-10-24
+Levi's,Blazer,Synthetic,Lifestyle,Spring,4.6,15,3431.77,2917.0,2025-10-24
+Roadster,Chinos,Leather,Reliance Trends,Monsoon,3.8,10,958.97,863.07,2025-10-24
+Puma,Polo,Wool,Lifestyle,Winter,3.6,20,2941.29,2353.04,2025-10-24
+AND,Sweater,Blend,Westside,All-Season,3.5,15,1582.34,1344.99,2025-10-24
+Peter England,T-Shirt,Viscose,Max Fashion,All-Season,4.1,30,783.41,548.39,2025-10-24
+Forever New,Skirt,Silk,Westside,Monsoon,4.1,15,2411.95,2050.16,2025-10-24
+Puma,Jacket,Synthetic,Myntra,Winter,4.1,40,6544.9,3926.94,2025-10-24
+Puma,Polo,Blend,Max Fashion,Summer,4.2,15,770.29,654.74,2025-10-24
+Breakbounce,Jeans,Viscose,Reliance Trends,Summer,4.2,20,1644.82,1315.86,2025-10-24
+Forever New,Hoodie,Linen,Max Fashion,All-Season,3.4,0,1004.91,1004.91,2025-10-24
+HRX,Jacket,Wool,Reliance Trends,Winter,3.9,10,2648.79,2383.91,2025-10-24
+Zara,Blazer,Viscose,Reliance Trends,All-Season,4.8,15,5240.38,4454.32,2025-10-24
+Only,Shirt,Leather,Reliance Trends,Summer,4.0,25,2265.95,1699.46,2025-10-24
+Adidas,Dress,Silk,Amazon India,Monsoon,3.5,70,20382.21,6114.66,2025-10-24
+Forever New,Jeans,Cotton,Lifestyle,Summer,3.8,50,8679.56,4339.78,2025-10-24
+Roadster,Blazer,Leather,Ajio,All-Season,3.4,0,1214.96,1214.96,2025-10-24
+Roadster,Chinos,Denim,Amazon India,Spring,3.7,50,780.33,390.16,2025-10-24
+Marks & Spencer,Skirt,Cotton,Shoppers Stop,All-Season,4.5,50,6042.63,3021.31,2025-10-24
+Adidas,Jacket,Polyester,Ajio,Winter,4.0,15,6145.83,5223.96,2025-10-24
+Raymond,Sweater,Wool,Shoppers Stop,All-Season,4.1,40,7333.33,4400.0,2025-10-24
+H&M,Skirt,Polyester,Lifestyle,Monsoon,3.4,15,1538.21,1307.48,2025-10-24
+Nike,Hoodie,Blend,Amazon India,All-Season,4.1,15,1789.23,1520.85,2025-10-24
+Tommy Hilfiger,Jacket,Silk,Amazon India,All-Season,4.5,30,11417.3,7992.11,2025-10-24
+Peter England,Jeans,Blend,Reliance Trends,Summer,4.0,30,2260.8,1582.56,2025-10-24
+Forever New,Blazer,Synthetic,Ajio,All-Season,4.0,0,3026.45,3026.45,2025-10-24
+US Polo Assn,Blazer,Blend,Amazon India,Winter,4.1,20,1511.51,1209.21,2025-10-24
+Vero Moda,T-Shirt,Synthetic,Flipkart,All-Season,4.0,0,997.84,997.84,2025-10-24
+Van Heusen,Jeans,Polyester,Reliance Trends,Spring,4.0,40,1248.49,749.1,2025-10-24
+Roadster,Shirt,Synthetic,Westside,All-Season,3.8,20,963.24,770.59,2025-10-24
+W for Woman,Skirt,Polyester,Max Fashion,Summer,3.7,15,902.0,766.7,2025-10-24
+Calvin Klein,Sweater,Blend,Ajio,Spring,4.6,25,6321.99,4741.49,2025-10-24
+Being Human,Polo,Wool,Myntra,Summer,3.7,15,1397.19,1187.62,2025-10-24
+W for Woman,Dress,Linen,Westside,Summer,3.7,25,3278.35,2458.76,2025-10-24
+Raymond,Hoodie,Blend,Amazon India,Winter,4.3,60,3291.49,1316.59,2025-10-24
+W for Woman,Chinos,Leather,Lifestyle,All-Season,3.9,10,2366.3,2129.67,2025-10-24
+Wrogn,Jeans,Linen,Myntra,Monsoon,3.9,0,1088.57,1088.57,2025-10-24
+Mast & Harbour,Sweater,Silk,Myntra,Winter,3.7,20,1870.04,1496.03,2025-10-24
+Roadster,Coat,Polyester,Amazon India,Summer,3.5,30,1298.92,909.24,2025-10-24
+Forever New,Pants,Silk,Myntra,Monsoon,3.6,25,4992.27,3744.21,2025-10-24
+Louis Philippe,Blazer,Denim,Lifestyle,All-Season,4.6,10,5908.08,5317.27,2025-10-24
+Louis Philippe,Shirt,Blend,Max Fashion,All-Season,4.2,15,1559.73,1325.77,2025-10-24
+Roadster,Skirt,Synthetic,Westside,Summer,3.6,20,1014.37,811.5,2025-10-24
+Breakbounce,Pants,Wool,Westside,Spring,4.1,30,1806.56,1264.59,2025-10-24
+HRX,Sweater,Silk,Max Fashion,Spring,3.7,20,1265.31,1012.25,2025-10-24
+Being Human,Sweater,Synthetic,Amazon India,Spring,3.9,15,693.08,589.12,2025-10-24
+Roadster,Sweater,Viscose,Flipkart,Winter,3.9,0,507.07,507.07,2025-10-24
+W for Woman,Sweater,Wool,Amazon India,Spring,3.4,60,5708.3,2283.32,2025-10-24
+Forever New,Chinos,Synthetic,Ajio,Spring,4.2,15,2464.03,2094.42,2025-10-24
+Being Human,Sweater,Silk,Myntra,Monsoon,4.2,25,1720.71,1290.53,2025-10-24
+Nike,Polo,Wool,Myntra,Summer,3.9,40,2940.25,1764.15,2025-10-24
+Peter England,Jacket,Wool,Lifestyle,Spring,4.0,30,2892.62,2024.83,2025-10-24
+Tommy Hilfiger,Shirt,Cotton,Ajio,Spring,4.9,30,4063.75,2844.62,2025-10-24
+Only,Polo,Silk,Reliance Trends,Spring,3.4,15,1803.59,1533.05,2025-10-24
+Vero Moda,Dress,Linen,Myntra,All-Season,4.0,30,3584.29,2509.0,2025-10-24
+Athena,Jeans,Viscose,Flipkart,All-Season,3.7,15,918.07,780.36,2025-10-24
+Louis Philippe,Chinos,Cotton,Ajio,Summer,4.4,60,6059.74,2423.89,2025-10-24
+Being Human,Hoodie,Blend,Ajio,Monsoon,3.9,10,1287.37,1158.63,2025-10-24
+Van Heusen,Shirt,Linen,Myntra,Spring,4.2,30,1803.74,1262.62,2025-10-24
+Allen Solly,Dress,Polyester,Shoppers Stop,Summer,4.4,15,4068.32,3458.07,2025-10-24
+Levi's,Sweater,Leather,Myntra,Spring,4.4,15,6555.04,5571.78,2025-10-24
+Flying Machine,T-Shirt,Denim,Lifestyle,Spring,3.6,40,916.79,550.07,2025-10-24
+Only,Sweater,Polyester,Max Fashion,Summer,3.9,20,2309.15,1847.32,2025-10-24
+Athena,Shirt,Silk,Amazon India,Spring,3.9,25,1072.18,804.14,2025-10-24
+Levi's,Sweater,Viscose,Ajio,Summer,4.0,30,3181.48,2227.04,2025-10-24
+Breakbounce,Jacket,Polyester,Flipkart,Monsoon,4.2,50,3138.41,1569.2,2025-10-24
+Nike,Polo,Blend,Amazon India,All-Season,3.8,30,3124.93,2187.45,2025-10-24
+Wrogn,Polo,Linen,Amazon India,Winter,3.7,20,935.96,748.77,2025-10-24
+Raymond,Blazer,Viscose,Shoppers Stop,Monsoon,4.9,50,6468.06,3234.03,2025-10-24
+Vero Moda,Dress,Viscose,Westside,Summer,3.8,10,3804.43,3423.99,2025-10-24
+Van Heusen,Chinos,Silk,Lifestyle,Spring,4.0,20,1570.11,1256.09,2025-10-24
+Forever New,Skirt,Cotton,Flipkart,Summer,4.0,0,1191.65,1191.65,2025-10-24
+HRX,Coat,Blend,Shoppers Stop,Summer,3.9,25,2424.14,1818.11,2025-10-24
+AND,T-Shirt,Polyester,Myntra,Summer,4.0,25,1021.78,766.33,2025-10-24
+Being Human,Jacket,Silk,Lifestyle,Winter,3.8,20,4473.95,3579.16,2025-10-24
+Flying Machine,Sweater,Blend,Myntra,Spring,3.8,25,1523.52,1142.64,2025-10-24
+Vero Moda,Shirt,Cotton,Amazon India,Spring,4.1,20,1767.05,1413.64,2025-10-24
+Louis Philippe,Pants,Leather,Westside,Summer,4.0,25,3588.54,2691.4,2025-10-24
+HRX,Pants,Denim,Shoppers Stop,Summer,3.6,25,2365.42,1774.06,2025-10-24
+Athena,Chinos,Cotton,Myntra,Monsoon,3.6,50,2580.64,1290.32,2025-10-24
+Puma,Hoodie,Cotton,Ajio,Monsoon,3.7,25,1065.58,799.18,2025-10-24
+Only,Blazer,Cotton,Lifestyle,Monsoon,3.7,0,1770.62,1770.62,2025-10-24
+Nike,Skirt,Linen,Lifestyle,Winter,3.7,30,4229.04,2960.33,2025-10-24
+Calvin Klein,Coat,Viscose,Myntra,Spring,4.4,0,4478.14,4478.14,2025-10-24
+Mast & Harbour,Sweater,Blend,Westside,Spring,4.2,10,752.59,677.33,2025-10-24
+H&M,Coat,Denim,Lifestyle,Spring,3.6,15,2076.68,1765.18,2025-10-24
+Calvin Klein,Jeans,Linen,Myntra,Winter,4.9,20,8421.76,6737.41,2025-10-24
+Allen Solly,Skirt,Linen,Reliance Trends,All-Season,4.0,40,3911.89,2347.14,2025-10-24
+Athena,Pants,Polyester,Shoppers Stop,Monsoon,3.9,25,1470.38,1102.79,2025-10-24
+Peter England,Jacket,Denim,Ajio,Monsoon,3.8,20,2030.47,1624.38,2025-10-24
+Vero Moda,Jacket,Linen,Flipkart,All-Season,3.6,15,2227.75,1893.58,2025-10-24
+Allen Solly,Blazer,Silk,Shoppers Stop,Winter,4.5,15,5652.79,4804.87,2025-10-24
+Calvin Klein,Dress,Blend,Ajio,Monsoon,4.4,25,7247.27,5435.45,2025-10-24
+Forever New,Polo,Leather,Flipkart,All-Season,3.6,25,4059.64,3044.73,2025-10-24
+Roadster,Chinos,Silk,Reliance Trends,Monsoon,3.6,30,1475.04,1032.53,2025-10-24
+Nike,Coat,Linen,Westside,Monsoon,3.5,25,12126.79,9095.1,2025-10-24
+Van Heusen,Shirt,Blend,Max Fashion,All-Season,4.1,30,1688.82,1182.18,2025-10-24
+Allen Solly,Coat,Linen,Ajio,Monsoon,4.6,25,6185.91,4639.43,2025-10-24
+Roadster,Dress,Linen,Reliance Trends,Monsoon,3.8,30,1883.99,1318.8,2025-10-24
+Puma,Jeans,Denim,Ajio,Spring,4.2,25,2485.94,1864.45,2025-10-24
+Vero Moda,T-Shirt,Synthetic,Myntra,Spring,3.8,25,1218.65,913.99,2025-10-24
+Forever New,Blazer,Blend,Lifestyle,Summer,3.5,0,3135.01,3135.01,2025-10-24
+Tommy Hilfiger,Jeans,Linen,Myntra,All-Season,4.6,15,6711.95,5705.15,2025-10-24
+Raymond,Polo,Cotton,Westside,Monsoon,4.4,25,4100.78,3075.59,2025-10-24
+Flying Machine,Chinos,Wool,Westside,Summer,4.1,15,745.87,633.99,2025-10-24
+Breakbounce,Skirt,Polyester,Ajio,Spring,4.0,70,2428.37,728.51,2025-10-24
+Vero Moda,Pants,Denim,Myntra,All-Season,3.7,25,2073.52,1555.14,2025-10-24
+Calvin Klein,Dress,Polyester,Shoppers Stop,All-Season,4.4,10,4075.53,3667.97,2025-10-24
+Roadster,Sweater,Viscose,Amazon India,Monsoon,3.8,20,512.12,409.7,2025-10-24
+HRX,Chinos,Cotton,Myntra,Monsoon,3.8,30,1981.46,1387.03,2025-10-24
+US Polo Assn,Blazer,Leather,Flipkart,All-Season,3.6,25,4280.98,3210.73,2025-10-24
+Louis Philippe,Jacket,Cotton,Flipkart,Winter,4.1,20,3778.78,3023.02,2025-10-24
+Only,Jeans,Leather,Myntra,All-Season,3.6,30,4207.29,2945.1,2025-10-24
+Tommy Hilfiger,Coat,Blend,Max Fashion,Spring,4.3,25,9092.09,6819.07,2025-10-24
+Zara,Coat,Viscose,Max Fashion,Winter,4.5,0,4717.69,4717.69,2025-10-24
+Tommy Hilfiger,Jeans,Wool,Max Fashion,All-Season,4.8,30,5945.34,4161.73,2025-10-24
+Breakbounce,Skirt,Leather,Amazon India,All-Season,3.9,30,2098.03,1468.62,2025-10-24
+Forever New,Chinos,Silk,Lifestyle,Spring,3.7,30,5692.63,3984.84,2025-10-24
+Athena,Coat,Denim,Myntra,Summer,3.4,10,1883.92,1695.53,2025-10-24
+Athena,Jacket,Wool,Westside,Monsoon,3.8,20,2586.36,2069.09,2025-10-24
+Levi's,T-Shirt,Polyester,Flipkart,Summer,3.9,25,1560.97,1170.73,2025-10-24
+Only,Pants,Silk,Amazon India,Monsoon,3.6,15,2722.95,2314.51,2025-10-24
+H&M,Shirt,Leather,Max Fashion,Monsoon,4.0,30,1534.21,1073.95,2025-10-24
+Raymond,Skirt,Silk,Westside,Monsoon,4.4,25,3612.98,2709.74,2025-10-24
+Being Human,Dress,Silk,Flipkart,Summer,4.1,15,3220.78,2737.66,2025-10-24
+Roadster,Jacket,Linen,Amazon India,Winter,3.6,30,1387.99,971.59,2025-10-24
+Only,Skirt,Viscose,Amazon India,Monsoon,3.5,20,2299.68,1839.74,2025-10-24
+W for Woman,Hoodie,Wool,Lifestyle,Spring,4.1,20,1853.26,1482.61,2025-10-24
+Tommy Hilfiger,Blazer,Cotton,Amazon India,Winter,4.6,15,7446.34,6329.39,2025-10-24
+Levi's,Shirt,Cotton,Westside,All-Season,4.5,10,4020.25,3618.22,2025-10-24
+Vero Moda,Skirt,Polyester,Amazon India,Summer,3.7,10,1803.61,1623.24,2025-10-24
+Calvin Klein,Hoodie,Cotton,Shoppers Stop,Winter,4.6,0,4436.68,4436.68,2025-10-24
+Puma,Hoodie,Synthetic,Max Fashion,Summer,4.1,50,1154.59,577.3,2025-10-24
+W for Woman,Shirt,Denim,Shoppers Stop,Monsoon,4.1,15,2114.91,1797.67,2025-10-24
+Allen Solly,T-Shirt,Silk,Flipkart,Monsoon,4.4,50,1344.74,672.37,2025-10-24
+Louis Philippe,Jeans,Silk,Flipkart,Spring,4.0,40,3929.04,2357.43,2025-10-24
+Adidas,Skirt,Cotton,Ajio,Monsoon,4.1,50,6461.24,3230.62,2025-10-24
+Roadster,Jacket,Denim,Amazon India,Summer,4.1,20,1821.6,1457.28,2025-10-24
+Tommy Hilfiger,T-Shirt,Viscose,Westside,All-Season,4.1,0,2223.21,2223.21,2025-10-24
+H&M,Shirt,Wool,Max Fashion,Winter,3.9,25,847.99,635.99,2025-10-24
+Raymond,Dress,Cotton,Lifestyle,All-Season,4.7,10,2099.85,1889.87,2025-10-24
+Peter England,Hoodie,Polyester,Westside,Spring,3.6,40,696.22,417.73,2025-10-24
+AND,Sweater,Polyester,Flipkart,Winter,3.7,20,880.94,704.75,2025-10-24
+Zara,Blazer,Blend,Lifestyle,Summer,4.4,0,9269.82,9269.82,2025-10-24
+HRX,Dress,Viscose,Ajio,Monsoon,4.1,20,1360.05,1088.04,2025-10-24
+Calvin Klein,Chinos,Leather,Lifestyle,Winter,4.8,40,11937.24,7162.34,2025-10-24
+Calvin Klein,Hoodie,Silk,Reliance Trends,Summer,4.9,10,2084.45,1876.0,2025-10-24
+Levi's,Jeans,Leather,Shoppers Stop,Spring,4.5,25,3556.68,2667.51,2025-10-24
+Wrogn,Chinos,Silk,Reliance Trends,All-Season,3.9,25,1464.98,1098.74,2025-10-24
+Zara,Blazer,Wool,Ajio,Summer,4.8,15,3529.87,3000.39,2025-10-24
+W for Woman,Polo,Leather,Max Fashion,Monsoon,4.2,20,1584.64,1267.71,2025-10-24
+Only,T-Shirt,Leather,Max Fashion,All-Season,3.5,40,1568.72,941.23,2025-10-24
+Adidas,Chinos,Linen,Westside,Monsoon,4.0,30,6810.82,4767.57,2025-10-24
+Breakbounce,Skirt,Polyester,Max Fashion,Monsoon,4.1,20,1663.32,1330.66,2025-10-24
+Raymond,Chinos,Synthetic,Flipkart,Monsoon,4.3,10,3796.32,3416.69,2025-10-24
+Breakbounce,Dress,Linen,Westside,Monsoon,3.6,10,3130.2,2817.18,2025-10-24
+Allen Solly,Blazer,Synthetic,Lifestyle,Spring,4.0,30,2807.98,1965.59,2025-10-24
+Forever New,Hoodie,Denim,Westside,Monsoon,3.5,50,2271.34,1135.67,2025-10-24
+Forever New,T-Shirt,Denim,Reliance Trends,All-Season,3.8,0,1388.46,1388.46,2025-10-24
+US Polo Assn,Blazer,Viscose,Lifestyle,Monsoon,3.9,30,5300.9,3710.63,2025-10-24
+Being Human,Dress,Synthetic,Reliance Trends,Summer,4.0,0,852.82,852.82,2025-10-24
+Peter England,Jeans,Denim,Ajio,All-Season,3.7,0,1057.27,1057.27,2025-10-24
+Allen Solly,Sweater,Cotton,Ajio,Spring,4.2,15,2339.05,1988.19,2025-10-24
+Louis Philippe,Skirt,Polyester,Shoppers Stop,All-Season,3.9,50,4143.46,2071.73,2025-10-24
+H&M,Skirt,Blend,Amazon India,Winter,3.7,50,1817.91,908.95,2025-10-24
+H&M,Polo,Synthetic,Shoppers Stop,Spring,3.7,25,515.04,386.28,2025-10-24
+Louis Philippe,Jeans,Synthetic,Myntra,All-Season,4.0,25,3299.95,2474.96,2025-10-24
+Peter England,Pants,Viscose,Ajio,Monsoon,3.7,0,528.85,528.85,2025-10-24
+Nike,Hoodie,Linen,Ajio,All-Season,4.2,20,2977.79,2382.23,2025-10-24
+AND,Hoodie,Silk,Ajio,Winter,3.8,10,1056.2,950.58,2025-10-24
+Athena,Jacket,Leather,Flipkart,Monsoon,3.5,25,1562.07,1171.55,2025-10-24
+Wrogn,Hoodie,Leather,Ajio,Winter,3.9,30,1726.11,1208.28,2025-10-24
+Only,Jacket,Silk,Amazon India,Monsoon,3.6,15,5578.02,4741.31,2025-10-24
+Puma,Shirt,Linen,Flipkart,All-Season,3.9,40,3372.7,2023.62,2025-10-24
+Athena,Blazer,Linen,Shoppers Stop,Monsoon,4.1,30,3588.85,2512.2,2025-10-24
+Mast & Harbour,Polo,Denim,Lifestyle,Summer,3.6,20,527.28,421.83,2025-10-24
+US Polo Assn,Polo,Blend,Westside,Spring,3.8,25,1155.42,866.56,2025-10-24
+AND,Dress,Wool,Lifestyle,Winter,4.0,25,4793.5,3595.12,2025-10-24
+Puma,Chinos,Denim,Amazon India,Summer,3.8,40,2972.33,1783.4,2025-10-24
+AND,Skirt,Synthetic,Lifestyle,Monsoon,3.5,0,690.54,690.54,2025-10-24
+US Polo Assn,Polo,Blend,Max Fashion,Winter,3.8,50,1199.22,599.61,2025-10-24
+Being Human,Sweater,Linen,Reliance Trends,Summer,4.1,70,2273.68,682.1,2025-10-24
+Adidas,T-Shirt,Silk,Shoppers Stop,Summer,3.5,15,2854.33,2426.18,2025-10-24
+Roadster,Coat,Synthetic,Amazon India,All-Season,4.0,15,1501.11,1275.94,2025-10-24
+Peter England,Skirt,Denim,Flipkart,All-Season,3.7,30,741.21,518.85,2025-10-24
+Athena,Jacket,Viscose,Reliance Trends,Monsoon,4.2,15,1596.29,1356.85,2025-10-24
+Louis Philippe,Chinos,Leather,Myntra,Summer,4.2,50,7672.86,3836.43,2025-10-24
+Only,Blazer,Silk,Westside,Spring,3.5,20,4026.46,3221.17,2025-10-24
+Athena,Jacket,Linen,Max Fashion,Winter,3.9,10,978.19,880.37,2025-10-24
+Puma,Polo,Viscose,Flipkart,Winter,3.7,0,473.47,473.47,2025-10-24
+Only,Sweater,Leather,Westside,Summer,3.7,0,2214.45,2214.45,2025-10-24
+Calvin Klein,Chinos,Leather,Ajio,Spring,4.4,0,4952.82,4952.82,2025-10-24
+US Polo Assn,Hoodie,Silk,Flipkart,Spring,3.4,20,2269.76,1815.81,2025-10-24
+H&M,Pants,Linen,Max Fashion,Spring,4.2,40,1435.7,861.42,2025-10-24
+Calvin Klein,Blazer,Synthetic,Westside,Monsoon,4.2,15,11910.6,10124.01,2025-10-24
+Van Heusen,Polo,Viscose,Westside,Spring,4.4,15,1103.72,938.16,2025-10-24
+H&M,Shirt,Leather,Max Fashion,All-Season,3.6,15,1996.81,1697.29,2025-10-24
+Puma,Jeans,Synthetic,Reliance Trends,Winter,3.5,15,1008.52,857.24,2025-10-24
+Van Heusen,Coat,Blend,Flipkart,Monsoon,4.5,40,6021.14,3612.68,2025-10-24
+Only,T-Shirt,Linen,Myntra,Summer,3.4,20,1367.36,1093.89,2025-10-24
+Tommy Hilfiger,Hoodie,Leather,Ajio,Monsoon,4.8,20,8977.32,7181.85,2025-10-24
+Van Heusen,Polo,Wool,Reliance Trends,Winter,4.1,15,862.64,733.25,2025-10-24
+Mast & Harbour,Polo,Silk,Flipkart,All-Season,3.8,15,1075.11,913.84,2025-10-24
+Forever New,Dress,Cotton,Myntra,All-Season,4.1,10,4634.8,4171.32,2025-10-24
+Peter England,Jeans,Polyester,Lifestyle,Winter,4.1,20,2514.04,2011.23,2025-10-24
+Wrogn,T-Shirt,Wool,Myntra,Monsoon,4.0,15,634.93,539.69,2025-10-24
+Being Human,Shirt,Cotton,Max Fashion,Spring,4.0,20,1511.81,1209.44,2025-10-24
+W for Woman,Polo,Blend,Amazon India,Spring,4.2,20,556.22,444.98,2025-10-24
+US Polo Assn,Dress,Synthetic,Flipkart,Monsoon,3.7,40,2566.61,1539.97,2025-10-24
+Raymond,Pants,Blend,Westside,Monsoon,4.1,30,5318.9,3723.23,2025-10-24
+Forever New,Chinos,Linen,Flipkart,All-Season,4.0,15,2240.09,1904.08,2025-10-24
+Van Heusen,Sweater,Blend,Westside,Monsoon,4.6,25,931.99,698.99,2025-10-24
+Roadster,Hoodie,Synthetic,Westside,All-Season,3.5,30,921.2,644.84,2025-10-24
+Marks & Spencer,Jacket,Leather,Myntra,Winter,4.9,15,13157.31,11183.71,2025-10-24
+Louis Philippe,Chinos,Wool,Lifestyle,All-Season,4.3,30,5169.45,3618.62,2025-10-24
+W for Woman,Jacket,Linen,Reliance Trends,Winter,3.6,50,6656.46,3328.23,2025-10-24
+Levi's,Coat,Polyester,Westside,Spring,4.0,20,9248.7,7398.96,2025-10-24
+Nike,Coat,Blend,Westside,Summer,3.7,40,11745.28,7047.17,2025-10-24
+Flying Machine,Shirt,Cotton,Westside,Winter,3.8,70,4113.03,1233.91,2025-10-24
+Allen Solly,Pants,Leather,Ajio,Winter,4.4,15,1418.92,1206.08,2025-10-24
+Adidas,Pants,Viscose,Max Fashion,All-Season,3.7,10,1243.72,1119.35,2025-10-24
+Adidas,Pants,Denim,Reliance Trends,Monsoon,3.9,15,3213.78,2731.72,2025-10-24
+Levi's,T-Shirt,Wool,Myntra,Summer,4.2,50,3144.54,1572.27,2025-10-24
+Van Heusen,Shirt,Wool,Westside,All-Season,3.9,20,1913.46,1530.76,2025-10-24
+Vero Moda,Shirt,Silk,Reliance Trends,Monsoon,3.5,30,4191.58,2934.1,2025-10-24
+Breakbounce,Dress,Linen,Myntra,Spring,3.4,20,2720.77,2176.61,2025-10-24
+H&M,Coat,Blend,Max Fashion,Summer,3.6,30,3420.29,2394.2,2025-10-24
+Being Human,Pants,Synthetic,Reliance Trends,Spring,3.8,20,572.92,458.33,2025-10-24
+Roadster,Polo,Wool,Lifestyle,Winter,4.1,10,617.4,555.66,2025-10-24
+Wrogn,Jeans,Leather,Amazon India,Summer,3.6,15,2883.69,2451.14,2025-10-24
+Puma,Dress,Cotton,Lifestyle,Monsoon,3.7,15,2300.23,1955.19,2025-10-24
+Calvin Klein,Jeans,Linen,Westside,All-Season,4.7,10,3061.15,2755.03,2025-10-24
+Van Heusen,Blazer,Viscose,Amazon India,Spring,4.7,10,1409.62,1268.66,2025-10-24
+Mast & Harbour,Chinos,Wool,Lifestyle,Spring,3.9,30,1177.51,824.26,2025-10-24
+Calvin Klein,Chinos,Viscose,Max Fashion,Winter,4.8,30,4889.19,3422.43,2025-10-24
+Being Human,Polo,Polyester,Max Fashion,Winter,3.9,30,627.11,438.98,2025-10-24
+W for Woman,T-Shirt,Cotton,Amazon India,Spring,3.8,30,538.78,377.15,2025-10-24
+Adidas,Blazer,Leather,Max Fashion,Winter,4.2,10,2663.3,2396.97,2025-10-24
+Tommy Hilfiger,Sweater,Polyester,Reliance Trends,Monsoon,4.9,15,2643.28,2246.79,2025-10-24
+H&M,Coat,Viscose,Flipkart,Summer,3.5,25,3066.28,2299.71,2025-10-24
+Marks & Spencer,Sweater,Wool,Max Fashion,Spring,4.1,30,4363.91,3054.74,2025-10-24
+Only,Skirt,Leather,Shoppers Stop,All-Season,3.9,10,2589.79,2330.81,2025-10-24
+HRX,Blazer,Polyester,Flipkart,Monsoon,3.4,15,2271.77,1931.0,2025-10-24
+Van Heusen,Coat,Linen,Amazon India,Winter,4.4,20,4085.3,3268.24,2025-10-24
+Levi's,Dress,Denim,Reliance Trends,All-Season,4.6,60,7827.94,3131.18,2025-10-24
+Forever New,Polo,Wool,Max Fashion,All-Season,3.9,40,2653.41,1592.05,2025-10-24
+HRX,Shirt,Linen,Flipkart,Summer,3.9,25,740.39,555.3,2025-10-24
+Roadster,Coat,Cotton,Ajio,Summer,3.7,25,1702.45,1276.84,2025-10-24
+Allen Solly,Polo,Synthetic,Lifestyle,Summer,4.4,30,1341.83,939.28,2025-10-24
+Calvin Klein,Jeans,Blend,Ajio,Spring,4.4,30,9071.62,6350.13,2025-10-24
+W for Woman,Jeans,Viscose,Max Fashion,Summer,4.0,40,2927.27,1756.36,2025-10-24
+Nike,Coat,Linen,Amazon India,Summer,3.7,20,7117.1,5693.68,2025-10-24
+Allen Solly,Blazer,Leather,Amazon India,All-Season,4.1,25,3827.51,2870.63,2025-10-24
+Mast & Harbour,Coat,Polyester,Max Fashion,All-Season,3.8,0,1726.17,1726.17,2025-10-24
+Flying Machine,Pants,Leather,Myntra,All-Season,3.7,10,900.66,810.6,2025-10-24
+US Polo Assn,Jeans,Viscose,Max Fashion,All-Season,4.2,0,859.78,859.78,2025-10-24
+Calvin Klein,Shirt,Denim,Shoppers Stop,Winter,4.6,30,8038.34,5626.84,2025-10-24
+Van Heusen,Dress,Synthetic,Max Fashion,Spring,4.0,15,1789.61,1521.16,2025-10-24
+Nike,Jeans,Denim,Westside,Winter,3.6,15,3829.72,3255.26,2025-10-24
+Adidas,Blazer,Blend,Flipkart,Spring,3.7,10,3682.66,3314.4,2025-10-24
+Being Human,Coat,Leather,Westside,Monsoon,4.0,30,6485.35,4539.75,2025-10-24
+HRX,Dress,Linen,Amazon India,Summer,3.8,10,959.85,863.87,2025-10-24
+W for Woman,T-Shirt,Viscose,Ajio,Monsoon,4.2,40,832.65,499.59,2025-10-24
+Raymond,Coat,Linen,Flipkart,Summer,4.3,15,10396.47,8837.0,2025-10-24
+Marks & Spencer,T-Shirt,Denim,Amazon India,Summer,4.2,15,926.05,787.14,2025-10-24
+Nike,Coat,Silk,Max Fashion,Winter,3.9,20,10188.51,8150.81,2025-10-24
+Only,Chinos,Leather,Reliance Trends,Spring,4.0,15,3502.34,2976.99,2025-10-24
+AND,Sweater,Linen,Lifestyle,Monsoon,3.8,40,2551.58,1530.95,2025-10-24
+US Polo Assn,Polo,Viscose,Shoppers Stop,Monsoon,4.1,30,763.55,534.49,2025-10-24
+Peter England,Hoodie,Synthetic,Flipkart,Monsoon,3.7,0,655.33,655.33,2025-10-24
+Van Heusen,Coat,Synthetic,Flipkart,Summer,4.2,15,3985.1,3387.34,2025-10-24
+Van Heusen,Jacket,Synthetic,Ajio,All-Season,4.0,0,2071.45,2071.45,2025-10-24
+Raymond,Pants,Leather,Myntra,Winter,4.2,40,9216.57,5529.94,2025-10-24
+Adidas,Jacket,Linen,Lifestyle,Winter,3.8,15,6529.61,5550.16,2025-10-24
+Puma,Hoodie,Polyester,Reliance Trends,Winter,3.8,30,2390.33,1673.23,2025-10-24
+Forever New,Pants,Viscose,Shoppers Stop,Summer,3.7,15,4626.01,3932.11,2025-10-24
+US Polo Assn,T-Shirt,Leather,Amazon India,Winter,3.9,15,1347.45,1145.33,2025-10-24
+Roadster,Skirt,Synthetic,Ajio,Spring,3.7,15,475.09,403.83,2025-10-24
+Adidas,Skirt,Linen,Shoppers Stop,All-Season,3.7,50,3960.13,1980.07,2025-10-24
+Puma,Coat,Denim,Reliance Trends,Spring,3.7,20,4085.29,3268.24,2025-10-24
+Only,Pants,Silk,Lifestyle,Monsoon,3.9,0,2749.68,2749.68,2025-10-24
+Marks & Spencer,Jacket,Linen,Ajio,Summer,4.5,50,6662.66,3331.33,2025-10-24
+Van Heusen,Hoodie,Blend,Max Fashion,Spring,4.0,30,1916.62,1341.63,2025-10-24
+Flying Machine,Shirt,Polyester,Lifestyle,Spring,3.6,30,753.64,527.55,2025-10-24
+Roadster,Shirt,Blend,Max Fashion,Winter,3.5,40,1312.2,787.32,2025-10-24
+Roadster,Dress,Synthetic,Shoppers Stop,Summer,3.9,15,1060.11,901.09,2025-10-24
+Nike,Chinos,Leather,Westside,Spring,3.8,30,4243.84,2970.69,2025-10-24
+Flying Machine,Hoodie,Wool,Reliance Trends,Monsoon,3.4,10,1178.2,1060.38,2025-10-24
+Van Heusen,Pants,Denim,Shoppers Stop,Monsoon,4.6,25,1582.17,1186.63,2025-10-24
+Tommy Hilfiger,Hoodie,Silk,Shoppers Stop,Summer,4.6,10,6403.37,5763.03,2025-10-24
+US Polo Assn,Skirt,Leather,Westside,Winter,3.9,10,3067.03,2760.33,2025-10-24
+US Polo Assn,Polo,Cotton,Amazon India,All-Season,4.0,25,878.09,658.57,2025-10-24
+Flying Machine,Sweater,Linen,Myntra,Spring,3.5,10,1402.36,1262.13,2025-10-24
+H&M,Skirt,Silk,Shoppers Stop,Winter,3.6,10,1206.21,1085.59,2025-10-24
+Mast & Harbour,Polo,Polyester,Myntra,Summer,3.5,25,816.89,612.67,2025-10-24
+HRX,Sweater,Cotton,Myntra,Monsoon,4.0,15,1229.73,1045.27,2025-10-24
+Zara,Sweater,Cotton,Lifestyle,Summer,4.3,25,5655.82,4241.87,2025-10-24
+Roadster,Pants,Silk,Flipkart,Summer,3.7,10,685.99,617.39,2025-10-24
+Flying Machine,Polo,Synthetic,Westside,All-Season,3.6,25,646.03,484.52,2025-10-24
+HRX,Coat,Polyester,Westside,All-Season,3.5,30,2813.63,1969.54,2025-10-24
+Being Human,Shirt,Denim,Max Fashion,Winter,3.7,0,866.22,866.22,2025-10-24
+Adidas,Jeans,Polyester,Amazon India,All-Season,4.2,25,2972.54,2229.4,2025-10-24
+Marks & Spencer,Polo,Denim,Reliance Trends,All-Season,4.6,60,5748.63,2299.45,2025-10-24
+Being Human,Chinos,Polyester,Reliance Trends,Summer,3.8,0,573.99,573.99,2025-10-24
+Allen Solly,Hoodie,Polyester,Max Fashion,Winter,4.6,25,1494.42,1120.82,2025-10-24
+W for Woman,Hoodie,Wool,Westside,Monsoon,4.1,15,1337.76,1137.09,2025-10-24
+Puma,Chinos,Wool,Amazon India,Winter,4.0,15,1209.13,1027.76,2025-10-24
+Calvin Klein,Hoodie,Viscose,Shoppers Stop,Winter,4.7,30,4287.71,3001.4,2025-10-24
+Levi's,Chinos,Leather,Lifestyle,Spring,3.9,20,5623.11,4498.49,2025-10-24
+Athena,Blazer,Leather,Westside,Winter,3.5,25,3113.73,2335.3,2025-10-24
+Vero Moda,Dress,Silk,Reliance Trends,All-Season,4.2,0,1838.62,1838.62,2025-10-24
+Mast & Harbour,Chinos,Polyester,Lifestyle,Winter,4.0,20,1203.81,963.05,2025-10-24
+HRX,Pants,Polyester,Amazon India,Summer,3.7,40,784.93,470.96,2025-10-24
+Mast & Harbour,Hoodie,Leather,Flipkart,Monsoon,3.6,10,640.65,576.58,2025-10-24
+Peter England,Blazer,Viscose,Lifestyle,Spring,4.1,25,1846.39,1384.8,2025-10-24
+Vero Moda,Polo,Blend,Myntra,Spring,3.4,40,2022.33,1213.4,2025-10-24
+Vero Moda,Hoodie,Denim,Amazon India,Winter,3.9,15,1473.58,1252.54,2025-10-24
+Flying Machine,T-Shirt,Synthetic,Ajio,Spring,3.8,20,342.06,273.65,2025-10-24
+W for Woman,T-Shirt,Blend,Max Fashion,Spring,3.8,30,794.11,555.88,2025-10-24
+Only,Coat,Denim,Flipkart,Monsoon,4.0,30,7723.7,5406.59,2025-10-24
+Puma,Pants,Viscose,Ajio,Spring,3.7,15,1957.07,1663.51,2025-10-24
+Nike,Pants,Cotton,Amazon India,All-Season,3.8,25,4237.35,3178.01,2025-10-24
+Peter England,Jeans,Polyester,Max Fashion,All-Season,3.6,50,1785.26,892.63,2025-10-24
+AND,Chinos,Wool,Ajio,Winter,4.1,60,3613.32,1445.33,2025-10-24
+W for Woman,Coat,Linen,Westside,Summer,3.6,30,4802.85,3362.0,2025-10-24
+Calvin Klein,Shirt,Denim,Westside,All-Season,4.2,60,14961.81,5984.73,2025-10-24
+Marks & Spencer,Chinos,Blend,Flipkart,All-Season,4.6,40,6074.08,3644.45,2025-10-24
+US Polo Assn,Hoodie,Silk,Shoppers Stop,Spring,3.6,20,2617.52,2094.01,2025-10-24
+Zara,Blazer,Leather,Shoppers Stop,All-Season,4.5,30,18493.86,12945.7,2025-10-24
+Raymond,Skirt,Denim,Ajio,Winter,4.3,20,1999.91,1599.93,2025-10-24
+HRX,Coat,Linen,Amazon India,All-Season,3.9,50,3595.2,1797.6,2025-10-24
+W for Woman,Polo,Wool,Ajio,Spring,3.6,50,3427.42,1713.71,2025-10-24
+Tommy Hilfiger,Sweater,Leather,Westside,Summer,4.9,15,7171.55,6095.82,2025-10-24
+Nike,Blazer,Cotton,Ajio,Monsoon,3.6,0,3477.89,3477.89,2025-10-24
+Van Heusen,Dress,Viscose,Reliance Trends,Summer,4.0,40,3097.92,1858.75,2025-10-24
+AND,Coat,Synthetic,Shoppers Stop,All-Season,3.5,10,5787.49,5208.74,2025-10-24
+Flying Machine,Coat,Cotton,Max Fashion,Monsoon,3.5,15,2286.35,1943.4,2025-10-24
+Zara,Skirt,Cotton,Shoppers Stop,Spring,4.8,30,5726.36,4008.45,2025-10-24
+Allen Solly,Blazer,Viscose,Amazon India,All-Season,4.0,40,2857.69,1714.61,2025-10-24
+W for Woman,Dress,Linen,Reliance Trends,All-Season,3.6,20,1528.58,1222.87,2025-10-24
+Louis Philippe,Blazer,Synthetic,Amazon India,Winter,4.1,20,2472.18,1977.74,2025-10-24
+Zara,Chinos,Synthetic,Max Fashion,Summer,4.8,25,1938.32,1453.74,2025-10-24
+Flying Machine,Pants,Leather,Amazon India,All-Season,3.6,10,1061.9,955.71,2025-10-24
+Marks & Spencer,Blazer,Synthetic,Amazon India,Summer,4.1,15,7298.2,6203.47,2025-10-24
+Roadster,Jacket,Silk,Westside,Winter,3.7,40,2079.52,1247.71,2025-10-24
+Athena,Jacket,Cotton,Westside,Winter,3.8,15,2144.46,1822.79,2025-10-24
+Puma,T-Shirt,Cotton,Lifestyle,All-Season,3.6,60,2550.06,1020.02,2025-10-24
+W for Woman,Sweater,Silk,Myntra,Monsoon,3.9,20,2194.97,1755.98,2025-10-24
+Being Human,Sweater,Linen,Shoppers Stop,Monsoon,3.9,60,2797.48,1118.99,2025-10-24
+Calvin Klein,Shirt,Linen,Amazon India,Summer,4.3,10,4918.33,4426.5,2025-10-24
+Peter England,Chinos,Linen,Myntra,Winter,3.6,50,3297.67,1648.84,2025-10-24
+Raymond,Hoodie,Wool,Ajio,Winter,4.2,20,4308.88,3447.1,2025-10-24
+Marks & Spencer,Polo,Polyester,Westside,Monsoon,4.6,40,2256.04,1353.62,2025-10-24
+Nike,Hoodie,Silk,Amazon India,Summer,3.7,25,2943.52,2207.64,2025-10-24
+Allen Solly,Skirt,Denim,Flipkart,Summer,3.9,30,1565.73,1096.01,2025-10-24
+Levi's,Jacket,Linen,Westside,Spring,4.3,60,16940.41,6776.16,2025-10-24
+W for Woman,Dress,Leather,Reliance Trends,Spring,3.8,40,5062.96,3037.78,2025-10-24
+Puma,Jeans,Blend,Ajio,Spring,4.0,25,2866.71,2150.04,2025-10-24
+Calvin Klein,Blazer,Cotton,Amazon India,Spring,4.9,40,11447.76,6868.66,2025-10-24
+H&M,Coat,Cotton,Shoppers Stop,All-Season,3.7,15,1372.33,1166.48,2025-10-24
+Marks & Spencer,Jacket,Cotton,Lifestyle,Monsoon,4.4,15,5495.55,4671.22,2025-10-24
+Allen Solly,Chinos,Linen,Westside,Summer,4.2,30,1518.78,1063.14,2025-10-24
+Being Human,Blazer,Linen,Shoppers Stop,All-Season,4.1,10,2542.63,2288.37,2025-10-24
+W for Woman,Sweater,Leather,Lifestyle,All-Season,4.1,10,2194.48,1975.03,2025-10-24
+Louis Philippe,Sweater,Polyester,Westside,Spring,4.1,0,3050.25,3050.25,2025-10-24
+Calvin Klein,Blazer,Polyester,Shoppers Stop,Summer,4.2,20,14222.24,11377.8,2025-10-24
+Roadster,Pants,Synthetic,Myntra,Spring,3.8,30,857.69,600.38,2025-10-24
+Calvin Klein,Chinos,Blend,Flipkart,All-Season,4.5,15,2265.18,1925.4,2025-10-24
+Van Heusen,Skirt,Leather,Myntra,Monsoon,4.0,40,1680.45,1008.27,2025-10-24
+US Polo Assn,Coat,Polyester,Flipkart,All-Season,4.2,10,4206.17,3785.56,2025-10-24
+Calvin Klein,Pants,Polyester,Lifestyle,Spring,4.6,20,6320.9,5056.72,2025-10-24
+AND,Blazer,Wool,Flipkart,Monsoon,3.5,40,3109.69,1865.81,2025-10-24
+Only,Dress,Leather,Lifestyle,Winter,3.5,25,3633.05,2724.79,2025-10-24
+Allen Solly,Skirt,Linen,Westside,Summer,4.7,20,1167.35,933.88,2025-10-24
+Only,Dress,Synthetic,Ajio,Winter,3.8,30,1686.74,1180.72,2025-10-24
+Raymond,Skirt,Denim,Amazon India,All-Season,4.8,30,4844.54,3391.17,2025-10-24
+Vero Moda,T-Shirt,Silk,Flipkart,Winter,4.1,40,1870.36,1122.22,2025-10-24
+Raymond,Dress,Blend,Flipkart,Winter,4.8,0,2107.31,2107.31,2025-10-24
+Being Human,Chinos,Viscose,Flipkart,Summer,4.0,70,3176.98,953.09,2025-10-24
+Adidas,Skirt,Denim,Max Fashion,Winter,3.7,40,3523.96,2114.38,2025-10-24
+Marks & Spencer,Dress,Wool,Shoppers Stop,Spring,4.8,30,9753.49,6827.45,2025-10-24
+Marks & Spencer,Hoodie,Cotton,Reliance Trends,Summer,4.6,0,1284.93,1284.93,2025-10-24
+Only,Dress,Linen,Max Fashion,Monsoon,3.8,10,3128.54,2815.69,2025-10-24
+Vero Moda,Dress,Blend,Reliance Trends,Winter,3.4,15,1450.92,1233.29,2025-10-24
+HRX,Jeans,Viscose,Ajio,Summer,3.6,40,2043.53,1226.12,2025-10-24
+Nike,Chinos,Leather,Lifestyle,Monsoon,4.1,20,3434.31,2747.45,2025-10-24
+Allen Solly,T-Shirt,Polyester,Reliance Trends,Spring,4.3,30,834.16,583.91,2025-10-24
+Levi's,Dress,Silk,Shoppers Stop,Monsoon,4.3,70,19582.61,5874.78,2025-10-24
+Athena,Jeans,Denim,Max Fashion,Monsoon,3.5,30,1293.49,905.44,2025-10-24
+Adidas,Skirt,Cotton,Amazon India,Monsoon,3.8,70,11117.78,3335.33,2025-10-24
+Tommy Hilfiger,Coat,Viscose,Lifestyle,Spring,4.7,15,6810.26,5788.72,2025-10-24
+Puma,Jeans,Viscose,Max Fashion,All-Season,3.5,60,2604.59,1041.84,2025-10-24
+Tommy Hilfiger,Chinos,Polyester,Reliance Trends,Spring,4.5,25,6606.42,4954.81,2025-10-24
+Peter England,Pants,Viscose,Amazon India,Monsoon,3.5,15,639.76,543.79,2025-10-24
+Roadster,Dress,Viscose,Amazon India,All-Season,3.7,10,633.99,570.59,2025-10-24
+W for Woman,Skirt,Synthetic,Westside,Winter,4.0,20,1888.3,1510.64,2025-10-24
+Tommy Hilfiger,Dress,Wool,Westside,Spring,4.2,25,12343.98,9257.99,2025-10-24
+Zara,Jacket,Wool,Max Fashion,Monsoon,4.8,25,10888.25,8166.19,2025-10-24
+AND,Skirt,Leather,Westside,Monsoon,4.2,15,2341.6,1990.36,2025-10-24
+Roadster,Pants,Blend,Max Fashion,Winter,3.4,30,452.83,316.98,2025-10-24
+Forever New,Coat,Silk,Lifestyle,All-Season,4.1,30,13917.03,9741.92,2025-10-24
+Levi's,Jeans,Viscose,Flipkart,Spring,4.1,25,4090.85,3068.14,2025-10-24
+H&M,Blazer,Wool,Amazon India,All-Season,4.1,20,3646.5,2917.2,2025-10-24
+Raymond,Hoodie,Cotton,Ajio,Spring,4.3,0,2535.03,2535.03,2025-10-24
+Van Heusen,Jeans,Linen,Reliance Trends,Monsoon,4.3,20,1575.11,1260.09,2025-10-24
+Adidas,Hoodie,Viscose,Myntra,Monsoon,4.0,15,1136.89,966.35,2025-10-24
+AND,Dress,Silk,Flipkart,Monsoon,4.1,30,4943.88,3460.72,2025-10-24
+Peter England,Polo,Silk,Myntra,All-Season,3.8,15,1879.39,1597.48,2025-10-24
+Forever New,Jacket,Blend,Ajio,Summer,3.7,25,4921.09,3690.82,2025-10-24
+Vero Moda,Blazer,Polyester,Max Fashion,Spring,4.2,30,2050.38,1435.27,2025-10-24
+Forever New,Chinos,Cotton,Lifestyle,Summer,4.1,25,2564.21,1923.16,2025-10-24
+H&M,Jeans,Polyester,Lifestyle,Winter,3.5,0,846.7,846.7,2025-10-24
+Marks & Spencer,Blazer,Silk,Flipkart,All-Season,4.2,10,6356.7,5721.03,2025-10-24
+US Polo Assn,Pants,Polyester,Ajio,Winter,3.5,30,2376.54,1663.57,2025-10-24
+Louis Philippe,Sweater,Viscose,Shoppers Stop,All-Season,4.3,15,1674.57,1423.39,2025-10-24
+Adidas,Pants,Blend,Reliance Trends,Summer,4.1,10,2754.2,2478.78,2025-10-24
+Levi's,Shirt,Synthetic,Myntra,All-Season,4.0,10,2906.5,2615.85,2025-10-24
+Mast & Harbour,Shirt,Cotton,Shoppers Stop,Spring,4.0,10,540.91,486.82,2025-10-24
+Zara,Polo,Synthetic,Myntra,Monsoon,4.2,15,978.9,832.06,2025-10-24
+Forever New,Pants,Blend,Shoppers Stop,Spring,4.2,30,2896.03,2027.22,2025-10-24
+Roadster,Jeans,Linen,Flipkart,Monsoon,3.9,40,1972.45,1183.47,2025-10-24
+Only,Shirt,Leather,Max Fashion,Spring,4.1,10,2255.23,2029.71,2025-10-24
+Van Heusen,Dress,Cotton,Amazon India,Monsoon,4.6,30,3070.62,2149.43,2025-10-24
+Wrogn,Sweater,Synthetic,Lifestyle,Spring,4.1,25,1126.8,845.1,2025-10-24
+Breakbounce,Jeans,Cotton,Flipkart,All-Season,3.7,20,928.96,743.17,2025-10-24
+Peter England,Chinos,Blend,Ajio,Spring,4.0,15,1050.49,892.92,2025-10-24
+Breakbounce,Polo,Cotton,Max Fashion,All-Season,3.5,30,1171.01,819.7,2025-10-24
+Wrogn,Hoodie,Silk,Flipkart,Winter,3.6,0,1218.14,1218.14,2025-10-24
+Tommy Hilfiger,Shirt,Denim,Max Fashion,Monsoon,4.7,25,4767.12,3575.34,2025-10-24
+Allen Solly,Jeans,Cotton,Amazon India,Monsoon,4.6,30,3199.12,2239.38,2025-10-24
+Van Heusen,Pants,Cotton,Max Fashion,Spring,4.5,15,1276.88,1085.35,2025-10-24
+Vero Moda,Jacket,Leather,Lifestyle,Winter,4.2,50,16337.06,8168.53,2025-10-24
+Puma,Chinos,Cotton,Myntra,Spring,3.4,20,2424.97,1939.98,2025-10-24
+Peter England,Pants,Denim,Lifestyle,Spring,3.5,40,2437.9,1462.74,2025-10-24
+H&M,Dress,Denim,Reliance Trends,All-Season,3.9,20,754.52,603.61,2025-10-24
+Roadster,Sweater,Wool,Reliance Trends,Summer,3.7,20,1184.8,947.84,2025-10-24
+Marks & Spencer,Sweater,Leather,Reliance Trends,All-Season,4.6,30,7062.84,4943.99,2025-10-24
+Vero Moda,Hoodie,Synthetic,Ajio,Monsoon,4.0,30,2584.09,1808.86,2025-10-24
+Vero Moda,T-Shirt,Polyester,Lifestyle,All-Season,3.5,25,688.58,516.43,2025-10-24
+Calvin Klein,Jeans,Denim,Reliance Trends,Winter,4.8,15,6933.49,5893.47,2025-10-24
+Tommy Hilfiger,Coat,Polyester,Ajio,All-Season,4.6,30,14470.12,10129.09,2025-10-24
+Allen Solly,Blazer,Silk,Reliance Trends,Winter,4.5,15,3522.84,2994.41,2025-10-24
+Flying Machine,Jeans,Leather,Lifestyle,Summer,3.9,40,3531.78,2119.07,2025-10-24
+Forever New,Polo,Linen,Shoppers Stop,All-Season,4.0,30,2583.84,1808.69,2025-10-24
+Van Heusen,Polo,Silk,Reliance Trends,Spring,4.5,10,924.91,832.42,2025-10-24
+Athena,Sweater,Blend,Reliance Trends,All-Season,3.6,20,1310.78,1048.62,2025-10-24
+Van Heusen,Jeans,Wool,Reliance Trends,All-Season,4.7,10,2286.68,2058.01,2025-10-24
+Athena,Shirt,Blend,Max Fashion,Monsoon,3.6,25,470.79,353.09,2025-10-24
+HRX,Shirt,Wool,Amazon India,Summer,3.9,40,2062.64,1237.59,2025-10-24
+Roadster,Coat,Polyester,Flipkart,Summer,4.1,15,2078.11,1766.39,2025-10-24
+Tommy Hilfiger,T-Shirt,Wool,Lifestyle,Monsoon,4.7,60,8142.11,3256.85,2025-10-24
+HRX,Polo,Silk,Reliance Trends,Monsoon,3.7,30,1041.14,728.8,2025-10-24
+W for Woman,Skirt,Leather,Amazon India,Winter,4.0,50,3372.41,1686.2,2025-10-24
+Levi's,Jeans,Leather,Shoppers Stop,Winter,4.1,30,7062.69,4943.88,2025-10-24
+Vero Moda,Pants,Blend,Ajio,Winter,3.7,40,3809.09,2285.46,2025-10-24
+Tommy Hilfiger,Chinos,Silk,Reliance Trends,Monsoon,4.6,25,11134.98,8351.24,2025-10-24
+Forever New,Blazer,Blend,Ajio,Monsoon,4.0,25,7017.16,5262.87,2025-10-24
+AND,Jeans,Cotton,Amazon India,Summer,4.1,0,1584.14,1584.14,2025-10-24
+Puma,Dress,Silk,Max Fashion,Summer,4.2,10,3686.48,3317.83,2025-10-24
+Louis Philippe,Hoodie,Denim,Westside,Spring,4.2,60,5802.36,2320.94,2025-10-24
+AND,Jeans,Blend,Max Fashion,Spring,3.9,0,2283.95,2283.95,2025-10-24
+Zara,Polo,Linen,Reliance Trends,Monsoon,4.7,30,2792.65,1954.86,2025-10-24
+Forever New,Chinos,Leather,Flipkart,Winter,3.8,60,13350.37,5340.15,2025-10-24
+Tommy Hilfiger,Skirt,Silk,Amazon India,Monsoon,4.5,30,5663.57,3964.5,2025-10-24
+Breakbounce,Jacket,Leather,Westside,Winter,3.8,10,2721.49,2449.34,2025-10-24
+Roadster,Jacket,Denim,Lifestyle,Winter,4.1,0,1706.7,1706.7,2025-10-24
+Tommy Hilfiger,Dress,Synthetic,Reliance Trends,Summer,4.3,0,5367.02,5367.02,2025-10-24
+Being Human,T-Shirt,Silk,Flipkart,All-Season,3.6,10,499.16,449.25,2025-10-24
+HRX,Polo,Linen,Lifestyle,Winter,4.2,20,684.89,547.91,2025-10-24
+AND,Blazer,Denim,Lifestyle,Winter,4.0,40,6336.31,3801.79,2025-10-24
+Forever New,Skirt,Viscose,Westside,All-Season,4.0,10,1074.53,967.07,2025-10-24
+Only,Blazer,Leather,Lifestyle,Summer,3.8,10,3716.96,3345.27,2025-10-24
+Forever New,Jacket,Silk,Amazon India,Winter,3.6,30,9450.04,6615.03,2025-10-24
+H&M,Pants,Leather,Flipkart,All-Season,3.7,15,2062.17,1752.84,2025-10-24
+Athena,Pants,Wool,Amazon India,Summer,3.5,15,709.22,602.84,2025-10-24
+Peter England,Pants,Linen,Reliance Trends,Winter,4.2,50,1207.1,603.55,2025-10-24
+Mast & Harbour,Dress,Leather,Flipkart,All-Season,4.1,25,1196.26,897.2,2025-10-24
+Athena,Sweater,Polyester,Shoppers Stop,Monsoon,3.8,10,940.16,846.14,2025-10-24
+Nike,Hoodie,Polyester,Lifestyle,Winter,4.2,20,2578.09,2062.47,2025-10-24
+Allen Solly,Chinos,Cotton,Max Fashion,Winter,4.5,25,1828.68,1371.51,2025-10-24
+Being Human,Coat,Viscose,Westside,All-Season,3.9,40,4608.8,2765.28,2025-10-24
+Roadster,Dress,Blend,Reliance Trends,All-Season,3.8,0,401.92,401.92,2025-10-24
+Mast & Harbour,Hoodie,Wool,Max Fashion,Monsoon,4.1,25,373.2,279.9,2025-10-24
+Marks & Spencer,Jeans,Wool,Westside,Summer,4.6,20,3262.0,2609.6,2025-10-24
+AND,T-Shirt,Cotton,Flipkart,Monsoon,3.5,20,855.19,684.16,2025-10-24
+Louis Philippe,T-Shirt,Synthetic,Flipkart,Summer,4.5,25,1176.78,882.58,2025-10-24
+Forever New,Polo,Blend,Shoppers Stop,All-Season,3.9,10,1184.06,1065.66,2025-10-24
+Calvin Klein,Polo,Wool,Ajio,Winter,4.2,0,1294.54,1294.54,2025-10-24
+Van Heusen,Shirt,Leather,Ajio,All-Season,4.5,20,1816.14,1452.91,2025-10-24
+Tommy Hilfiger,Skirt,Polyester,Shoppers Stop,All-Season,4.5,10,7661.14,6895.03,2025-10-24
+Louis Philippe,Pants,Synthetic,Amazon India,All-Season,4.2,40,3176.24,1905.75,2025-10-24
+Van Heusen,Polo,Denim,Myntra,Winter,4.0,60,3537.65,1415.06,2025-10-24
+Roadster,Shirt,Polyester,Ajio,Monsoon,4.0,25,459.53,344.65,2025-10-24
+Flying Machine,Skirt,Wool,Reliance Trends,Summer,3.9,20,1320.42,1056.34,2025-10-24
+Breakbounce,Polo,Leather,Reliance Trends,Monsoon,3.8,40,1190.23,714.14,2025-10-24
+Breakbounce,Jacket,Polyester,Shoppers Stop,Winter,4.2,15,2436.45,2070.98,2025-10-24
+Nike,Sweater,Viscose,Lifestyle,Winter,3.9,25,5828.85,4371.63,2025-10-24
+Mast & Harbour,Chinos,Cotton,Amazon India,All-Season,4.0,30,1616.31,1131.42,2025-10-24
+Levi's,Blazer,Linen,Amazon India,Monsoon,4.1,15,4807.48,4086.36,2025-10-24
+Vero Moda,T-Shirt,Wool,Shoppers Stop,Summer,3.8,50,3337.64,1668.82,2025-10-24
+Nike,T-Shirt,Wool,Myntra,All-Season,4.2,15,1438.78,1222.96,2025-10-24
+HRX,Jeans,Blend,Westside,Spring,4.2,25,1143.51,857.63,2025-10-24
+Marks & Spencer,Chinos,Blend,Myntra,Summer,4.2,60,8161.96,3264.78,2025-10-24
+Roadster,Polo,Denim,Max Fashion,Monsoon,3.6,20,751.44,601.15,2025-10-24
+Tommy Hilfiger,Pants,Leather,Myntra,Summer,4.4,0,7949.06,7949.06,2025-10-24
+Zara,Jacket,Silk,Ajio,All-Season,4.7,20,12353.65,9882.92,2025-10-24
+Forever New,Coat,Wool,Flipkart,Summer,3.8,15,7660.37,6511.31,2025-10-24
+Allen Solly,Pants,Leather,Westside,All-Season,4.4,0,3434.13,3434.13,2025-10-24
+HRX,Shirt,Linen,Amazon India,All-Season,3.6,20,916.67,733.34,2025-10-24
+H&M,Polo,Silk,Flipkart,Spring,3.5,0,1036.86,1036.86,2025-10-24
+Van Heusen,Shirt,Viscose,Shoppers Stop,Summer,4.0,10,1222.66,1100.39,2025-10-24
+Puma,Pants,Blend,Westside,All-Season,4.0,40,4233.34,2540.01,2025-10-24
+Levi's,Skirt,Viscose,Reliance Trends,All-Season,4.0,10,2013.42,1812.08,2025-10-24
+Tommy Hilfiger,Pants,Linen,Ajio,Monsoon,4.1,25,8912.89,6684.67,2025-10-24
+Forever New,Chinos,Leather,Flipkart,Summer,3.5,30,5244.29,3671.0,2025-10-24
+Nike,Jacket,Denim,Lifestyle,Monsoon,4.0,25,6866.55,5149.91,2025-10-24
+Nike,Coat,Denim,Ajio,All-Season,4.2,40,9995.96,5997.57,2025-10-24
+Nike,Chinos,Synthetic,Ajio,Monsoon,4.0,0,2087.45,2087.45,2025-10-24
+Calvin Klein,Pants,Polyester,Myntra,Summer,4.8,20,4528.55,3622.84,2025-10-24
+Calvin Klein,Chinos,Polyester,Ajio,All-Season,4.8,30,5558.33,3890.83,2025-10-24
+Zara,Jacket,Blend,Myntra,Spring,4.2,30,11645.3,8151.71,2025-10-24
+Mast & Harbour,Shirt,Linen,Reliance Trends,All-Season,4.1,60,2300.69,920.28,2025-10-24
+Puma,Polo,Denim,Shoppers Stop,Winter,3.9,25,2960.12,2220.09,2025-10-24
+Zara,Coat,Silk,Reliance Trends,Monsoon,4.3,15,7941.27,6750.08,2025-10-24
+Levi's,Chinos,Cotton,Ajio,Summer,4.0,50,5979.58,2989.79,2025-10-24
+Raymond,Pants,Linen,Amazon India,Winter,4.7,25,5415.6,4061.7,2025-10-24
+Being Human,Jeans,Blend,Westside,Monsoon,4.2,40,2621.08,1572.65,2025-10-24
+Wrogn,Skirt,Cotton,Max Fashion,Summer,3.5,40,1410.88,846.53,2025-10-24
+Vero Moda,Blazer,Denim,Myntra,Summer,3.4,20,3628.6,2902.88,2025-10-24
+Forever New,Hoodie,Blend,Ajio,Winter,3.9,20,2207.32,1765.86,2025-10-24
+US Polo Assn,Chinos,Linen,Ajio,Monsoon,3.4,20,2695.22,2156.17,2025-10-24
+Zara,Pants,Denim,Max Fashion,Spring,4.1,40,6451.42,3870.85,2025-10-24
+Being Human,Coat,Viscose,Shoppers Stop,Summer,4.0,0,3269.4,3269.4,2025-10-24
+HRX,Sweater,Leather,Amazon India,All-Season,3.7,50,4526.28,2263.14,2025-10-24
+H&M,Sweater,Viscose,Shoppers Stop,Monsoon,4.1,15,1328.32,1129.07,2025-10-24
+US Polo Assn,Jeans,Leather,Myntra,Monsoon,3.7,10,3832.83,3449.54,2025-10-24
+Allen Solly,Shirt,Polyester,Lifestyle,All-Season,4.4,0,1730.62,1730.62,2025-10-24
+Allen Solly,Coat,Cotton,Max Fashion,Winter,4.6,40,5126.58,3075.95,2025-10-24
+Flying Machine,Jeans,Polyester,Reliance Trends,Monsoon,3.9,50,1702.65,851.33,2025-10-24
+Being Human,Shirt,Polyester,Myntra,Summer,4.0,15,1198.68,1018.88,2025-10-24
+Levi's,Sweater,Leather,Westside,Spring,4.4,0,4816.38,4816.38,2025-10-24
+Puma,Jacket,Viscose,Lifestyle,Winter,3.9,30,7656.04,5359.23,2025-10-24
+Athena,Shirt,Silk,Shoppers Stop,Winter,3.6,40,2576.54,1545.92,2025-10-24
+Breakbounce,Shirt,Blend,Reliance Trends,Monsoon,3.9,40,1236.41,741.85,2025-10-24
+Mast & Harbour,Hoodie,Silk,Myntra,Winter,3.4,30,585.08,409.56,2025-10-24
+Forever New,Polo,Linen,Flipkart,Monsoon,4.1,15,1016.37,863.91,2025-10-24
+Breakbounce,Jeans,Cotton,Westside,Summer,3.6,40,2566.09,1539.65,2025-10-24
+Calvin Klein,Jacket,Synthetic,Flipkart,Summer,4.9,25,9146.8,6860.1,2025-10-24
+Puma,Blazer,Silk,Reliance Trends,Spring,4.2,30,8742.18,6119.53,2025-10-24
+US Polo Assn,Coat,Leather,Amazon India,Monsoon,3.9,30,7235.68,5064.97,2025-10-24
+Peter England,Jeans,Leather,Flipkart,Monsoon,3.8,20,3072.01,2457.61,2025-10-24
+Breakbounce,Hoodie,Synthetic,Lifestyle,Monsoon,4.1,20,803.67,642.93,2025-10-24
+Marks & Spencer,Pants,Linen,Westside,Summer,4.3,50,9900.2,4950.1,2025-10-24
+Levi's,Shirt,Denim,Westside,Spring,4.0,25,2130.35,1597.76,2025-10-24
+Raymond,Shirt,Silk,Max Fashion,Summer,4.6,20,3917.1,3133.68,2025-10-24
+Louis Philippe,Polo,Viscose,Amazon India,Winter,4.4,20,1735.38,1388.3,2025-10-24
+Marks & Spencer,Jacket,Leather,Lifestyle,Winter,4.8,15,15788.93,13420.59,2025-10-24
+Puma,Coat,Polyester,Ajio,Winter,3.9,25,3208.7,2406.52,2025-10-24
+Athena,Coat,Polyester,Reliance Trends,Spring,4.0,15,1844.25,1567.61,2025-10-24
+HRX,Skirt,Wool,Shoppers Stop,Winter,3.5,0,778.73,778.73,2025-10-24
+Zara,T-Shirt,Denim,Lifestyle,Spring,4.4,30,2519.05,1763.34,2025-10-24
+Calvin Klein,Jeans,Cotton,Ajio,Spring,4.5,25,6398.46,4798.84,2025-10-24
+W for Woman,Blazer,Blend,Flipkart,Summer,4.0,15,3220.31,2737.27,2025-10-24
+Peter England,Blazer,Wool,Westside,All-Season,4.0,20,2757.14,2205.72,2025-10-24
+Peter England,Polo,Silk,Amazon India,All-Season,3.5,10,1143.16,1028.85,2025-10-24
+Calvin Klein,Jeans,Leather,Myntra,All-Season,4.3,20,5245.81,4196.65,2025-10-24
+Breakbounce,Pants,Linen,Myntra,All-Season,4.0,25,2195.13,1646.35,2025-10-24
+Tommy Hilfiger,Polo,Viscose,Myntra,Summer,4.3,15,4478.61,3806.82,2025-10-24
+Breakbounce,Hoodie,Leather,Shoppers Stop,Winter,4.0,40,2740.29,1644.17,2025-10-24
+Marks & Spencer,Hoodie,Silk,Flipkart,Summer,4.5,20,5945.34,4756.27,2025-10-24
+Levi's,Jacket,Blend,Flipkart,All-Season,4.5,40,6241.86,3745.12,2025-10-24
+Mast & Harbour,Jeans,Silk,Reliance Trends,Monsoon,3.9,20,1639.15,1311.32,2025-10-24
+Adidas,T-Shirt,Synthetic,Reliance Trends,All-Season,4.0,60,1337.27,534.91,2025-10-24
+Adidas,Blazer,Silk,Lifestyle,Monsoon,3.9,10,12635.29,11371.76,2025-10-24
+Athena,Jacket,Cotton,Reliance Trends,Winter,3.7,20,1871.66,1497.33,2025-10-24
+Calvin Klein,Pants,Polyester,Reliance Trends,Winter,4.6,30,6615.36,4630.75,2025-10-24
+Breakbounce,Skirt,Denim,Flipkart,Winter,3.5,40,1556.53,933.92,2025-10-24
+AND,Pants,Linen,Ajio,Summer,3.8,40,2721.25,1632.75,2025-10-24
+Athena,Hoodie,Synthetic,Shoppers Stop,Winter,3.6,0,544.74,544.74,2025-10-24
+Vero Moda,T-Shirt,Polyester,Flipkart,Spring,4.0,10,909.98,818.98,2025-10-24
+Breakbounce,Coat,Silk,Reliance Trends,Summer,3.9,10,3862.87,3476.59,2025-10-24
+H&M,Jacket,Denim,Ajio,Winter,3.8,15,1983.78,1686.22,2025-10-24
+W for Woman,Shirt,Synthetic,Ajio,Winter,4.0,10,1272.48,1145.24,2025-10-24
+Allen Solly,Pants,Wool,Ajio,All-Season,4.5,15,2268.31,1928.07,2025-10-24
+W for Woman,Skirt,Synthetic,Ajio,Winter,3.7,25,1376.22,1032.17,2025-10-24
+US Polo Assn,Pants,Linen,Amazon India,Monsoon,3.9,20,1672.86,1338.28,2025-10-24
+Zara,Dress,Synthetic,Shoppers Stop,Winter,4.8,50,6013.39,3006.7,2025-10-24
+Only,Jacket,Wool,Westside,All-Season,4.2,20,4427.74,3542.19,2025-10-24
+Mast & Harbour,Polo,Leather,Max Fashion,Spring,3.8,20,721.9,577.52,2025-10-24
+Puma,Polo,Denim,Max Fashion,All-Season,3.4,10,566.25,509.62,2025-10-24
+Adidas,Coat,Denim,Westside,Spring,3.4,30,5411.61,3788.13,2025-10-24
+Allen Solly,Dress,Silk,Amazon India,Winter,4.3,20,2005.65,1604.52,2025-10-24
+Puma,Blazer,Synthetic,Max Fashion,Monsoon,3.6,15,2253.92,1915.83,2025-10-24
+Breakbounce,Dress,Blend,Flipkart,Summer,4.0,10,1821.96,1639.77,2025-10-24
+Nike,Chinos,Denim,Amazon India,All-Season,3.4,0,2189.76,2189.76,2025-10-24
+Raymond,Pants,Linen,Myntra,Spring,4.8,30,3120.63,2184.44,2025-10-24
+Breakbounce,Polo,Leather,Reliance Trends,All-Season,3.4,25,1712.23,1284.17,2025-10-24
+Raymond,Dress,Cotton,Lifestyle,Summer,4.2,15,8056.22,6847.79,2025-10-24
+Louis Philippe,Jacket,Denim,Reliance Trends,Summer,4.7,30,5282.81,3697.97,2025-10-24
+Marks & Spencer,Sweater,Wool,Reliance Trends,All-Season,4.9,50,6510.46,3255.23,2025-10-24
+Wrogn,Hoodie,Cotton,Shoppers Stop,Monsoon,3.6,20,1321.78,1057.43,2025-10-24
+Mast & Harbour,Jacket,Cotton,Reliance Trends,Monsoon,3.9,15,1691.92,1438.13,2025-10-24
+US Polo Assn,Pants,Denim,Myntra,All-Season,4.0,25,2050.32,1537.74,2025-10-24
+Puma,Skirt,Blend,Max Fashion,Spring,3.8,30,2267.16,1587.02,2025-10-24
+Tommy Hilfiger,Blazer,Linen,Myntra,Spring,4.1,15,5676.22,4824.78,2025-10-24
+Breakbounce,Dress,Viscose,Westside,Monsoon,3.6,20,2396.4,1917.12,2025-10-24
+Peter England,Skirt,Silk,Reliance Trends,Spring,3.6,50,3421.51,1710.76,2025-10-24
+HRX,Chinos,Synthetic,Ajio,Winter,3.9,30,1735.93,1215.15,2025-10-24
+Only,Polo,Silk,Shoppers Stop,All-Season,3.7,10,1478.19,1330.37,2025-10-24
+Roadster,Chinos,Synthetic,Flipkart,All-Season,3.9,0,418.21,418.21,2025-10-24
+AND,Jeans,Linen,Flipkart,Monsoon,4.0,40,3894.18,2336.51,2025-10-24
+Levi's,Shirt,Denim,Reliance Trends,All-Season,4.5,0,1388.92,1388.92,2025-10-24
+Louis Philippe,Blazer,Linen,Lifestyle,Spring,4.5,15,5176.77,4400.25,2025-10-24
+Wrogn,Hoodie,Polyester,Westside,Spring,4.1,25,1509.36,1132.02,2025-10-24
+Mast & Harbour,Hoodie,Silk,Max Fashion,Spring,4.2,30,926.38,648.47,2025-10-24
+Forever New,Chinos,Silk,Flipkart,All-Season,3.8,15,1584.95,1347.21,2025-10-24
+Adidas,Dress,Blend,Flipkart,Winter,4.0,20,2774.31,2219.45,2025-10-24
+Forever New,Dress,Blend,Myntra,Monsoon,3.8,50,5798.68,2899.34,2025-10-24
+HRX,Chinos,Viscose,Shoppers Stop,Summer,3.4,15,1200.03,1020.02,2025-10-24
+Wrogn,Pants,Synthetic,Lifestyle,Summer,3.5,40,1307.56,784.53,2025-10-24
+HRX,Chinos,Wool,Amazon India,Winter,4.1,25,1214.19,910.64,2025-10-24
+Wrogn,Polo,Synthetic,Flipkart,Winter,3.7,25,661.62,496.21,2025-10-24
+Flying Machine,Polo,Denim,Myntra,Winter,3.9,40,1135.03,681.02,2025-10-24
+AND,Pants,Silk,Amazon India,All-Season,3.7,15,3070.79,2610.17,2025-10-24
+Calvin Klein,Coat,Wool,Lifestyle,Winter,4.3,0,12378.61,12378.61,2025-10-24
+H&M,Jacket,Viscose,Reliance Trends,Spring,4.0,30,3131.47,2192.03,2025-10-24
+Forever New,Shirt,Silk,Amazon India,All-Season,4.0,50,4167.98,2083.99,2025-10-24
+Allen Solly,Dress,Denim,Lifestyle,Monsoon,4.5,25,3330.33,2497.75,2025-10-24
+Calvin Klein,Dress,Polyester,Ajio,Spring,4.7,15,7805.76,6634.89,2025-10-24
+Athena,Blazer,Silk,Shoppers Stop,Spring,3.9,40,4964.13,2978.48,2025-10-24
+Levi's,Coat,Silk,Max Fashion,Spring,4.0,40,8539.83,5123.9,2025-10-24
+W for Woman,Polo,Denim,Lifestyle,Winter,4.2,20,1184.67,947.73,2025-10-24
+Levi's,Chinos,Polyester,Lifestyle,All-Season,3.9,0,2930.15,2930.15,2025-10-24
+Being Human,Blazer,Polyester,Amazon India,Winter,3.8,40,4597.3,2758.38,2025-10-24
+Marks & Spencer,Blazer,Synthetic,Max Fashion,Spring,4.6,50,7364.61,3682.3,2025-10-24
+Tommy Hilfiger,T-Shirt,Denim,Amazon India,Monsoon,4.2,70,6289.36,1886.81,2025-10-24
+Being Human,Jeans,Polyester,Myntra,All-Season,3.6,25,1755.79,1316.84,2025-10-24
+AND,T-Shirt,Synthetic,Max Fashion,Winter,3.5,50,595.0,297.5,2025-10-24
+Flying Machine,Hoodie,Cotton,Lifestyle,Monsoon,3.6,50,1184.82,592.41,2025-10-24
+Roadster,Dress,Denim,Westside,Monsoon,3.4,15,864.99,735.24,2025-10-24
+Forever New,Chinos,Cotton,Lifestyle,Monsoon,3.5,0,2814.63,2814.63,2025-10-24
+Roadster,Blazer,Blend,Westside,Monsoon,3.4,40,1865.98,1119.59,2025-10-24
+Allen Solly,T-Shirt,Cotton,Ajio,All-Season,4.2,30,1146.37,802.46,2025-10-24
+Vero Moda,Shirt,Blend,Shoppers Stop,Monsoon,3.9,30,2614.22,1829.95,2025-10-24
+Wrogn,Jacket,Synthetic,Lifestyle,Summer,4.2,0,2155.85,2155.85,2025-10-24
+Nike,Hoodie,Polyester,Flipkart,Winter,4.0,15,2136.23,1815.8,2025-10-24
+Athena,Dress,Wool,Max Fashion,Summer,3.7,50,3624.23,1812.12,2025-10-24
+Puma,Blazer,Denim,Reliance Trends,Winter,3.8,40,5901.4,3540.84,2025-10-24
+Being Human,Chinos,Blend,Ajio,All-Season,3.8,20,1587.63,1270.11,2025-10-24
+Flying Machine,T-Shirt,Blend,Reliance Trends,All-Season,3.6,60,1127.76,451.11,2025-10-24
+Puma,Dress,Silk,Lifestyle,Summer,3.9,25,4732.35,3549.26,2025-10-24
+Wrogn,Skirt,Polyester,Ajio,All-Season,4.0,30,1560.82,1092.57,2025-10-24
+Only,T-Shirt,Viscose,Flipkart,Spring,3.7,60,2134.56,853.82,2025-10-24
+Only,Sweater,Viscose,Myntra,Monsoon,3.7,25,996.34,747.26,2025-10-24
+Adidas,Jacket,Blend,Myntra,Winter,3.5,30,5598.74,3919.12,2025-10-24
+Calvin Klein,Pants,Silk,Amazon India,Spring,4.8,15,7706.23,6550.3,2025-10-24
+AND,Dress,Cotton,Ajio,All-Season,3.8,15,4130.61,3511.02,2025-10-24
+Being Human,Hoodie,Silk,Westside,Winter,4.2,70,4911.53,1473.46,2025-10-24
+Calvin Klein,Sweater,Viscose,Lifestyle,Summer,4.3,10,2785.84,2507.26,2025-10-24
+Louis Philippe,Blazer,Viscose,Myntra,Spring,4.3,60,8111.13,3244.45,2025-10-24
+Van Heusen,Pants,Viscose,Ajio,All-Season,4.6,10,2016.11,1814.5,2025-10-24
+Allen Solly,Jacket,Silk,Ajio,Summer,4.4,40,5878.9,3527.34,2025-10-24
+Athena,Coat,Wool,Amazon India,All-Season,3.7,50,3582.42,1791.21,2025-10-24
+Only,Pants,Linen,Westside,Winter,3.8,25,3874.44,2905.83,2025-10-24
+Being Human,Hoodie,Linen,Myntra,Summer,4.1,20,1351.5,1081.2,2025-10-24
+Athena,Chinos,Viscose,Lifestyle,Summer,4.1,10,695.84,626.26,2025-10-24
+Wrogn,Shirt,Viscose,Reliance Trends,Spring,3.7,20,912.19,729.76,2025-10-24
+Wrogn,Pants,Cotton,Ajio,Summer,3.5,25,2173.23,1629.92,2025-10-24
+Tommy Hilfiger,Jeans,Denim,Max Fashion,Monsoon,4.4,0,3378.92,3378.92,2025-10-24
+Puma,Sweater,Polyester,Ajio,Spring,3.7,15,3315.86,2818.48,2025-10-24
+Athena,Skirt,Linen,Flipkart,Winter,3.5,10,726.03,653.42,2025-10-24
+Nike,Hoodie,Viscose,Lifestyle,Winter,3.9,30,3252.8,2276.96,2025-10-24
+Flying Machine,Jeans,Leather,Max Fashion,Monsoon,3.7,15,1574.97,1338.72,2025-10-24
+W for Woman,Chinos,Viscose,Reliance Trends,Winter,4.1,25,1871.8,1403.85,2025-10-24
+Vero Moda,Hoodie,Wool,Flipkart,Summer,3.5,20,2800.95,2240.76,2025-10-24
+Roadster,Pants,Leather,Westside,Spring,3.9,25,1760.69,1320.52,2025-10-24
+Nike,Pants,Blend,Flipkart,All-Season,3.7,15,4077.28,3465.69,2025-10-24
+W for Woman,Chinos,Silk,Westside,Spring,3.9,70,9056.7,2717.01,2025-10-24
+Mast & Harbour,Dress,Silk,Flipkart,Spring,4.2,20,1348.77,1079.02,2025-10-24
+Adidas,Coat,Wool,Reliance Trends,Monsoon,3.6,20,8248.07,6598.46,2025-10-24
+AND,Blazer,Denim,Lifestyle,Spring,3.5,25,2959.96,2219.97,2025-10-24
+Allen Solly,Sweater,Denim,Reliance Trends,Summer,4.4,15,2129.1,1809.74,2025-10-24
+Flying Machine,Skirt,Denim,Westside,Summer,3.6,40,1642.55,985.53,2025-10-24
+Zara,Sweater,Viscose,Shoppers Stop,Monsoon,4.7,30,6537.97,4576.58,2025-10-24
+Mast & Harbour,Jacket,Leather,Westside,Winter,3.7,20,2864.67,2291.73,2025-10-24
+Nike,T-Shirt,Denim,Myntra,Summer,3.5,20,2554.78,2043.82,2025-10-24
+Wrogn,Hoodie,Silk,Ajio,All-Season,3.6,60,3097.91,1239.16,2025-10-24
+Levi's,Polo,Linen,Shoppers Stop,Spring,3.9,0,2879.48,2879.48,2025-10-24
+AND,Skirt,Cotton,Lifestyle,Winter,3.8,25,3171.39,2378.54,2025-10-24
+Flying Machine,Dress,Synthetic,Shoppers Stop,Summer,3.6,10,953.01,857.71,2025-10-24
+Van Heusen,Chinos,Cotton,Flipkart,Monsoon,4.1,50,3720.17,1860.08,2025-10-24
+Raymond,Pants,Synthetic,Ajio,All-Season,4.5,40,4532.16,2719.3,2025-10-24
+Raymond,Coat,Synthetic,Max Fashion,Spring,4.5,0,3088.45,3088.45,2025-10-24
+AND,Jacket,Synthetic,Lifestyle,All-Season,3.6,15,2599.42,2209.51,2025-10-24
+AND,Coat,Blend,Ajio,Spring,4.1,20,1762.86,1410.29,2025-10-24
+Flying Machine,Sweater,Viscose,Lifestyle,All-Season,3.9,40,1854.76,1112.85,2025-10-24
+Levi's,Shirt,Linen,Shoppers Stop,Spring,4.7,30,3210.11,2247.08,2025-10-24
+Only,Chinos,Synthetic,Lifestyle,All-Season,3.4,40,1262.73,757.64,2025-10-24
+Breakbounce,Jeans,Polyester,Westside,Spring,4.1,0,1965.05,1965.05,2025-10-24
+Mast & Harbour,T-Shirt,Silk,Max Fashion,All-Season,4.1,15,579.95,492.95,2025-10-24
+Raymond,Dress,Blend,Max Fashion,Summer,4.6,20,1672.04,1337.63,2025-10-24
+Marks & Spencer,Pants,Leather,Max Fashion,All-Season,4.6,20,6554.19,5243.35,2025-10-24
+W for Woman,Jeans,Blend,Lifestyle,All-Season,3.6,30,2975.9,2083.13,2025-10-24
+Tommy Hilfiger,Hoodie,Linen,Westside,All-Season,4.1,10,5580.99,5022.89,2025-10-24
+AND,T-Shirt,Blend,Ajio,Spring,3.6,30,727.74,509.42,2025-10-24
+Levi's,Jeans,Synthetic,Lifestyle,Monsoon,4.2,20,4547.94,3638.35,2025-10-24
+Allen Solly,T-Shirt,Wool,Reliance Trends,All-Season,4.5,20,1435.69,1148.55,2025-10-24
+Vero Moda,Shirt,Synthetic,Shoppers Stop,Summer,4.2,60,5778.47,2311.39,2025-10-24
+US Polo Assn,Dress,Viscose,Max Fashion,All-Season,3.8,15,1451.33,1233.63,2025-10-24
+Van Heusen,Hoodie,Synthetic,Westside,All-Season,4.2,10,894.95,805.45,2025-10-24
+Wrogn,Hoodie,Viscose,Lifestyle,Winter,3.4,10,574.42,516.97,2025-10-24
+Marks & Spencer,Pants,Linen,Lifestyle,Monsoon,4.6,10,6756.27,6080.64,2025-10-24
+Calvin Klein,Blazer,Cotton,Myntra,Monsoon,4.1,0,6954.1,6954.1,2025-10-24
+W for Woman,Sweater,Wool,Myntra,Winter,3.7,10,1940.99,1746.89,2025-10-24
+Flying Machine,Dress,Leather,Shoppers Stop,All-Season,3.9,25,1927.68,1445.76,2025-10-24
+Marks & Spencer,Jacket,Polyester,Flipkart,Spring,4.3,30,4883.69,3418.58,2025-10-24
+AND,Blazer,Synthetic,Ajio,Winter,4.0,60,8660.32,3464.13,2025-10-24
+H&M,Coat,Blend,Westside,Monsoon,3.7,15,3360.18,2856.15,2025-10-24
+Peter England,T-Shirt,Polyester,Westside,Winter,4.1,20,726.81,581.45,2025-10-24
+Vero Moda,Jeans,Wool,Max Fashion,Spring,3.9,15,2497.26,2122.67,2025-10-24
+Zara,Pants,Cotton,Max Fashion,Spring,4.7,10,1498.93,1349.04,2025-10-24
+US Polo Assn,Chinos,Denim,Lifestyle,All-Season,3.9,0,2041.45,2041.45,2025-10-24
+Roadster,Coat,Leather,Myntra,Spring,3.7,20,4398.58,3518.87,2025-10-24
+Breakbounce,Polo,Leather,Ajio,Monsoon,3.8,15,2065.93,1756.04,2025-10-24
+W for Woman,Hoodie,Synthetic,Shoppers Stop,All-Season,3.7,30,1185.58,829.9,2025-10-24
+Marks & Spencer,Skirt,Leather,Amazon India,Spring,4.6,20,7125.7,5700.56,2025-10-24
+Forever New,Shirt,Viscose,Westside,Summer,4.2,0,2250.53,2250.53,2025-10-24
+Louis Philippe,Shirt,Leather,Ajio,Monsoon,4.4,30,3985.3,2789.71,2025-10-24
+Wrogn,Coat,Blend,Reliance Trends,Spring,3.4,10,2968.05,2671.25,2025-10-24
+Nike,Shirt,Silk,Myntra,All-Season,3.8,40,6156.61,3693.97,2025-10-24
+Puma,Sweater,Polyester,Lifestyle,Summer,3.7,30,3761.37,2632.96,2025-10-24
+Allen Solly,Jacket,Blend,Lifestyle,Summer,4.0,40,6201.9,3721.14,2025-10-24
+Louis Philippe,Polo,Synthetic,Westside,Monsoon,4.3,40,2690.21,1614.12,2025-10-24
+Nike,Chinos,Blend,Reliance Trends,All-Season,3.7,0,3681.76,3681.76,2025-10-24
+W for Woman,Sweater,Wool,Flipkart,All-Season,3.9,30,3246.33,2272.43,2025-10-24
+Van Heusen,Jeans,Denim,Ajio,Summer,3.9,10,1463.14,1316.83,2025-10-24
+Roadster,Sweater,Synthetic,Lifestyle,All-Season,3.5,30,590.64,413.45,2025-10-24
+Levi's,Pants,Viscose,Max Fashion,All-Season,4.0,15,1395.63,1186.29,2025-10-24
+Mast & Harbour,Skirt,Viscose,Myntra,Winter,3.8,20,678.35,542.68,2025-10-24
+Puma,Hoodie,Leather,Amazon India,Summer,3.8,20,1289.56,1031.65,2025-10-24
+Mast & Harbour,T-Shirt,Wool,Flipkart,All-Season,3.7,60,1027.61,411.04,2025-10-24
+Tommy Hilfiger,Pants,Leather,Max Fashion,All-Season,4.1,20,5216.18,4172.95,2025-10-24
+Adidas,Polo,Silk,Flipkart,Summer,3.9,40,5094.37,3056.62,2025-10-24
+Roadster,Jacket,Wool,Westside,Spring,3.8,40,3730.51,2238.31,2025-10-24
+Adidas,T-Shirt,Leather,Amazon India,Spring,3.6,20,3047.35,2437.88,2025-10-24
+HRX,Hoodie,Cotton,Max Fashion,Summer,3.5,0,759.33,759.33,2025-10-24
+Flying Machine,Polo,Cotton,Flipkart,All-Season,3.7,50,764.84,382.42,2025-10-24
+Only,Shirt,Denim,Myntra,Spring,3.9,10,1572.55,1415.29,2025-10-24
+Van Heusen,Jeans,Leather,Westside,Summer,4.2,25,3697.67,2773.25,2025-10-24
+Puma,Pants,Viscose,Myntra,Winter,3.5,25,2561.91,1921.43,2025-10-24
+US Polo Assn,Dress,Synthetic,Westside,Monsoon,3.6,40,4344.55,2606.73,2025-10-24
+Marks & Spencer,Sweater,Linen,Shoppers Stop,Spring,4.8,25,2954.21,2215.66,2025-10-24
+Allen Solly,Sweater,Viscose,Reliance Trends,Winter,4.2,40,1948.47,1169.08,2025-10-24
+Roadster,Hoodie,Silk,Ajio,Monsoon,4.1,15,1158.2,984.47,2025-10-24
+Allen Solly,Sweater,Linen,Westside,Summer,4.2,15,1221.6,1038.36,2025-10-24
+Only,Dress,Wool,Reliance Trends,Spring,4.2,0,1260.3,1260.3,2025-10-24
+Athena,Polo,Silk,Shoppers Stop,Spring,3.5,40,1102.31,661.38,2025-10-24
+Roadster,Skirt,Synthetic,Ajio,All-Season,3.4,30,911.79,638.25,2025-10-24
+Vero Moda,Pants,Leather,Westside,Spring,3.5,15,6446.1,5479.19,2025-10-24
+Tommy Hilfiger,Polo,Silk,Amazon India,Winter,4.2,15,5589.74,4751.28,2025-10-24
+Allen Solly,Blazer,Silk,Amazon India,Monsoon,4.3,25,7062.19,5296.64,2025-10-24
+Only,Jacket,Denim,Myntra,All-Season,4.1,30,2823.86,1976.7,2025-10-24
+HRX,Chinos,Synthetic,Reliance Trends,Summer,3.8,50,1121.69,560.85,2025-10-24
+Allen Solly,Dress,Viscose,Reliance Trends,Monsoon,4.3,20,2176.47,1741.17,2025-10-24
+Puma,Blazer,Blend,Ajio,Monsoon,3.8,25,3087.85,2315.89,2025-10-24
+Mast & Harbour,Coat,Linen,Reliance Trends,All-Season,4.0,30,2273.99,1591.79,2025-10-24
+W for Woman,Sweater,Wool,Shoppers Stop,All-Season,3.9,30,2822.88,1976.02,2025-10-24
+Levi's,Shirt,Silk,Amazon India,Monsoon,4.2,20,2657.8,2126.24,2025-10-24
+Flying Machine,Pants,Leather,Amazon India,Winter,4.0,50,2407.54,1203.77,2025-10-24
+Raymond,T-Shirt,Blend,Myntra,Monsoon,4.5,30,1395.05,976.54,2025-10-24
+Louis Philippe,Pants,Denim,Amazon India,Winter,4.0,25,2152.72,1614.54,2025-10-24
+H&M,Jeans,Silk,Shoppers Stop,Monsoon,4.0,40,3320.74,1992.44,2025-10-24
+Levi's,Pants,Cotton,Ajio,Spring,4.1,40,2733.77,1640.26,2025-10-24
+Roadster,Hoodie,Linen,Ajio,Spring,3.5,25,971.38,728.53,2025-10-24
+Being Human,Shirt,Silk,Ajio,Summer,3.8,25,1588.99,1191.74,2025-10-24
+H&M,T-Shirt,Synthetic,Flipkart,Monsoon,3.7,10,693.12,623.81,2025-10-24
+Peter England,Hoodie,Denim,Lifestyle,Winter,3.4,20,1711.48,1369.18,2025-10-24
+Roadster,Coat,Wool,Lifestyle,Spring,3.4,40,4270.14,2562.08,2025-10-24
+Calvin Klein,Hoodie,Polyester,Flipkart,Winter,4.6,40,5259.9,3155.94,2025-10-24
+Zara,Skirt,Denim,Ajio,Winter,4.3,30,2065.55,1445.88,2025-10-24
+Van Heusen,Chinos,Denim,Amazon India,Summer,4.2,0,1910.37,1910.37,2025-10-24
+Raymond,Jeans,Synthetic,Flipkart,Spring,4.6,10,2271.56,2044.4,2025-10-24
+Flying Machine,Dress,Denim,Shoppers Stop,All-Season,3.5,20,1879.07,1503.25,2025-10-24
+Louis Philippe,Jacket,Linen,Amazon India,Monsoon,4.7,20,3722.02,2977.62,2025-10-24
+Adidas,Shirt,Linen,Myntra,Monsoon,4.1,20,3912.43,3129.95,2025-10-24
+Louis Philippe,Shirt,Synthetic,Reliance Trends,Summer,3.9,30,1998.57,1399.0,2025-10-24
+Raymond,Dress,Viscose,Reliance Trends,Winter,4.8,70,9199.18,2759.75,2025-10-24
+Tommy Hilfiger,Skirt,Silk,Myntra,Winter,4.6,40,6697.68,4018.61,2025-10-24
+HRX,Hoodie,Leather,Reliance Trends,Spring,3.7,50,1667.5,833.75,2025-10-24
+Marks & Spencer,Dress,Cotton,Ajio,Summer,4.5,40,4669.99,2801.99,2025-10-24
+Zara,Dress,Linen,Amazon India,Monsoon,4.5,60,7782.91,3113.16,2025-10-24
+Athena,Skirt,Synthetic,Ajio,Monsoon,3.6,20,441.88,353.5,2025-10-24
+Being Human,Pants,Cotton,Shoppers Stop,Winter,3.7,60,3344.51,1337.81,2025-10-24
+Forever New,Shirt,Blend,Ajio,Summer,3.7,70,7138.31,2141.49,2025-10-24
+W for Woman,Skirt,Synthetic,Myntra,All-Season,4.1,25,1019.06,764.3,2025-10-24
+Breakbounce,T-Shirt,Blend,Myntra,Summer,4.0,20,739.22,591.38,2025-10-24
+Athena,Coat,Linen,Ajio,Summer,3.4,30,2229.57,1560.7,2025-10-24
+US Polo Assn,T-Shirt,Cotton,Westside,All-Season,4.0,25,1100.98,825.74,2025-10-24
+Forever New,Sweater,Wool,Max Fashion,Monsoon,3.5,30,4269.99,2989.0,2025-10-24
+Flying Machine,Coat,Polyester,Amazon India,Winter,3.6,20,3359.37,2687.49,2025-10-24
+Peter England,Sweater,Silk,Myntra,All-Season,3.7,30,2064.96,1445.47,2025-10-24
+Raymond,Sweater,Linen,Flipkart,Summer,4.5,25,3199.78,2399.84,2025-10-24
+Mast & Harbour,Pants,Polyester,Ajio,All-Season,3.9,10,375.62,338.05,2025-10-24
+Forever New,Chinos,Viscose,Myntra,Summer,3.9,0,1191.78,1191.78,2025-10-24
+US Polo Assn,Hoodie,Polyester,Myntra,Summer,3.7,30,1218.56,852.99,2025-10-24
+AND,T-Shirt,Leather,Reliance Trends,Winter,4.1,0,1216.06,1216.06,2025-10-24
+H&M,Sweater,Wool,Amazon India,All-Season,4.1,15,2012.61,1710.72,2025-10-24
+Breakbounce,T-Shirt,Viscose,Flipkart,Monsoon,3.8,30,925.64,647.95,2025-10-24
+US Polo Assn,Sweater,Leather,Westside,Monsoon,3.9,15,1970.28,1674.74,2025-10-24
+HRX,Sweater,Silk,Lifestyle,Spring,3.5,10,2314.33,2082.9,2025-10-24
+Puma,Shirt,Blend,Flipkart,Spring,4.2,10,2403.96,2163.56,2025-10-24
+W for Woman,Dress,Blend,Amazon India,Spring,3.4,10,1518.79,1366.91,2025-10-24
+Wrogn,Polo,Denim,Westside,Winter,3.7,0,560.68,560.68,2025-10-24
+Allen Solly,Shirt,Wool,Myntra,All-Season,4.2,0,2665.84,2665.84,2025-10-24
+Nike,Skirt,Leather,Myntra,Monsoon,3.9,15,4043.52,3436.99,2025-10-24
+Louis Philippe,Coat,Viscose,Shoppers Stop,Summer,4.7,15,4609.07,3917.71,2025-10-24
+Flying Machine,Dress,Cotton,Westside,Summer,3.5,10,811.3,730.17,2025-10-24
+Vero Moda,Pants,Synthetic,Westside,All-Season,4.0,25,1235.57,926.68,2025-10-24
+H&M,Jeans,Polyester,Shoppers Stop,Spring,3.9,30,914.77,640.34,2025-10-24
+Zara,Dress,Wool,Westside,Monsoon,4.9,60,11328.81,4531.52,2025-10-24
+Levi's,Dress,Linen,Myntra,All-Season,4.6,15,4283.39,3640.88,2025-10-24
+W for Woman,T-Shirt,Linen,Reliance Trends,Monsoon,3.6,40,920.68,552.41,2025-10-24
+Vero Moda,Dress,Denim,Flipkart,Spring,3.8,25,4557.66,3418.24,2025-10-24
+Mast & Harbour,Pants,Silk,Westside,Winter,3.9,40,1138.12,682.87,2025-10-24
+Wrogn,Shirt,Cotton,Myntra,Monsoon,3.5,40,1682.14,1009.28,2025-10-24
+Levi's,Polo,Silk,Shoppers Stop,Winter,4.3,15,3050.67,2593.07,2025-10-24
+Tommy Hilfiger,Jacket,Wool,Flipkart,Spring,4.5,40,19691.7,11815.02,2025-10-24
+Marks & Spencer,Polo,Linen,Reliance Trends,All-Season,4.8,40,2265.05,1359.03,2025-10-24
+Peter England,Dress,Leather,Shoppers Stop,All-Season,3.6,70,4683.27,1404.98,2025-10-24
+Peter England,Pants,Viscose,Reliance Trends,Spring,3.5,25,1758.3,1318.73,2025-10-24
+Nike,Chinos,Polyester,Max Fashion,Winter,3.8,15,1539.64,1308.69,2025-10-24
+W for Woman,Shirt,Synthetic,Ajio,Spring,4.1,0,1074.23,1074.23,2025-10-24
+Wrogn,T-Shirt,Viscose,Flipkart,Summer,4.2,0,251.95,251.95,2025-10-24
+HRX,T-Shirt,Silk,Flipkart,Spring,3.4,10,598.61,538.75,2025-10-24
+H&M,Blazer,Denim,Reliance Trends,Monsoon,3.9,15,2684.35,2281.7,2025-10-24
+Puma,Jeans,Viscose,Flipkart,All-Season,3.4,30,2313.74,1619.62,2025-10-24
+Nike,T-Shirt,Viscose,Flipkart,Summer,3.9,20,717.33,573.86,2025-10-24
+Puma,Shirt,Silk,Shoppers Stop,Summer,3.6,0,2507.3,2507.3,2025-10-24
+Allen Solly,Jacket,Viscose,Westside,Monsoon,4.2,25,3221.33,2416.0,2025-10-24
+Mast & Harbour,Sweater,Leather,Myntra,Summer,4.2,15,735.25,624.97,2025-10-24
+Van Heusen,Jacket,Blend,Flipkart,Monsoon,4.6,15,2719.75,2311.79,2025-10-24
+Adidas,Jeans,Leather,Shoppers Stop,Winter,4.2,10,2117.49,1905.74,2025-10-24
+Puma,Skirt,Silk,Amazon India,Monsoon,4.2,20,3497.52,2798.02,2025-10-24
+HRX,Coat,Linen,Westside,Monsoon,3.6,70,8971.08,2691.32,2025-10-24
+Nike,Coat,Blend,Reliance Trends,Winter,3.6,20,5121.4,4097.12,2025-10-24
+HRX,Skirt,Wool,Max Fashion,Winter,4.1,40,2135.75,1281.45,2025-10-24
+Peter England,Blazer,Blend,Flipkart,Spring,4.1,10,3011.4,2710.26,2025-10-24
+US Polo Assn,Skirt,Denim,Flipkart,Summer,3.7,30,2289.81,1602.87,2025-10-24
+Louis Philippe,Hoodie,Silk,Ajio,Summer,4.6,15,2824.54,2400.86,2025-10-24
+Wrogn,Chinos,Blend,Lifestyle,Spring,4.2,40,2001.39,1200.84,2025-10-24
+H&M,Dress,Polyester,Lifestyle,Winter,4.2,25,2752.05,2064.04,2025-10-24
+Adidas,Chinos,Wool,Reliance Trends,All-Season,4.2,40,5506.56,3303.94,2025-10-24
+Adidas,Skirt,Synthetic,Reliance Trends,Monsoon,4.0,30,1127.01,788.91,2025-10-24
+HRX,Polo,Synthetic,Myntra,Winter,3.8,40,1336.83,802.1,2025-10-24
+H&M,Shirt,Linen,Shoppers Stop,Winter,3.6,15,1820.63,1547.54,2025-10-24
+Van Heusen,Chinos,Leather,Westside,Monsoon,4.1,15,4033.05,3428.09,2025-10-24
+Mast & Harbour,Coat,Silk,Reliance Trends,Summer,3.9,10,3026.97,2724.27,2025-10-24
+Puma,Chinos,Silk,Reliance Trends,Spring,4.1,20,3727.11,2981.69,2025-10-24
+Wrogn,Chinos,Synthetic,Reliance Trends,Monsoon,4.0,30,534.21,373.95,2025-10-24
+Breakbounce,Dress,Silk,Westside,Spring,3.5,15,3275.84,2784.46,2025-10-24
+Nike,Blazer,Viscose,Shoppers Stop,Monsoon,3.6,15,3256.42,2767.96,2025-10-24
+Calvin Klein,Dress,Leather,Max Fashion,Winter,4.9,40,13449.5,8069.7,2025-10-24
+Louis Philippe,Jeans,Denim,Lifestyle,Summer,4.6,25,3986.87,2990.15,2025-10-24
+Wrogn,Shirt,Blend,Shoppers Stop,Winter,3.8,40,1128.48,677.09,2025-10-24
+Puma,Chinos,Linen,Lifestyle,Summer,3.6,25,2348.2,1761.15,2025-10-24
+Van Heusen,Polo,Leather,Myntra,Winter,4.2,25,1827.67,1370.75,2025-10-24
+Van Heusen,Pants,Leather,Flipkart,All-Season,4.6,10,2173.45,1956.1,2025-10-24
+Zara,Jacket,Cotton,Lifestyle,Summer,4.7,40,9040.95,5424.57,2025-10-24
+HRX,Shirt,Silk,Ajio,Spring,3.6,25,1026.99,770.24,2025-10-24
+Raymond,T-Shirt,Leather,Amazon India,Spring,4.2,25,2040.64,1530.48,2025-10-24
+Athena,Pants,Blend,Max Fashion,All-Season,3.6,0,906.1,906.1,2025-10-24
+Roadster,Skirt,Linen,Lifestyle,Monsoon,4.1,15,996.08,846.67,2025-10-24
+Raymond,Coat,Synthetic,Amazon India,Monsoon,4.7,0,2857.2,2857.2,2025-10-24
+Roadster,Polo,Wool,Ajio,Monsoon,3.7,25,780.46,585.34,2025-10-24
+Peter England,Jacket,Wool,Ajio,Winter,3.5,0,2901.9,2901.9,2025-10-24
+Athena,Shirt,Denim,Reliance Trends,Spring,3.7,60,1044.35,417.74,2025-10-24
+Vero Moda,Blazer,Viscose,Amazon India,All-Season,4.0,25,5497.34,4123.0,2025-10-24
+Only,Jeans,Linen,Flipkart,Spring,3.5,10,2302.92,2072.63,2025-10-24
+Allen Solly,T-Shirt,Viscose,Reliance Trends,Summer,4.1,50,1804.07,902.03,2025-10-24
+H&M,Jeans,Denim,Myntra,Monsoon,4.2,15,1741.85,1480.57,2025-10-24
+H&M,T-Shirt,Linen,Amazon India,Spring,4.0,15,1068.85,908.52,2025-10-24
+Zara,T-Shirt,Cotton,Lifestyle,All-Season,4.6,20,1456.12,1164.9,2025-10-24
+Vero Moda,Jeans,Synthetic,Myntra,All-Season,4.0,40,3709.54,2225.73,2025-10-24
+H&M,Pants,Synthetic,Ajio,Monsoon,3.9,30,959.92,671.95,2025-10-24
+Flying Machine,Jeans,Cotton,Shoppers Stop,Summer,4.0,20,934.9,747.92,2025-10-24
+Calvin Klein,Shirt,Cotton,Max Fashion,Summer,4.6,0,3205.32,3205.32,2025-10-24
+W for Woman,Pants,Blend,Reliance Trends,Summer,4.2,15,1798.9,1529.07,2025-10-24
+Vero Moda,Jeans,Viscose,Max Fashion,All-Season,3.4,40,2607.74,1564.64,2025-10-24
+Puma,Dress,Denim,Reliance Trends,Monsoon,4.1,25,1612.14,1209.1,2025-10-24
+Marks & Spencer,Shirt,Polyester,Flipkart,All-Season,4.1,15,2439.69,2073.74,2025-10-24
+Flying Machine,Dress,Wool,Reliance Trends,All-Season,3.7,0,1890.73,1890.73,2025-10-24
+Adidas,Polo,Wool,Flipkart,Monsoon,3.7,10,3268.31,2941.47,2025-10-24
+AND,Skirt,Cotton,Reliance Trends,Summer,4.0,10,2143.62,1929.26,2025-10-24
+HRX,Jacket,Polyester,Amazon India,Summer,3.8,30,2029.86,1420.9,2025-10-24
+Louis Philippe,T-Shirt,Wool,Westside,Summer,4.0,15,1651.35,1403.65,2025-10-24
+Calvin Klein,Hoodie,Cotton,Ajio,Monsoon,4.3,30,5742.59,4019.82,2025-10-24
+US Polo Assn,T-Shirt,Cotton,Myntra,Monsoon,3.8,15,428.16,363.94,2025-10-24
+Being Human,Coat,Blend,Lifestyle,Summer,3.8,15,2757.77,2344.11,2025-10-24
+Being Human,Skirt,Linen,Max Fashion,All-Season,3.5,15,746.5,634.52,2025-10-24
+Allen Solly,Skirt,Synthetic,Shoppers Stop,Monsoon,4.0,25,2488.67,1866.5,2025-10-24
+Breakbounce,Hoodie,Wool,Lifestyle,Spring,3.7,10,2202.91,1982.62,2025-10-24
+HRX,T-Shirt,Blend,Amazon India,Monsoon,3.5,15,733.46,623.44,2025-10-24
+Calvin Klein,Skirt,Linen,Amazon India,Winter,4.6,30,2308.27,1615.79,2025-10-24
+Puma,Coat,Silk,Flipkart,Winter,4.0,20,8785.0,7028.0,2025-10-24
+Athena,Skirt,Wool,Amazon India,Monsoon,3.7,20,1363.17,1090.54,2025-10-24
+Zara,Blazer,Blend,Reliance Trends,Summer,4.8,15,8242.23,7005.9,2025-10-24
+Puma,Sweater,Linen,Flipkart,Summer,3.7,70,8685.61,2605.68,2025-10-24
+HRX,Dress,Linen,Amazon India,Summer,4.0,30,2651.65,1856.15,2025-10-24
+Forever New,Hoodie,Blend,Flipkart,Winter,3.9,40,2312.23,1387.34,2025-10-24
+Mast & Harbour,Jacket,Blend,Westside,Monsoon,3.7,50,2175.13,1087.56,2025-10-24
+Adidas,Coat,Viscose,Flipkart,Monsoon,4.1,30,4981.17,3486.82,2025-10-24
+Raymond,Skirt,Denim,Amazon India,Summer,4.5,20,3433.55,2746.84,2025-10-24
+Only,Dress,Wool,Amazon India,Winter,3.6,30,3369.61,2358.73,2025-10-24
+Roadster,Dress,Synthetic,Lifestyle,Summer,4.0,50,979.13,489.57,2025-10-24
+Raymond,Blazer,Blend,Westside,Spring,4.3,25,2655.93,1991.95,2025-10-24
+Allen Solly,Jeans,Polyester,Shoppers Stop,Spring,4.2,25,1382.0,1036.5,2025-10-24
+Vero Moda,Shirt,Leather,Shoppers Stop,All-Season,4.1,15,2750.95,2338.31,2025-10-24
+Breakbounce,Pants,Synthetic,Myntra,Summer,3.9,40,2183.71,1310.23,2025-10-24
+Mast & Harbour,Blazer,Synthetic,Shoppers Stop,Monsoon,3.6,0,1877.03,1877.03,2025-10-24
+Peter England,Jacket,Blend,Lifestyle,Monsoon,3.5,40,3595.42,2157.25,2025-10-24
+Van Heusen,Hoodie,Silk,Max Fashion,Winter,4.6,25,2164.1,1623.07,2025-10-24
+Being Human,T-Shirt,Denim,Shoppers Stop,Summer,4.1,15,471.85,401.07,2025-10-24
+AND,Coat,Cotton,Shoppers Stop,Monsoon,4.2,30,7899.84,5529.89,2025-10-24
+Levi's,Polo,Polyester,Myntra,Spring,4.6,0,1193.45,1193.45,2025-10-24
+Raymond,Sweater,Synthetic,Max Fashion,Summer,4.1,0,2047.32,2047.32,2025-10-24
+Breakbounce,Pants,Blend,Max Fashion,Spring,3.7,10,1243.68,1119.31,2025-10-24
+H&M,Hoodie,Synthetic,Amazon India,Spring,3.8,0,855.43,855.43,2025-10-24
+Being Human,Hoodie,Synthetic,Ajio,Spring,3.6,15,670.54,569.96,2025-10-24
+Zara,Skirt,Silk,Westside,All-Season,4.6,40,4965.7,2979.42,2025-10-24
+Marks & Spencer,Pants,Blend,Flipkart,Summer,4.5,15,3721.21,3163.03,2025-10-24
+Athena,T-Shirt,Blend,Westside,Summer,3.6,30,814.13,569.89,2025-10-24
+Raymond,Skirt,Polyester,Max Fashion,Summer,4.1,10,2311.58,2080.42,2025-10-24
+Being Human,Hoodie,Silk,Flipkart,Spring,3.5,30,2084.95,1459.46,2025-10-24
+AND,Shirt,Viscose,Myntra,Summer,3.7,25,1986.03,1489.52,2025-10-24
+Athena,Shirt,Polyester,Ajio,Spring,4.2,15,1042.32,885.97,2025-10-24
+Forever New,T-Shirt,Wool,Flipkart,All-Season,3.7,0,891.51,891.51,2025-10-24
+Breakbounce,Skirt,Wool,Reliance Trends,Monsoon,4.0,25,2054.04,1540.53,2025-10-24
+Marks & Spencer,Polo,Denim,Max Fashion,Summer,4.6,40,2387.2,1432.32,2025-10-24
+Zara,Jeans,Synthetic,Amazon India,Summer,4.2,40,7752.17,4651.3,2025-10-24
+HRX,Chinos,Linen,Lifestyle,Summer,3.5,30,1341.59,939.11,2025-10-24
+AND,Polo,Viscose,Shoppers Stop,Monsoon,3.6,25,1942.87,1457.15,2025-10-24
+Marks & Spencer,Blazer,Wool,Reliance Trends,Spring,4.5,0,6341.16,6341.16,2025-10-24
+Roadster,Sweater,Viscose,Reliance Trends,All-Season,3.6,40,595.28,357.17,2025-10-24
+Flying Machine,Chinos,Polyester,Lifestyle,Summer,3.8,15,842.55,716.16,2025-10-24
+Vero Moda,Skirt,Blend,Westside,Spring,3.5,10,2928.06,2635.26,2025-10-24
+Roadster,Polo,Blend,Reliance Trends,Spring,3.7,15,521.76,443.5,2025-10-24
+AND,Hoodie,Linen,Shoppers Stop,All-Season,3.9,15,1339.0,1138.15,2025-10-24
+Allen Solly,Coat,Blend,Shoppers Stop,All-Season,4.0,20,7543.43,6034.74,2025-10-24
+Calvin Klein,Jacket,Denim,Max Fashion,Spring,4.3,30,7228.97,5060.28,2025-10-24
+Calvin Klein,Sweater,Polyester,Myntra,Winter,4.3,50,8913.15,4456.57,2025-10-24
+Mast & Harbour,Blazer,Leather,Westside,Summer,4.2,10,3332.52,2999.27,2025-10-24
+H&M,Jeans,Leather,Lifestyle,Summer,3.9,60,3182.9,1273.16,2025-10-24
+Adidas,Jacket,Silk,Myntra,Summer,3.8,15,7492.24,6368.4,2025-10-24
+Levi's,Pants,Wool,Lifestyle,All-Season,3.9,50,10441.97,5220.99,2025-10-24
+Nike,Jacket,Wool,Westside,Summer,3.6,0,9590.27,9590.27,2025-10-24
+Roadster,Dress,Silk,Max Fashion,Summer,4.1,25,1173.17,879.88,2025-10-24
+Tommy Hilfiger,Hoodie,Blend,Westside,Spring,4.8,15,5273.52,4482.49,2025-10-24
+Calvin Klein,Sweater,Cotton,Westside,All-Season,4.5,0,3221.12,3221.12,2025-10-24
+Peter England,Sweater,Blend,Lifestyle,Winter,3.5,10,669.07,602.16,2025-10-24
+Peter England,Shirt,Linen,Amazon India,Monsoon,3.9,20,1640.91,1312.73,2025-10-24
+Puma,Skirt,Denim,Amazon India,All-Season,4.2,50,5128.25,2564.12,2025-10-24
+Van Heusen,Jeans,Cotton,Reliance Trends,All-Season,4.5,20,1282.43,1025.94,2025-10-24
+Being Human,Chinos,Denim,Flipkart,Spring,3.8,0,1029.04,1029.04,2025-10-24
+Levi's,Jacket,Cotton,Shoppers Stop,Winter,4.0,25,4337.19,3252.89,2025-10-24
+Louis Philippe,Polo,Synthetic,Shoppers Stop,Spring,4.5,25,1108.81,831.61,2025-10-24
+Only,Chinos,Wool,Myntra,Winter,4.0,50,3613.85,1806.93,2025-10-24
+Roadster,Sweater,Blend,Westside,Monsoon,3.8,15,1087.68,924.52,2025-10-24
+Being Human,Blazer,Polyester,Reliance Trends,Winter,4.2,20,2367.42,1893.94,2025-10-24
+Breakbounce,Dress,Silk,Lifestyle,Spring,3.8,30,4410.88,3087.62,2025-10-24
+Louis Philippe,Jacket,Blend,Lifestyle,Summer,4.2,30,2533.22,1773.25,2025-10-24
+Raymond,Hoodie,Cotton,Amazon India,All-Season,4.8,20,1723.54,1378.83,2025-10-24
+Forever New,Chinos,Cotton,Amazon India,Summer,4.0,60,6759.51,2703.81,2025-10-24
+Roadster,Coat,Denim,Amazon India,Winter,3.7,25,1566.77,1175.08,2025-10-24
+Raymond,T-Shirt,Viscose,Flipkart,Spring,4.9,25,1670.72,1253.04,2025-10-24
+Nike,Blazer,Polyester,Myntra,Monsoon,4.0,50,9662.75,4831.37,2025-10-24
+Nike,Dress,Leather,Shoppers Stop,All-Season,3.7,0,3732.18,3732.18,2025-10-24
+Only,Chinos,Viscose,Myntra,Monsoon,4.1,25,2211.26,1658.44,2025-10-24
+Athena,Hoodie,Silk,Shoppers Stop,Monsoon,4.2,30,2440.13,1708.09,2025-10-24
+Van Heusen,Coat,Synthetic,Flipkart,All-Season,4.1,20,3703.99,2963.19,2025-10-24
+Being Human,Chinos,Denim,Ajio,Spring,3.9,25,1221.92,916.44,2025-10-24
+Marks & Spencer,Shirt,Wool,Reliance Trends,Monsoon,4.1,30,6200.14,4340.1,2025-10-24
+Forever New,Jeans,Denim,Shoppers Stop,Spring,3.8,20,4240.54,3392.43,2025-10-24
+Louis Philippe,Blazer,Synthetic,Lifestyle,All-Season,4.0,15,2200.77,1870.66,2025-10-24
+Nike,Pants,Wool,Flipkart,All-Season,3.8,20,4246.68,3397.35,2025-10-24
+Raymond,Coat,Wool,Amazon India,Spring,4.3,25,13458.53,10093.89,2025-10-24
+Nike,Polo,Denim,Lifestyle,All-Season,3.6,40,2606.28,1563.77,2025-10-24
+Flying Machine,Sweater,Cotton,Westside,Spring,3.7,25,1703.02,1277.27,2025-10-24
+Only,T-Shirt,Polyester,Lifestyle,Spring,4.1,25,1471.79,1103.85,2025-10-24
+Forever New,Jeans,Viscose,Flipkart,Summer,4.1,20,3597.98,2878.39,2025-10-24
+Forever New,Dress,Polyester,Westside,Summer,3.4,15,4975.89,4229.51,2025-10-24
+W for Woman,Hoodie,Blend,Max Fashion,Summer,3.6,10,742.99,668.69,2025-10-24
+W for Woman,T-Shirt,Blend,Ajio,Monsoon,3.9,20,915.71,732.57,2025-10-24
+AND,Jacket,Cotton,Westside,Monsoon,3.9,15,4302.75,3657.34,2025-10-24
+Mast & Harbour,Hoodie,Denim,Reliance Trends,Monsoon,4.1,15,676.24,574.81,2025-10-24
+Breakbounce,Chinos,Polyester,Max Fashion,All-Season,3.9,0,572.51,572.51,2025-10-24
+Zara,Shirt,Blend,Reliance Trends,Spring,4.8,0,2871.73,2871.73,2025-10-24
+Allen Solly,T-Shirt,Polyester,Westside,Monsoon,4.2,15,513.88,436.8,2025-10-24
+Roadster,Sweater,Synthetic,Ajio,All-Season,4.1,25,829.8,622.35,2025-10-24
+Raymond,Skirt,Denim,Lifestyle,Spring,4.5,30,3711.83,2598.28,2025-10-24
+AND,Chinos,Polyester,Amazon India,Spring,3.6,25,1065.12,798.84,2025-10-24
+Roadster,Pants,Blend,Lifestyle,Winter,3.9,25,929.14,696.86,2025-10-24
+Raymond,Chinos,Denim,Ajio,Summer,4.6,40,3774.99,2264.99,2025-10-24
+Adidas,Jeans,Leather,Amazon India,Winter,3.4,10,6282.79,5654.51,2025-10-24
+Being Human,Pants,Polyester,Reliance Trends,All-Season,3.7,20,901.32,721.05,2025-10-24
+HRX,Shirt,Cotton,Lifestyle,Summer,3.8,60,2229.23,891.69,2025-10-24
+W for Woman,Shirt,Cotton,Ajio,Winter,4.2,25,1353.97,1015.48,2025-10-24
+Forever New,Blazer,Denim,Amazon India,Winter,3.5,20,3583.96,2867.17,2025-10-24
+Breakbounce,Coat,Viscose,Max Fashion,Summer,3.5,30,3941.82,2759.27,2025-10-24
+Wrogn,T-Shirt,Synthetic,Lifestyle,Monsoon,3.8,20,454.39,363.51,2025-10-24
+Wrogn,Blazer,Linen,Amazon India,Summer,3.5,40,4238.14,2542.88,2025-10-24
+Marks & Spencer,Coat,Polyester,Westside,Spring,4.7,15,4700.24,3995.21,2025-10-24
+Zara,Shirt,Cotton,Shoppers Stop,Monsoon,4.4,30,6461.64,4523.15,2025-10-24
+Louis Philippe,Skirt,Linen,Flipkart,All-Season,4.5,40,4164.44,2498.67,2025-10-24
+Levi's,Sweater,Synthetic,Myntra,Monsoon,4.7,40,3902.81,2341.68,2025-10-24
+US Polo Assn,Skirt,Wool,Westside,All-Season,3.6,15,1108.66,942.36,2025-10-24
+W for Woman,Skirt,Silk,Myntra,All-Season,4.0,30,2533.09,1773.17,2025-10-24
+Breakbounce,Blazer,Silk,Ajio,Summer,4.0,30,3968.58,2778.01,2025-10-24
+Nike,Skirt,Cotton,Ajio,All-Season,4.1,40,6955.89,4173.53,2025-10-24
+Marks & Spencer,Polo,Synthetic,Flipkart,Summer,4.7,15,2438.86,2073.03,2025-10-24
+HRX,Polo,Polyester,Myntra,Monsoon,4.1,20,1146.5,917.2,2025-10-24
+W for Woman,T-Shirt,Cotton,Lifestyle,Winter,4.0,20,1232.89,986.31,2025-10-24
+US Polo Assn,Blazer,Cotton,Ajio,Monsoon,3.4,20,4330.96,3464.77,2025-10-24
+Roadster,Shirt,Wool,Lifestyle,Monsoon,4.0,10,762.06,685.85,2025-10-24
+Van Heusen,Jacket,Denim,Lifestyle,Summer,4.2,30,4046.09,2832.27,2025-10-24
+Vero Moda,Pants,Cotton,Amazon India,Spring,3.9,30,1918.36,1342.85,2025-10-24
+W for Woman,Blazer,Synthetic,Myntra,Monsoon,4.2,20,3362.3,2689.84,2025-10-24
+Mast & Harbour,Skirt,Blend,Myntra,Winter,3.5,30,1324.82,927.38,2025-10-24
+Wrogn,Polo,Cotton,Ajio,Monsoon,3.4,20,837.34,669.87,2025-10-24
+H&M,Jacket,Silk,Amazon India,All-Season,3.9,30,4300.47,3010.33,2025-10-24
+Forever New,Shirt,Wool,Myntra,Monsoon,4.2,40,2786.27,1671.76,2025-10-24
+Allen Solly,Blazer,Blend,Westside,Monsoon,4.2,25,4749.69,3562.27,2025-10-24
+Puma,Coat,Polyester,Amazon India,Monsoon,4.1,25,4315.58,3236.69,2025-10-24
+Peter England,T-Shirt,Viscose,Ajio,Summer,3.6,20,732.7,586.16,2025-10-24
+Breakbounce,Blazer,Blend,Lifestyle,Summer,3.9,40,5079.33,3047.6,2025-10-24
+Louis Philippe,Polo,Wool,Shoppers Stop,Winter,4.1,15,2503.03,2127.58,2025-10-24
+Adidas,Jeans,Silk,Westside,Spring,3.5,10,6730.23,6057.21,2025-10-24
+Van Heusen,Chinos,Viscose,Lifestyle,Summer,3.9,0,1157.55,1157.55,2025-10-24
+HRX,Hoodie,Linen,Shoppers Stop,Summer,4.0,15,1286.99,1093.94,2025-10-24
+Zara,Sweater,Leather,Myntra,Summer,4.8,15,5682.68,4830.28,2025-10-24
+Wrogn,Polo,Polyester,Amazon India,Monsoon,4.1,25,565.9,424.42,2025-10-24
+Allen Solly,Skirt,Blend,Westside,Monsoon,4.2,25,3213.97,2410.48,2025-10-24
+Flying Machine,Jacket,Silk,Shoppers Stop,Spring,3.8,10,3300.76,2970.68,2025-10-24
+Only,Hoodie,Blend,Lifestyle,Spring,3.8,30,2155.84,1509.09,2025-10-24
+Being Human,Chinos,Polyester,Amazon India,Spring,3.5,15,1137.59,966.95,2025-10-24
+Flying Machine,Coat,Viscose,Ajio,Spring,3.9,50,3048.19,1524.1,2025-10-24
+HRX,T-Shirt,Polyester,Max Fashion,Spring,3.4,50,478.93,239.47,2025-10-24
+AND,Skirt,Wool,Lifestyle,All-Season,3.6,40,4794.57,2876.74,2025-10-24
+Wrogn,Hoodie,Viscose,Reliance Trends,Winter,3.5,20,900.69,720.55,2025-10-24
+Marks & Spencer,Sweater,Wool,Max Fashion,Monsoon,4.2,30,6126.58,4288.61,2025-10-24
+Athena,Coat,Denim,Max Fashion,All-Season,3.4,25,2163.21,1622.4,2025-10-24
+Adidas,Shirt,Wool,Westside,Winter,3.4,20,2720.43,2176.35,2025-10-24
+Raymond,Coat,Wool,Shoppers Stop,Spring,4.6,10,7849.7,7064.73,2025-10-24
+Van Heusen,T-Shirt,Wool,Flipkart,Winter,4.7,0,623.87,623.87,2025-10-24
+H&M,T-Shirt,Viscose,Reliance Trends,All-Season,3.6,25,221.97,166.48,2025-10-24
+Nike,Chinos,Blend,Lifestyle,Summer,4.2,30,4417.45,3092.22,2025-10-24
+Roadster,Jeans,Viscose,Max Fashion,Summer,3.6,30,664.56,465.19,2025-10-24
+Tommy Hilfiger,Chinos,Blend,Ajio,All-Season,4.2,20,8465.62,6772.49,2025-10-24
+Mast & Harbour,Jeans,Blend,Shoppers Stop,Monsoon,3.5,10,664.17,597.75,2025-10-24
+HRX,Pants,Denim,Myntra,Spring,4.1,20,1065.26,852.21,2025-10-24
+Being Human,Chinos,Synthetic,Lifestyle,Monsoon,3.9,10,1752.86,1577.57,2025-10-24
+Wrogn,Blazer,Cotton,Lifestyle,Summer,3.5,25,1876.78,1407.58,2025-10-24
+Calvin Klein,Chinos,Silk,Westside,Spring,4.1,0,5322.59,5322.59,2025-10-24
+Van Heusen,Polo,Viscose,Lifestyle,Monsoon,4.0,25,1522.37,1141.77,2025-10-24
+Flying Machine,Shirt,Denim,Myntra,Monsoon,3.7,30,1343.0,940.1,2025-10-24
+US Polo Assn,Shirt,Polyester,Westside,Spring,3.5,50,2776.76,1388.38,2025-10-24
+Flying Machine,Skirt,Silk,Lifestyle,Spring,3.6,40,3029.05,1817.43,2025-10-24
+Only,Pants,Blend,Reliance Trends,Summer,3.6,10,914.35,822.92,2025-10-24
+H&M,Polo,Silk,Myntra,Monsoon,4.2,40,1091.74,655.04,2025-10-24
+Levi's,Hoodie,Denim,Lifestyle,Summer,4.2,30,3273.95,2291.76,2025-10-24
+Peter England,Jeans,Wool,Myntra,Monsoon,3.5,0,1649.45,1649.45,2025-10-24
+Forever New,Skirt,Polyester,Flipkart,All-Season,3.7,10,2005.06,1804.56,2025-10-24
+Allen Solly,Coat,Polyester,Lifestyle,Spring,4.6,15,5664.24,4814.6,2025-10-24
+Vero Moda,Pants,Linen,Shoppers Stop,Winter,3.5,20,4293.98,3435.19,2025-10-24
+Calvin Klein,Skirt,Wool,Max Fashion,All-Season,4.2,20,4616.62,3693.29,2025-10-24
+Vero Moda,Dress,Blend,Shoppers Stop,All-Season,4.1,10,3120.44,2808.39,2025-10-24
+Raymond,Coat,Wool,Reliance Trends,Monsoon,4.2,0,7130.49,7130.49,2025-10-24
+Forever New,Polo,Silk,Lifestyle,Winter,4.0,30,3870.07,2709.05,2025-10-24
+Only,Sweater,Silk,Myntra,Spring,4.2,60,6314.34,2525.74,2025-10-24
+Vero Moda,Jacket,Denim,Myntra,Spring,3.7,20,4444.02,3555.22,2025-10-24
+H&M,Sweater,Synthetic,Lifestyle,Monsoon,4.0,20,1764.24,1411.39,2025-10-24
+Marks & Spencer,Chinos,Denim,Shoppers Stop,Summer,4.2,10,5796.11,5216.5,2025-10-24
+Allen Solly,Hoodie,Blend,Flipkart,Monsoon,4.3,0,641.35,641.35,2025-10-24
+HRX,Chinos,Cotton,Ajio,Winter,4.1,30,1200.03,840.02,2025-10-24
+Forever New,Polo,Linen,Amazon India,All-Season,4.1,40,2023.54,1214.12,2025-10-24
+Being Human,Hoodie,Blend,Ajio,All-Season,4.1,15,702.91,597.47,2025-10-24
+Wrogn,Jeans,Silk,Ajio,Monsoon,3.7,30,2880.16,2016.11,2025-10-24
+H&M,Sweater,Synthetic,Myntra,Summer,3.4,60,3395.5,1358.2,2025-10-24
+Roadster,Jacket,Denim,Westside,Spring,3.9,25,1686.76,1265.07,2025-10-24
+Roadster,Dress,Blend,Amazon India,Monsoon,3.6,25,1527.34,1145.5,2025-10-24
+H&M,Coat,Polyester,Lifestyle,Monsoon,3.5,15,3751.15,3188.47,2025-10-24
+Athena,Dress,Cotton,Ajio,Summer,3.5,15,1976.97,1680.42,2025-10-24
+Wrogn,Coat,Wool,Max Fashion,All-Season,3.7,15,3768.37,3203.11,2025-10-24
+Louis Philippe,Polo,Cotton,Lifestyle,Spring,3.9,25,2668.93,2001.7,2025-10-24
+Being Human,Sweater,Polyester,Myntra,Summer,4.2,40,2407.48,1444.49,2025-10-24
+Mast & Harbour,Jeans,Denim,Ajio,Summer,3.6,0,469.1,469.1,2025-10-24
+Allen Solly,Pants,Polyester,Reliance Trends,All-Season,4.2,25,1670.53,1252.9,2025-10-24
+W for Woman,Shirt,Linen,Reliance Trends,All-Season,3.8,15,1755.22,1491.93,2025-10-24
+Raymond,Coat,Blend,Amazon India,Spring,4.7,10,6783.85,6105.46,2025-10-24
+Allen Solly,Jeans,Cotton,Max Fashion,Summer,4.5,30,1402.09,981.46,2025-10-24
+Zara,Sweater,Cotton,Ajio,All-Season,4.2,30,7037.16,4926.02,2025-10-24
+Tommy Hilfiger,Hoodie,Linen,Westside,All-Season,4.4,20,5388.6,4310.88,2025-10-24
+Puma,Pants,Leather,Lifestyle,All-Season,3.5,30,2862.18,2003.53,2025-10-24
+H&M,Chinos,Synthetic,Flipkart,Summer,3.5,30,1766.74,1236.72,2025-10-24
+Athena,Blazer,Blend,Ajio,Monsoon,3.8,10,1812.4,1631.16,2025-10-24
+Zara,Hoodie,Blend,Max Fashion,Winter,4.7,50,3576.51,1788.25,2025-10-24
+Levi's,Shirt,Synthetic,Westside,Monsoon,4.1,0,1293.62,1293.62,2025-10-24
+Zara,Jeans,Linen,Myntra,Winter,4.3,15,2184.62,1856.92,2025-10-24
+Raymond,Sweater,Cotton,Flipkart,Summer,4.2,20,3352.54,2682.03,2025-10-24
+US Polo Assn,Chinos,Leather,Shoppers Stop,Monsoon,4.2,25,1911.79,1433.84,2025-10-24
+Adidas,Shirt,Blend,Reliance Trends,All-Season,3.4,25,2840.46,2130.34,2025-10-24
+AND,T-Shirt,Viscose,Shoppers Stop,All-Season,3.5,15,435.37,370.06,2025-10-24
+Calvin Klein,Blazer,Wool,Lifestyle,Winter,4.8,25,8612.59,6459.45,2025-10-24
+Zara,Coat,Wool,Shoppers Stop,All-Season,4.8,25,10257.42,7693.06,2025-10-24
+Louis Philippe,Skirt,Leather,Shoppers Stop,Spring,4.4,0,4819.51,4819.51,2025-10-24
+Raymond,Dress,Blend,Westside,Summer,4.5,30,3203.39,2242.37,2025-10-24
+Breakbounce,Jeans,Polyester,Flipkart,Summer,4.0,40,1886.86,1132.12,2025-10-24
+Roadster,T-Shirt,Leather,Amazon India,Summer,3.9,15,269.02,228.67,2025-10-24
+US Polo Assn,Chinos,Synthetic,Shoppers Stop,Spring,3.8,0,2072.38,2072.38,2025-10-24
+Vero Moda,Polo,Silk,Reliance Trends,Summer,4.2,0,1869.29,1869.29,2025-10-24
+Wrogn,Polo,Synthetic,Reliance Trends,Summer,4.0,30,540.53,378.37,2025-10-24
+Forever New,T-Shirt,Silk,Lifestyle,Winter,3.9,25,1512.8,1134.6,2025-10-24
+Forever New,T-Shirt,Polyester,Flipkart,All-Season,3.5,25,1369.06,1026.79,2025-10-24
+Breakbounce,Dress,Synthetic,Lifestyle,Spring,4.2,20,1514.12,1211.29,2025-10-24
+Forever New,Coat,Synthetic,Reliance Trends,Monsoon,3.8,25,3997.27,2997.95,2025-10-24
+Mast & Harbour,Hoodie,Blend,Westside,All-Season,4.1,10,490.13,441.12,2025-10-24
+US Polo Assn,T-Shirt,Linen,Westside,All-Season,3.5,10,633.29,569.96,2025-10-24
+Breakbounce,Coat,Cotton,Amazon India,All-Season,4.1,40,5467.11,3280.27,2025-10-24
+Raymond,Sweater,Leather,Lifestyle,Summer,4.8,40,8917.69,5350.62,2025-10-24
+Athena,Hoodie,Silk,Shoppers Stop,Summer,3.4,30,2342.49,1639.74,2025-10-24
+Vero Moda,T-Shirt,Denim,Reliance Trends,Spring,3.7,10,807.83,727.04,2025-10-24
+Wrogn,Blazer,Cotton,Flipkart,Winter,4.0,60,4584.6,1833.84,2025-10-24
+Peter England,Hoodie,Polyester,Westside,Monsoon,3.5,0,832.03,832.03,2025-10-24
+Athena,Blazer,Linen,Myntra,All-Season,3.8,25,2372.51,1779.38,2025-10-24
+H&M,Jacket,Cotton,Myntra,Winter,4.0,0,783.45,783.45,2025-10-24
+HRX,Chinos,Wool,Amazon India,Monsoon,3.7,15,1417.9,1205.21,2025-10-24
+US Polo Assn,Dress,Denim,Reliance Trends,Summer,3.7,30,3011.81,2108.27,2025-10-24
+HRX,Hoodie,Denim,Ajio,Monsoon,3.5,30,1555.48,1088.84,2025-10-24
+W for Woman,Sweater,Cotton,Myntra,Spring,4.0,25,996.48,747.36,2025-10-24
+Tommy Hilfiger,Dress,Wool,Amazon India,Winter,4.5,15,10683.18,9080.7,2025-10-24
+Nike,Sweater,Silk,Shoppers Stop,Summer,4.1,10,5597.16,5037.44,2025-10-24
+Raymond,Blazer,Wool,Shoppers Stop,All-Season,4.2,10,4424.65,3982.19,2025-10-24
+Breakbounce,Sweater,Denim,Amazon India,Winter,4.2,25,1806.44,1354.83,2025-10-24
+Mast & Harbour,Skirt,Polyester,Max Fashion,Spring,3.4,0,732.62,732.62,2025-10-24
+Levi's,Hoodie,Linen,Shoppers Stop,All-Season,4.6,0,2899.06,2899.06,2025-10-24
+Wrogn,Jacket,Silk,Lifestyle,Summer,3.5,25,3246.02,2434.51,2025-10-24
+Being Human,Chinos,Wool,Ajio,All-Season,3.8,15,987.72,839.56,2025-10-24
+Wrogn,Pants,Synthetic,Myntra,Spring,3.4,10,1346.85,1212.16,2025-10-24
+Being Human,Shirt,Viscose,Myntra,Winter,3.4,20,1091.86,873.48,2025-10-24
+Tommy Hilfiger,Dress,Silk,Flipkart,Monsoon,4.4,10,6029.83,5426.85,2025-10-24
+Mast & Harbour,Dress,Cotton,Lifestyle,Winter,3.4,30,1396.93,977.85,2025-10-24
+Flying Machine,Dress,Denim,Max Fashion,Summer,3.6,70,2080.69,624.21,2025-10-24
+Flying Machine,Shirt,Blend,Myntra,Monsoon,3.7,0,961.99,961.99,2025-10-24
+Only,Sweater,Blend,Reliance Trends,Summer,3.4,0,894.38,894.38,2025-10-24
+Wrogn,Polo,Synthetic,Reliance Trends,Monsoon,3.7,30,771.55,540.09,2025-10-24
+Zara,Jacket,Silk,Max Fashion,Winter,4.7,0,9022.73,9022.73,2025-10-24
+US Polo Assn,Coat,Silk,Flipkart,All-Season,4.2,15,4754.44,4041.27,2025-10-24
+Only,Coat,Silk,Myntra,Spring,3.4,25,8922.93,6692.2,2025-10-24
+Athena,Jeans,Wool,Westside,Spring,3.5,40,1888.35,1133.01,2025-10-24
+Van Heusen,Hoodie,Cotton,Reliance Trends,Spring,4.1,15,940.73,799.62,2025-10-24
+Breakbounce,Dress,Linen,Shoppers Stop,All-Season,3.8,25,4110.15,3082.61,2025-10-24
+Roadster,Polo,Leather,Myntra,All-Season,3.7,15,609.9,518.42,2025-10-24
+Vero Moda,Hoodie,Linen,Reliance Trends,Winter,3.9,25,1373.95,1030.46,2025-10-24
+Only,Coat,Denim,Amazon India,Winter,3.8,0,4395.11,4395.11,2025-10-24
+AND,Polo,Leather,Myntra,All-Season,3.5,15,1261.85,1072.57,2025-10-24
+Athena,Dress,Silk,Lifestyle,Spring,3.8,20,2915.94,2332.76,2025-10-24
+Puma,T-Shirt,Cotton,Myntra,Monsoon,3.5,10,447.37,402.64,2025-10-24
+Flying Machine,Jacket,Viscose,Ajio,Monsoon,3.8,20,2195.0,1756.0,2025-10-24
+Roadster,Jeans,Viscose,Myntra,Summer,3.9,20,1328.67,1062.94,2025-10-24
+Peter England,Blazer,Synthetic,Amazon India,Spring,3.5,15,2274.98,1933.74,2025-10-24
+Vero Moda,Jacket,Viscose,Reliance Trends,Summer,3.5,30,3868.69,2708.08,2025-10-24
+US Polo Assn,Blazer,Wool,Westside,Summer,3.6,15,2121.34,1803.14,2025-10-24
+HRX,Chinos,Leather,Westside,Spring,4.1,30,1666.52,1166.56,2025-10-24
+Tommy Hilfiger,Pants,Leather,Flipkart,Spring,4.3,15,8044.58,6837.89,2025-10-24
+Nike,Jacket,Silk,Ajio,Summer,3.8,30,5593.41,3915.39,2025-10-24
+Athena,T-Shirt,Wool,Flipkart,Winter,3.6,20,321.69,257.35,2025-10-24
+Wrogn,Polo,Wool,Lifestyle,Summer,4.1,50,2243.18,1121.59,2025-10-24
+Breakbounce,Chinos,Polyester,Max Fashion,Winter,3.9,20,1685.97,1348.78,2025-10-24
+Tommy Hilfiger,Jacket,Cotton,Shoppers Stop,Monsoon,4.4,10,13390.38,12051.34,2025-10-24
+Adidas,Dress,Polyester,Shoppers Stop,All-Season,3.9,50,7389.86,3694.93,2025-10-24
+Breakbounce,Jeans,Viscose,Max Fashion,Winter,3.4,15,1491.61,1267.87,2025-10-24
+AND,Sweater,Denim,Shoppers Stop,Summer,4.0,60,4355.2,1742.08,2025-10-24
+Marks & Spencer,Dress,Leather,Max Fashion,Spring,4.6,20,9680.97,7744.78,2025-10-24
+Raymond,Hoodie,Silk,Westside,Summer,4.5,15,1751.02,1488.37,2025-10-24
+Tommy Hilfiger,T-Shirt,Viscose,Westside,Winter,4.6,50,1799.39,899.7,2025-10-24
+Puma,Polo,Denim,Ajio,Spring,4.2,15,1721.39,1463.18,2025-10-24
+Nike,Dress,Viscose,Shoppers Stop,Winter,3.8,20,5135.22,4108.18,2025-10-24
+H&M,Coat,Cotton,Lifestyle,Winter,3.7,30,5572.84,3900.99,2025-10-24
+Only,Polo,Synthetic,Reliance Trends,All-Season,3.6,20,584.64,467.71,2025-10-24
+Levi's,Dress,Silk,Shoppers Stop,Winter,4.0,15,6311.14,5364.47,2025-10-24
+Nike,Hoodie,Cotton,Lifestyle,Summer,3.8,25,3874.2,2905.65,2025-10-24
+Flying Machine,Sweater,Linen,Lifestyle,Summer,4.0,60,3437.86,1375.14,2025-10-24
+Zara,Skirt,Viscose,Lifestyle,Spring,4.3,40,4325.09,2595.05,2025-10-24
+Only,Chinos,Viscose,Amazon India,All-Season,3.5,15,2254.05,1915.94,2025-10-24
+Levi's,Skirt,Leather,Amazon India,All-Season,4.5,25,4476.47,3357.35,2025-10-24
+Allen Solly,Pants,Synthetic,Shoppers Stop,Monsoon,4.5,60,3546.03,1418.41,2025-10-24
+Athena,Blazer,Polyester,Myntra,Monsoon,3.6,15,896.09,761.68,2025-10-24
+Van Heusen,Pants,Cotton,Lifestyle,Winter,4.2,70,4866.1,1459.83,2025-10-24
+HRX,Chinos,Viscose,Max Fashion,All-Season,4.1,20,935.84,748.67,2025-10-24
+Flying Machine,Blazer,Synthetic,Reliance Trends,Winter,3.5,0,729.68,729.68,2025-10-24
+Tommy Hilfiger,Jacket,Synthetic,Flipkart,Summer,4.8,10,6306.64,5675.98,2025-10-24
+Marks & Spencer,Polo,Wool,Flipkart,Summer,4.6,30,2002.72,1401.9,2025-10-24
+Calvin Klein,Dress,Cotton,Myntra,All-Season,4.7,40,10037.92,6022.75,2025-10-24
+Nike,Coat,Polyester,Max Fashion,Monsoon,4.2,15,3279.91,2787.92,2025-10-24
+Peter England,Hoodie,Blend,Reliance Trends,All-Season,3.5,20,1194.89,955.91,2025-10-24
+Raymond,Sweater,Leather,Ajio,Spring,4.5,30,4906.37,3434.46,2025-10-24
+Vero Moda,Pants,Cotton,Flipkart,Summer,3.7,20,2877.87,2302.29,2025-10-24
+Only,Chinos,Linen,Westside,Winter,3.8,50,5119.28,2559.64,2025-10-24
+Puma,Dress,Polyester,Reliance Trends,Winter,3.4,10,3703.31,3332.98,2025-10-24
+AND,Coat,Leather,Flipkart,Winter,3.8,0,4434.37,4434.37,2025-10-24
+Mast & Harbour,Skirt,Polyester,Shoppers Stop,Monsoon,3.5,15,1272.25,1081.41,2025-10-24
+Only,Sweater,Blend,Flipkart,All-Season,4.2,20,2404.33,1923.47,2025-10-24
+Van Heusen,Coat,Wool,Flipkart,All-Season,4.5,20,4806.16,3844.93,2025-10-24
+Adidas,Chinos,Blend,Shoppers Stop,Spring,3.8,15,2332.65,1982.75,2025-10-24
+Raymond,Chinos,Denim,Lifestyle,All-Season,4.7,30,3043.08,2130.16,2025-10-24
+US Polo Assn,Blazer,Linen,Flipkart,Spring,3.5,20,4538.82,3631.05,2025-10-24
+Mast & Harbour,Sweater,Blend,Myntra,All-Season,3.6,30,1364.18,954.93,2025-10-24
+Breakbounce,Dress,Cotton,Max Fashion,Summer,3.5,15,1192.0,1013.2,2025-10-24
+Tommy Hilfiger,Dress,Leather,Max Fashion,Summer,4.3,20,13272.25,10617.8,2025-10-24
+Roadster,Jacket,Polyester,Amazon India,Winter,3.6,25,1802.44,1351.83,2025-10-24
+Athena,Chinos,Polyester,Ajio,Winter,3.6,15,699.15,594.28,2025-10-24
+Puma,Skirt,Denim,Reliance Trends,Winter,4.2,20,3285.6,2628.48,2025-10-24
+Raymond,Sweater,Blend,Amazon India,Winter,4.7,20,1354.77,1083.81,2025-10-24
+Adidas,Dress,Viscose,Reliance Trends,Monsoon,3.9,15,1556.01,1322.61,2025-10-24
+Marks & Spencer,Jeans,Cotton,Amazon India,Monsoon,4.6,20,3283.43,2626.74,2025-10-24
+HRX,Polo,Silk,Westside,All-Season,3.9,0,1350.45,1350.45,2025-10-24
+Puma,Dress,Leather,Max Fashion,Winter,3.6,0,2465.77,2465.77,2025-10-24
+Only,Dress,Cotton,Westside,All-Season,4.0,20,3509.6,2807.68,2025-10-24
+Roadster,Coat,Denim,Westside,Winter,3.8,10,2353.99,2118.59,2025-10-24
+AND,Jeans,Wool,Shoppers Stop,All-Season,4.0,25,4532.77,3399.58,2025-10-24
+Only,Jacket,Cotton,Amazon India,Spring,4.0,20,3416.08,2732.87,2025-10-24
+Puma,Hoodie,Cotton,Amazon India,All-Season,3.7,10,1082.72,974.45,2025-10-24
+Calvin Klein,Hoodie,Blend,Shoppers Stop,All-Season,4.2,40,3166.66,1899.99,2025-10-24
+Vero Moda,Hoodie,Synthetic,Reliance Trends,All-Season,3.7,25,815.12,611.34,2025-10-24
+Raymond,Jeans,Cotton,Lifestyle,Monsoon,4.7,30,5118.91,3583.23,2025-10-24
+US Polo Assn,Hoodie,Viscose,Shoppers Stop,Winter,3.6,0,1305.25,1305.25,2025-10-24
+Mast & Harbour,Hoodie,Viscose,Flipkart,All-Season,3.9,50,1245.87,622.94,2025-10-24
+Wrogn,Skirt,Silk,Reliance Trends,Winter,4.0,10,1514.04,1362.64,2025-10-24
+HRX,Dress,Leather,Myntra,Winter,4.0,60,6575.47,2630.19,2025-10-24
+Zara,Sweater,Cotton,Westside,Monsoon,4.4,25,6964.02,5223.02,2025-10-24
+Only,Skirt,Cotton,Ajio,Spring,3.8,15,886.53,753.55,2025-10-24
+Only,Jacket,Leather,Westside,Winter,4.2,70,20817.44,6245.23,2025-10-24
+H&M,Pants,Silk,Reliance Trends,Monsoon,3.5,0,573.87,573.87,2025-10-24
+Forever New,Blazer,Leather,Max Fashion,Summer,3.8,40,5738.71,3443.23,2025-10-24
+Athena,Coat,Linen,Lifestyle,Summer,4.2,25,1548.89,1161.67,2025-10-24
+Being Human,Pants,Blend,Amazon India,Summer,3.8,30,1894.38,1326.06,2025-10-24
+AND,Skirt,Linen,Shoppers Stop,Winter,3.7,20,1608.83,1287.06,2025-10-24
+Calvin Klein,Coat,Silk,Lifestyle,All-Season,4.4,50,37363.15,18681.57,2025-10-24
+Marks & Spencer,T-Shirt,Linen,Westside,Monsoon,4.5,15,1302.26,1106.92,2025-10-24
+HRX,T-Shirt,Polyester,Max Fashion,All-Season,3.6,25,486.93,365.2,2025-10-24
+H&M,Coat,Viscose,Shoppers Stop,Monsoon,3.7,20,5062.48,4049.99,2025-10-24
+Breakbounce,Sweater,Linen,Lifestyle,Spring,3.5,0,1060.33,1060.33,2025-10-24
+Van Heusen,Pants,Denim,Lifestyle,Summer,4.0,15,2005.21,1704.43,2025-10-24
+Calvin Klein,Jeans,Polyester,Ajio,Monsoon,4.7,0,2791.02,2791.02,2025-10-24
+Forever New,Pants,Cotton,Westside,Spring,4.1,30,1687.7,1181.39,2025-10-24
+Nike,Polo,Silk,Max Fashion,Spring,4.0,10,2151.57,1936.41,2025-10-24
+Breakbounce,Dress,Viscose,Max Fashion,Winter,4.0,10,861.01,774.91,2025-10-24
+Zara,Skirt,Denim,Shoppers Stop,Monsoon,4.6,25,7254.39,5440.8,2025-10-24
+Flying Machine,Hoodie,Polyester,Max Fashion,Monsoon,4.0,30,799.01,559.3,2025-10-24
+Raymond,Dress,Wool,Shoppers Stop,Spring,4.9,40,13852.72,8311.63,2025-10-24
+Only,Dress,Polyester,Max Fashion,Winter,3.6,0,1590.78,1590.78,2025-10-24
+Puma,Blazer,Viscose,Flipkart,All-Season,3.8,10,2125.94,1913.35,2025-10-24
+Levi's,Shirt,Viscose,Amazon India,Monsoon,4.4,25,1734.03,1300.53,2025-10-24
+Levi's,Jeans,Linen,Lifestyle,Monsoon,4.5,15,3881.94,3299.65,2025-10-24
+Van Heusen,Jeans,Synthetic,Lifestyle,Winter,4.5,25,2265.54,1699.15,2025-10-24
+Levi's,Blazer,Blend,Myntra,Spring,3.9,20,5506.87,4405.5,2025-10-24
+Adidas,Shirt,Synthetic,Ajio,Winter,3.6,10,1401.45,1261.31,2025-10-24
+Peter England,T-Shirt,Cotton,Reliance Trends,Spring,3.6,15,570.9,485.26,2025-10-24
+Only,Shirt,Wool,Ajio,All-Season,4.0,30,3008.11,2105.68,2025-10-24
+Athena,Skirt,Synthetic,Myntra,All-Season,4.0,30,565.0,395.5,2025-10-24
+Allen Solly,Shirt,Viscose,Lifestyle,Monsoon,4.0,15,1777.67,1511.02,2025-10-24
+Athena,Jacket,Leather,Max Fashion,Monsoon,3.8,25,2648.1,1986.08,2025-10-24
+Roadster,Hoodie,Viscose,Reliance Trends,Winter,3.7,10,374.74,337.27,2025-10-24
+Wrogn,Dress,Blend,Reliance Trends,Monsoon,4.1,0,1384.46,1384.46,2025-10-24
+Roadster,Blazer,Synthetic,Reliance Trends,Monsoon,3.7,10,1189.18,1070.26,2025-10-24
+Adidas,Sweater,Denim,Max Fashion,All-Season,3.9,50,5090.31,2545.15,2025-10-24
+Vero Moda,Sweater,Wool,Flipkart,Winter,3.7,40,2017.7,1210.62,2025-10-24
+Mast & Harbour,Blazer,Denim,Ajio,Spring,3.6,0,794.78,794.78,2025-10-24
+Mast & Harbour,Skirt,Blend,Amazon India,Summer,4.2,15,480.56,408.48,2025-10-24
+Roadster,Jacket,Synthetic,Lifestyle,Winter,4.0,40,2087.36,1252.42,2025-10-24
+Tommy Hilfiger,Polo,Blend,Myntra,All-Season,4.6,15,4366.8,3711.78,2025-10-24
+W for Woman,Blazer,Silk,Amazon India,All-Season,4.1,30,6757.58,4730.3,2025-10-24
+Raymond,Shirt,Silk,Amazon India,Monsoon,4.4,10,3247.86,2923.08,2025-10-24
+AND,Hoodie,Viscose,Reliance Trends,Monsoon,3.5,20,1797.14,1437.71,2025-10-24
+Vero Moda,Pants,Leather,Max Fashion,All-Season,3.7,30,4798.58,3359.01,2025-10-24
+Mast & Harbour,Pants,Blend,Lifestyle,Monsoon,3.5,15,725.9,617.01,2025-10-24
+Only,Blazer,Wool,Myntra,Summer,3.5,25,6610.49,4957.87,2025-10-24
+Only,Blazer,Blend,Reliance Trends,Spring,4.0,20,1521.23,1216.98,2025-10-24
+Peter England,Dress,Silk,Flipkart,Spring,3.7,30,2091.1,1463.77,2025-10-24
+US Polo Assn,Coat,Polyester,Westside,Summer,3.8,15,2199.73,1869.77,2025-10-24
+Levi's,Sweater,Polyester,Flipkart,Summer,4.5,15,2057.53,1748.9,2025-10-24
+Zara,Skirt,Wool,Lifestyle,Spring,4.9,60,12135.35,4854.14,2025-10-24
+H&M,Jeans,Viscose,Reliance Trends,Monsoon,3.8,20,761.49,609.19,2025-10-24
+Mast & Harbour,Dress,Viscose,Ajio,Monsoon,3.8,25,1828.97,1371.72,2025-10-24
+Roadster,Hoodie,Denim,Shoppers Stop,Winter,3.9,25,634.37,475.78,2025-10-24
+Nike,Blazer,Polyester,Max Fashion,Winter,3.4,15,6630.09,5635.57,2025-10-24
+Raymond,Polo,Polyester,Ajio,Summer,4.1,40,2163.9,1298.34,2025-10-24
+Louis Philippe,Polo,Wool,Ajio,Monsoon,4.3,0,669.85,669.85,2025-10-24
+Wrogn,Sweater,Synthetic,Amazon India,Winter,4.2,30,756.3,529.41,2025-10-24
+Only,Jeans,Wool,Flipkart,Monsoon,3.4,50,5800.78,2900.39,2025-10-24
+Van Heusen,Jacket,Polyester,Flipkart,Monsoon,4.1,30,1995.68,1396.98,2025-10-24
+Puma,Pants,Linen,Myntra,Monsoon,4.2,20,1983.67,1586.94,2025-10-24
+Allen Solly,Jacket,Blend,Shoppers Stop,All-Season,4.3,60,5741.6,2296.64,2025-10-24
+Flying Machine,Pants,Wool,Max Fashion,Monsoon,4.2,25,944.64,708.48,2025-10-24
+Mast & Harbour,Jeans,Leather,Reliance Trends,Winter,3.5,40,1390.16,834.1,2025-10-24
+Athena,Skirt,Denim,Ajio,Winter,3.6,0,737.55,737.55,2025-10-24
+HRX,Chinos,Viscose,Reliance Trends,Summer,3.6,25,1354.85,1016.14,2025-10-24
+Wrogn,Skirt,Leather,Shoppers Stop,Summer,4.2,20,3084.17,2467.34,2025-10-24
+Adidas,Polo,Leather,Westside,Winter,3.9,20,2242.86,1794.29,2025-10-24
+W for Woman,T-Shirt,Silk,Flipkart,Summer,4.2,0,490.92,490.92,2025-10-24
+Puma,Blazer,Polyester,Westside,Summer,4.0,50,9821.39,4910.7,2025-10-24
+Being Human,Dress,Leather,Westside,Monsoon,4.1,25,2959.34,2219.51,2025-10-24
+Allen Solly,T-Shirt,Wool,Ajio,Summer,4.2,10,1375.39,1237.85,2025-10-24
+Levi's,Jeans,Cotton,Flipkart,All-Season,4.3,25,2738.67,2054.0,2025-10-24
+US Polo Assn,Hoodie,Leather,Max Fashion,Summer,3.8,25,1943.54,1457.65,2025-10-24
+Tommy Hilfiger,Jacket,Cotton,Max Fashion,Spring,4.4,15,11109.19,9442.81,2025-10-24
+Allen Solly,Dress,Denim,Shoppers Stop,All-Season,4.0,40,2887.64,1732.58,2025-10-24
+Breakbounce,Pants,Blend,Westside,All-Season,4.2,0,825.9,825.9,2025-10-24
+US Polo Assn,Chinos,Cotton,Max Fashion,Winter,4.2,30,1343.19,940.23,2025-10-24
+Raymond,Chinos,Viscose,Amazon India,Winter,4.2,10,2263.41,2037.07,2025-10-24
+Tommy Hilfiger,Shirt,Polyester,Reliance Trends,Spring,4.1,15,4125.59,3506.75,2025-10-24
+Louis Philippe,Jacket,Denim,Westside,Winter,4.3,10,4101.36,3691.22,2025-10-24
+Puma,Polo,Cotton,Reliance Trends,Monsoon,3.7,25,1288.55,966.41,2025-10-24
+Zara,Pants,Silk,Flipkart,All-Season,4.6,15,6912.06,5875.25,2025-10-24
+Peter England,Shirt,Synthetic,Shoppers Stop,All-Season,3.6,20,740.34,592.27,2025-10-24
+Van Heusen,Chinos,Linen,Flipkart,Summer,4.1,25,2950.22,2212.66,2025-10-24
+Roadster,Sweater,Cotton,Max Fashion,Summer,3.9,15,1072.16,911.33,2025-10-24
+Marks & Spencer,Jeans,Leather,Westside,Monsoon,4.2,40,7889.37,4733.62,2025-10-24
+Tommy Hilfiger,Skirt,Denim,Lifestyle,All-Season,4.7,0,4149.57,4149.57,2025-10-24
+W for Woman,Shirt,Viscose,Max Fashion,Winter,3.5,20,532.94,426.35,2025-10-24
+Calvin Klein,Hoodie,Viscose,Reliance Trends,Summer,4.6,60,2339.67,935.87,2025-10-24
+Raymond,Shirt,Denim,Reliance Trends,Monsoon,4.8,60,5078.23,2031.29,2025-10-24
+Mast & Harbour,Pants,Wool,Myntra,Spring,3.8,60,2678.81,1071.53,2025-10-24
+Adidas,Skirt,Synthetic,Westside,Spring,3.5,60,2398.61,959.44,2025-10-24
+Only,Polo,Synthetic,Shoppers Stop,Spring,4.1,40,1349.87,809.92,2025-10-24
+Van Heusen,Skirt,Viscose,Reliance Trends,Winter,4.5,15,1345.73,1143.87,2025-10-24
+W for Woman,Dress,Linen,Max Fashion,Summer,3.6,40,2041.5,1224.9,2025-10-24
+Puma,Blazer,Synthetic,Max Fashion,Winter,4.0,25,1658.7,1244.02,2025-10-24
+Allen Solly,T-Shirt,Leather,Flipkart,Summer,4.6,15,1907.53,1621.4,2025-10-24
+Allen Solly,Chinos,Denim,Max Fashion,All-Season,4.6,30,3175.96,2223.17,2025-10-24
+Athena,Polo,Synthetic,Reliance Trends,Spring,4.2,20,694.82,555.86,2025-10-24
+Tommy Hilfiger,Jeans,Cotton,Westside,Summer,4.4,10,3640.34,3276.31,2025-10-24
+Levi's,Sweater,Wool,Westside,Spring,4.1,20,2501.03,2000.83,2025-10-24
+Vero Moda,T-Shirt,Blend,Ajio,Winter,3.7,50,2094.14,1047.07,2025-10-24
+Raymond,Jeans,Cotton,Amazon India,Winter,4.5,0,2032.11,2032.11,2025-10-24
+US Polo Assn,Hoodie,Blend,Max Fashion,All-Season,4.0,30,1430.24,1001.17,2025-10-24
+US Polo Assn,Pants,Blend,Lifestyle,Monsoon,3.4,25,2164.57,1623.43,2025-10-24
+Van Heusen,T-Shirt,Cotton,Myntra,Summer,4.5,30,611.05,427.73,2025-10-24
+AND,Dress,Viscose,Flipkart,Spring,3.8,10,2625.43,2362.89,2025-10-24
+Mast & Harbour,Chinos,Cotton,Reliance Trends,Monsoon,4.1,25,747.84,560.88,2025-10-24
+Peter England,Blazer,Synthetic,Westside,Winter,3.9,0,1021.69,1021.69,2025-10-24
+HRX,Sweater,Leather,Lifestyle,Monsoon,4.0,15,1780.95,1513.81,2025-10-24
+Vero Moda,Jeans,Silk,Reliance Trends,Winter,4.0,30,4023.32,2816.32,2025-10-24
+Breakbounce,Jacket,Denim,Flipkart,Summer,3.8,30,2222.89,1556.03,2025-10-24
+Nike,Jacket,Synthetic,Lifestyle,Monsoon,3.8,25,5978.6,4483.95,2025-10-24
+Nike,Pants,Polyester,Reliance Trends,Spring,3.7,10,4132.37,3719.14,2025-10-24
+Flying Machine,Shirt,Leather,Shoppers Stop,Winter,3.5,50,1531.51,765.75,2025-10-24
+Roadster,Blazer,Viscose,Shoppers Stop,All-Season,3.8,0,976.68,976.68,2025-10-24
+Nike,Jacket,Synthetic,Amazon India,Monsoon,3.5,20,3606.0,2884.8,2025-10-24
+Athena,Skirt,Leather,Ajio,Spring,4.0,70,2500.07,750.02,2025-10-24
+Breakbounce,Jacket,Denim,Myntra,All-Season,4.1,20,1628.4,1302.72,2025-10-24
+Nike,Skirt,Viscose,Amazon India,Spring,4.2,15,2150.39,1827.83,2025-10-24
+HRX,Jacket,Silk,Flipkart,Winter,4.1,40,5648.56,3389.14,2025-10-24
+Louis Philippe,Dress,Blend,Amazon India,Spring,4.6,0,3199.6,3199.6,2025-10-24
+Only,Skirt,Wool,Ajio,Summer,3.6,20,3157.34,2525.87,2025-10-24
+Van Heusen,Dress,Linen,Lifestyle,All-Season,4.1,50,5256.9,2628.45,2025-10-24
+Marks & Spencer,Pants,Denim,Amazon India,Spring,4.6,25,2885.45,2164.09,2025-10-24
+W for Woman,Shirt,Wool,Max Fashion,Monsoon,3.5,0,1581.27,1581.27,2025-10-24
+Athena,Skirt,Wool,Myntra,Winter,4.0,30,825.06,577.54,2025-10-24
+H&M,Hoodie,Polyester,Amazon India,Spring,3.7,30,1648.66,1154.06,2025-10-24
+Adidas,Skirt,Cotton,Westside,Spring,3.7,30,5287.54,3701.28,2025-10-24
+Raymond,Sweater,Polyester,Westside,Monsoon,4.3,15,1691.27,1437.58,2025-10-24
+Wrogn,Jeans,Cotton,Max Fashion,Summer,3.9,10,938.57,844.71,2025-10-24
+Roadster,Coat,Blend,Amazon India,Winter,3.5,10,1323.71,1191.34,2025-10-24
+HRX,Sweater,Blend,Myntra,All-Season,3.7,0,792.73,792.73,2025-10-24
+Nike,Blazer,Blend,Ajio,Winter,3.6,30,4612.26,3228.58,2025-10-24
+Vero Moda,Sweater,Wool,Shoppers Stop,Monsoon,4.1,50,8617.04,4308.52,2025-10-24
+Being Human,Polo,Synthetic,Flipkart,Summer,4.0,20,652.92,522.33,2025-10-24
+Roadster,Sweater,Blend,Lifestyle,All-Season,4.0,10,627.51,564.76,2025-10-24
+Nike,Pants,Cotton,Myntra,Monsoon,3.4,0,2384.34,2384.34,2025-10-24
+Puma,Pants,Wool,Reliance Trends,All-Season,3.5,25,2648.46,1986.35,2025-10-24
+Calvin Klein,Coat,Synthetic,Ajio,Spring,4.8,0,9871.1,9871.1,2025-10-24
+H&M,Shirt,Denim,Reliance Trends,Winter,3.8,25,864.04,648.03,2025-10-24
+Allen Solly,Jacket,Leather,Reliance Trends,Summer,4.6,0,5714.29,5714.29,2025-10-24
+Peter England,Hoodie,Polyester,Myntra,Monsoon,3.9,60,2730.91,1092.36,2025-10-24
+Van Heusen,Pants,Linen,Amazon India,All-Season,4.6,15,1232.19,1047.36,2025-10-24
+Calvin Klein,Skirt,Blend,Myntra,Winter,4.6,25,4339.7,3254.78,2025-10-24
+H&M,Polo,Linen,Amazon India,Winter,4.0,10,1114.06,1002.66,2025-10-24
+Louis Philippe,Skirt,Cotton,Max Fashion,Spring,4.4,0,1882.15,1882.15,2025-10-24
+Levi's,T-Shirt,Viscose,Max Fashion,Winter,4.1,15,580.24,493.21,2025-10-24
+Breakbounce,Jacket,Denim,Westside,Monsoon,3.5,15,1783.22,1515.74,2025-10-24
+Only,Chinos,Blend,Shoppers Stop,Winter,3.9,10,2893.08,2603.77,2025-10-24
+Forever New,Dress,Denim,Ajio,Monsoon,3.9,30,6112.48,4278.74,2025-10-24
+Only,Polo,Wool,Amazon India,All-Season,3.7,25,1120.09,840.07,2025-10-24
+AND,Blazer,Leather,Max Fashion,Winter,4.2,60,6544.36,2617.74,2025-10-24
+Breakbounce,Pants,Denim,Max Fashion,All-Season,3.5,60,3460.87,1384.35,2025-10-24
+Zara,Coat,Polyester,Reliance Trends,Winter,4.2,20,6209.94,4967.95,2025-10-24
+Allen Solly,T-Shirt,Cotton,Westside,Monsoon,4.0,60,1591.37,636.55,2025-10-24
+AND,Hoodie,Cotton,Shoppers Stop,Monsoon,3.6,20,2945.03,2356.02,2025-10-24
+Allen Solly,Polo,Cotton,Ajio,Monsoon,4.5,40,1752.44,1051.46,2025-10-24
+Athena,T-Shirt,Leather,Shoppers Stop,Spring,3.5,40,1795.73,1077.44,2025-10-24
+Forever New,Polo,Silk,Amazon India,Monsoon,4.1,30,3398.84,2379.19,2025-10-24
+Being Human,Sweater,Leather,Lifestyle,Spring,3.9,10,1891.14,1702.03,2025-10-24
+Forever New,T-Shirt,Leather,Myntra,Winter,4.1,70,5423.95,1627.18,2025-10-24
+W for Woman,Jacket,Viscose,Flipkart,Monsoon,4.0,40,1923.28,1153.97,2025-10-24
+H&M,Polo,Synthetic,Myntra,Winter,3.8,20,548.03,438.43,2025-10-24
+W for Woman,Dress,Leather,Amazon India,Winter,3.5,25,1514.87,1136.15,2025-10-24
+Van Heusen,Chinos,Synthetic,Westside,All-Season,4.2,20,1656.85,1325.48,2025-10-24
+HRX,Coat,Wool,Ajio,Summer,3.4,25,3857.4,2893.05,2025-10-24
+Zara,Skirt,Synthetic,Shoppers Stop,Spring,4.3,60,8463.58,3385.43,2025-10-24
+Zara,Chinos,Wool,Amazon India,Summer,4.8,15,5227.43,4443.32,2025-10-24
+H&M,Jacket,Denim,Ajio,Summer,3.4,30,3997.45,2798.22,2025-10-24
+Wrogn,Pants,Viscose,Ajio,Spring,3.7,0,1236.41,1236.41,2025-10-24
+Van Heusen,Dress,Viscose,Shoppers Stop,Spring,4.5,70,10628.67,3188.6,2025-10-24
+Athena,Pants,Polyester,Lifestyle,Spring,3.9,15,1177.78,1001.11,2025-10-24
+Peter England,Chinos,Denim,Amazon India,Monsoon,3.4,15,1602.37,1362.01,2025-10-24
+Van Heusen,Blazer,Polyester,Ajio,All-Season,4.2,30,4170.13,2919.09,2025-10-24
+Breakbounce,Polo,Linen,Myntra,Summer,3.6,10,1630.5,1467.45,2025-10-24
+Peter England,Coat,Polyester,Max Fashion,Summer,3.6,40,5199.52,3119.71,2025-10-24
+Adidas,Polo,Cotton,Shoppers Stop,All-Season,4.0,70,7758.66,2327.6,2025-10-24
+H&M,Chinos,Wool,Amazon India,All-Season,4.2,0,1935.11,1935.11,2025-10-24
+Peter England,Pants,Wool,Reliance Trends,Monsoon,4.1,30,1982.74,1387.92,2025-10-24
+AND,Shirt,Denim,Lifestyle,Summer,4.1,15,3113.47,2646.45,2025-10-24
+Peter England,Blazer,Viscose,Lifestyle,All-Season,3.4,30,4131.15,2891.81,2025-10-24
+Flying Machine,Chinos,Denim,Reliance Trends,Summer,3.5,40,943.1,565.86,2025-10-24
+US Polo Assn,Jeans,Synthetic,Amazon India,Winter,3.9,20,837.28,669.83,2025-10-24
+Breakbounce,Sweater,Leather,Flipkart,Spring,4.1,0,2476.76,2476.76,2025-10-24
+AND,Chinos,Leather,Westside,Summer,3.9,0,2176.88,2176.88,2025-10-24
+Athena,Jacket,Leather,Shoppers Stop,Summer,3.7,0,3245.24,3245.24,2025-10-24
+Raymond,Coat,Silk,Lifestyle,Winter,4.3,40,7243.96,4346.38,2025-10-24
+AND,Hoodie,Silk,Westside,Monsoon,4.2,30,4010.4,2807.28,2025-10-24
+Allen Solly,Sweater,Polyester,Max Fashion,Spring,4.0,30,2800.87,1960.61,2025-10-24
+HRX,Skirt,Cotton,Westside,All-Season,4.1,25,970.83,728.12,2025-10-24
+Roadster,Blazer,Linen,Flipkart,Monsoon,3.7,40,2698.58,1619.15,2025-10-24
+Louis Philippe,T-Shirt,Cotton,Westside,Summer,4.6,20,669.89,535.91,2025-10-24
+Roadster,Dress,Cotton,Amazon India,Winter,4.1,50,2378.88,1189.44,2025-10-24
+Nike,Skirt,Polyester,Westside,Monsoon,4.0,15,2348.82,1996.5,2025-10-24
+Mast & Harbour,Blazer,Polyester,Reliance Trends,Spring,3.7,25,1740.97,1305.73,2025-10-24
+Raymond,Sweater,Linen,Lifestyle,All-Season,4.8,40,9082.57,5449.54,2025-10-24
+Van Heusen,Shirt,Wool,Max Fashion,Summer,4.3,30,2540.74,1778.52,2025-10-24
+AND,Coat,Linen,Westside,All-Season,3.4,20,5941.01,4752.81,2025-10-24
+Zara,Sweater,Silk,Myntra,Monsoon,4.3,15,6056.97,5148.43,2025-10-24
+Breakbounce,T-Shirt,Wool,Lifestyle,Monsoon,3.8,15,1051.16,893.48,2025-10-24
+Calvin Klein,Shirt,Viscose,Westside,Spring,4.3,20,5703.33,4562.67,2025-10-24
+Athena,Hoodie,Silk,Max Fashion,Monsoon,3.6,10,1141.28,1027.16,2025-10-24
+Zara,Jeans,Synthetic,Amazon India,All-Season,4.3,25,4896.5,3672.38,2025-10-24
+H&M,Pants,Linen,Myntra,Spring,3.7,40,1024.2,614.52,2025-10-24
+Being Human,Blazer,Linen,Shoppers Stop,All-Season,3.5,25,3851.4,2888.55,2025-10-24
+Zara,Blazer,Synthetic,Amazon India,Spring,4.5,30,7901.67,5531.17,2025-10-24
+Only,Coat,Wool,Max Fashion,Winter,3.8,20,5413.04,4330.43,2025-10-24
+Zara,Polo,Synthetic,Ajio,Summer,4.2,30,2583.35,1808.34,2025-10-24
+Marks & Spencer,Pants,Denim,Flipkart,Summer,4.5,40,3258.03,1954.82,2025-10-24
+Flying Machine,Dress,Denim,Ajio,Winter,3.7,10,756.1,680.49,2025-10-24
+Being Human,Pants,Denim,Reliance Trends,Spring,3.9,40,1986.67,1192.0,2025-10-24
+Levi's,Dress,Leather,Myntra,Summer,4.2,40,10120.85,6072.51,2025-10-24
+Wrogn,Sweater,Leather,Ajio,Monsoon,4.2,0,1496.64,1496.64,2025-10-24
+Flying Machine,Sweater,Polyester,Westside,Winter,3.5,20,1334.09,1067.27,2025-10-24
+Breakbounce,Jeans,Linen,Myntra,Winter,3.8,30,3401.43,2381.0,2025-10-24
+AND,Hoodie,Blend,Myntra,Winter,3.9,30,2977.6,2084.32,2025-10-24
+Breakbounce,Jeans,Denim,Max Fashion,Spring,3.6,40,1095.91,657.55,2025-10-24
+Wrogn,Shirt,Leather,Ajio,Spring,3.9,25,2394.79,1796.09,2025-10-24
+Puma,Coat,Synthetic,Lifestyle,All-Season,3.7,25,5803.68,4352.76,2025-10-24
+Allen Solly,Skirt,Viscose,Myntra,Monsoon,4.4,0,672.19,672.19,2025-10-24
+Zara,Polo,Linen,Westside,Monsoon,4.5,0,2501.85,2501.85,2025-10-24
+Forever New,Pants,Synthetic,Max Fashion,Spring,3.5,60,5711.1,2284.44,2025-10-24
+Puma,Skirt,Silk,Amazon India,Winter,3.7,40,3882.31,2329.39,2025-10-24
+Flying Machine,Sweater,Polyester,Shoppers Stop,Monsoon,3.9,15,1504.64,1278.95,2025-10-24
+H&M,Skirt,Silk,Westside,All-Season,4.2,25,3104.08,2328.06,2025-10-24
+Allen Solly,T-Shirt,Blend,Myntra,Winter,4.2,40,1261.58,756.95,2025-10-24
+Roadster,Coat,Polyester,Amazon India,All-Season,3.8,10,1769.62,1592.66,2025-10-24
+Vero Moda,Jacket,Blend,Lifestyle,Spring,3.9,25,6320.82,4740.62,2025-10-24
+Being Human,Coat,Denim,Max Fashion,Spring,4.0,25,3553.02,2664.76,2025-10-24
+Athena,Coat,Denim,Myntra,All-Season,3.8,25,1778.15,1333.61,2025-10-24
+Puma,Polo,Linen,Westside,Winter,3.9,30,1594.74,1116.32,2025-10-24
+Allen Solly,Dress,Synthetic,Amazon India,Monsoon,4.0,0,2683.3,2683.3,2025-10-24
+Louis Philippe,Jeans,Polyester,Lifestyle,Monsoon,4.0,60,5937.77,2375.11,2025-10-24
+Puma,Polo,Blend,Reliance Trends,All-Season,3.6,25,1640.6,1230.45,2025-10-24
+Roadster,Jeans,Leather,Amazon India,Winter,3.8,30,1124.74,787.32,2025-10-24
+Wrogn,Pants,Cotton,Reliance Trends,Winter,3.6,20,1392.6,1114.08,2025-10-24
+Puma,Hoodie,Blend,Flipkart,All-Season,3.8,0,716.81,716.81,2025-10-24
+Zara,Chinos,Polyester,Lifestyle,Monsoon,4.1,30,6862.78,4803.94,2025-10-24
+H&M,Polo,Synthetic,Max Fashion,All-Season,3.6,30,869.18,608.43,2025-10-24
+Puma,Sweater,Leather,Amazon India,Winter,3.5,20,3136.78,2509.42,2025-10-24
+Marks & Spencer,Jeans,Synthetic,Westside,Monsoon,4.9,25,3891.29,2918.47,2025-10-24
+Athena,Hoodie,Silk,Ajio,Monsoon,4.0,30,761.47,533.03,2025-10-24
+US Polo Assn,Chinos,Silk,Reliance Trends,Winter,3.6,50,2277.41,1138.71,2025-10-24
+HRX,Dress,Linen,Amazon India,Summer,3.6,10,1791.2,1612.08,2025-10-24
+US Polo Assn,Sweater,Viscose,Flipkart,Summer,3.7,15,1675.01,1423.76,2025-10-24
+Raymond,Hoodie,Denim,Westside,Spring,4.8,25,2035.73,1526.8,2025-10-24
+Levi's,Polo,Polyester,Westside,Winter,4.2,20,2502.29,2001.83,2025-10-24
+Van Heusen,Dress,Leather,Max Fashion,Winter,4.3,0,1572.09,1572.09,2025-10-24
+AND,Shirt,Wool,Ajio,Spring,3.4,0,2739.19,2739.19,2025-10-24
+Allen Solly,Sweater,Polyester,Flipkart,Winter,4.1,25,1209.54,907.16,2025-10-24
+H&M,T-Shirt,Denim,Reliance Trends,Monsoon,4.0,25,250.57,187.92,2025-10-24
+Athena,Pants,Viscose,Max Fashion,All-Season,3.6,50,1416.54,708.27,2025-10-24
+Only,Polo,Wool,Amazon India,Monsoon,4.0,25,1353.41,1015.06,2025-10-24
+Allen Solly,Chinos,Denim,Shoppers Stop,Summer,4.3,20,3038.54,2430.83,2025-10-24
+Peter England,Shirt,Wool,Lifestyle,Spring,4.0,30,1229.3,860.51,2025-10-24
+Forever New,Blazer,Linen,Amazon India,Monsoon,3.5,20,6965.86,5572.69,2025-10-24
+Breakbounce,Polo,Synthetic,Shoppers Stop,Spring,3.5,30,1246.14,872.3,2025-10-24
+AND,T-Shirt,Wool,Shoppers Stop,Spring,3.5,40,2460.72,1476.43,2025-10-24
+AND,Shirt,Denim,Reliance Trends,Winter,3.7,30,1130.27,791.19,2025-10-24
+Flying Machine,Polo,Denim,Westside,All-Season,3.5,25,1284.13,963.1,2025-10-24
+Zara,Jeans,Denim,Reliance Trends,Monsoon,4.8,10,2254.22,2028.8,2025-10-24
+AND,Jeans,Polyester,Flipkart,Summer,3.7,30,2489.38,1742.57,2025-10-24
+H&M,Dress,Wool,Max Fashion,Summer,3.4,25,1462.96,1097.22,2025-10-24
+Allen Solly,Skirt,Polyester,Myntra,Summer,4.5,0,1383.34,1383.34,2025-10-24
+Allen Solly,Polo,Linen,Westside,Winter,4.1,30,873.38,611.37,2025-10-24
+Forever New,T-Shirt,Blend,Lifestyle,Monsoon,3.8,30,1398.89,979.22,2025-10-24
+AND,Jacket,Leather,Amazon India,Spring,4.2,25,5570.62,4177.96,2025-10-24
+Louis Philippe,Coat,Polyester,Ajio,Spring,3.9,30,7689.39,5382.58,2025-10-24
+Peter England,Jeans,Viscose,Ajio,All-Season,3.8,60,1594.84,637.94,2025-10-24
+W for Woman,Skirt,Silk,Amazon India,Winter,3.5,30,2724.59,1907.21,2025-10-24
+Wrogn,Dress,Viscose,Shoppers Stop,Summer,3.9,25,2021.06,1515.8,2025-10-24
+Zara,Jeans,Polyester,Shoppers Stop,Winter,4.9,30,3417.34,2392.14,2025-10-24
+US Polo Assn,Chinos,Synthetic,Shoppers Stop,Summer,4.0,10,1148.38,1033.54,2025-10-24
+Marks & Spencer,Shirt,Polyester,Max Fashion,Monsoon,4.4,40,4821.52,2892.91,2025-10-24
+Louis Philippe,Hoodie,Blend,Westside,Winter,4.0,30,2763.88,1934.71,2025-10-24
+H&M,Jeans,Blend,Reliance Trends,Monsoon,4.1,60,3138.91,1255.56,2025-10-24
+Puma,Jeans,Linen,Ajio,Summer,3.8,10,2139.57,1925.62,2025-10-24
+Louis Philippe,Shirt,Blend,Flipkart,All-Season,4.6,20,2487.87,1990.29,2025-10-24
+Only,Jacket,Viscose,Amazon India,Spring,3.5,25,3371.25,2528.44,2025-10-24
+Louis Philippe,Sweater,Cotton,Westside,Winter,4.0,20,1442.54,1154.03,2025-10-24
+Breakbounce,Blazer,Leather,Ajio,Summer,3.8,25,4561.0,3420.75,2025-10-24
+Raymond,T-Shirt,Silk,Lifestyle,Spring,4.9,30,2786.32,1950.43,2025-10-24
+Mast & Harbour,Hoodie,Wool,Reliance Trends,Spring,3.7,20,1102.53,882.03,2025-10-24
+Raymond,Chinos,Viscose,Max Fashion,All-Season,4.2,15,1679.41,1427.5,2025-10-24
+AND,Coat,Denim,Max Fashion,All-Season,3.6,0,4651.07,4651.07,2025-10-24
+Only,Shirt,Denim,Max Fashion,Winter,4.1,40,1597.83,958.7,2025-10-24
+HRX,Pants,Viscose,Reliance Trends,Spring,3.5,40,1884.99,1130.99,2025-10-24
+HRX,Blazer,Polyester,Ajio,Spring,3.9,10,2130.57,1917.52,2025-10-24
+US Polo Assn,Dress,Wool,Lifestyle,All-Season,3.9,0,3293.44,3293.44,2025-10-24
+AND,Shirt,Denim,Lifestyle,Monsoon,3.7,40,2216.83,1330.1,2025-10-24
+Calvin Klein,Jeans,Cotton,Lifestyle,Winter,4.1,30,9577.2,6704.04,2025-10-24
+US Polo Assn,Sweater,Blend,Amazon India,Spring,3.6,30,2889.76,2022.83,2025-10-24
+Tommy Hilfiger,Blazer,Synthetic,Westside,Winter,4.5,40,5857.98,3514.79,2025-10-24
+Mast & Harbour,Chinos,Polyester,Lifestyle,Spring,3.8,25,985.48,739.11,2025-10-24
+Wrogn,Jacket,Linen,Westside,Winter,3.5,10,3640.36,3276.32,2025-10-24
+Levi's,Jacket,Wool,Reliance Trends,Summer,4.2,0,5804.06,5804.06,2025-10-24
+Marks & Spencer,Pants,Linen,Myntra,Winter,4.3,30,3335.3,2334.71,2025-10-24
+Calvin Klein,Blazer,Cotton,Lifestyle,All-Season,4.1,20,4610.75,3688.6,2025-10-24
+Vero Moda,Shirt,Synthetic,Flipkart,Spring,3.6,40,3668.27,2200.96,2025-10-24
+Allen Solly,Polo,Silk,Flipkart,All-Season,4.7,70,3938.85,1181.66,2025-10-24
+Forever New,Blazer,Linen,Myntra,Winter,3.5,40,6150.62,3690.37,2025-10-24
+Tommy Hilfiger,Jacket,Linen,Westside,Summer,4.6,25,5627.19,4220.39,2025-10-24
+Zara,Sweater,Synthetic,Max Fashion,Spring,4.2,10,3025.06,2722.55,2025-10-24
+Raymond,Jeans,Linen,Flipkart,Summer,4.9,25,6205.75,4654.31,2025-10-24
+Raymond,Dress,Blend,Max Fashion,All-Season,4.6,20,3283.93,2627.14,2025-10-24
+Athena,Sweater,Blend,Shoppers Stop,Summer,3.9,0,1352.33,1352.33,2025-10-24
+Levi's,Jacket,Wool,Amazon India,Spring,3.9,20,5803.21,4642.57,2025-10-24
+Wrogn,Jacket,Wool,Max Fashion,Summer,4.0,25,2226.85,1670.14,2025-10-24
+US Polo Assn,Jeans,Silk,Myntra,Spring,4.0,10,1774.67,1597.21,2025-10-24
+Calvin Klein,Jacket,Cotton,Shoppers Stop,Spring,4.4,25,5764.64,4323.48,2025-10-24
+Only,Shirt,Polyester,Flipkart,Spring,4.0,50,2492.54,1246.27,2025-10-24
+Marks & Spencer,Shirt,Wool,Amazon India,Summer,4.4,10,2607.3,2346.57,2025-10-24
+Adidas,Sweater,Cotton,Myntra,Spring,3.9,70,7141.92,2142.58,2025-10-24
+W for Woman,Polo,Polyester,Max Fashion,Monsoon,3.6,0,667.1,667.1,2025-10-24
+Marks & Spencer,T-Shirt,Leather,Ajio,Spring,4.4,25,2614.77,1961.07,2025-10-24
+Only,Skirt,Synthetic,Myntra,Monsoon,3.5,25,2425.69,1819.27,2025-10-24
+Raymond,Sweater,Silk,Ajio,Spring,4.9,25,2472.39,1854.29,2025-10-24
+Calvin Klein,Chinos,Leather,Amazon India,Spring,4.6,20,9437.98,7550.38,2025-10-24
+Adidas,Hoodie,Viscose,Westside,Summer,3.5,15,1292.67,1098.77,2025-10-24
+Athena,Jacket,Silk,Lifestyle,Monsoon,3.9,10,1900.4,1710.36,2025-10-24
+Puma,Jeans,Silk,Lifestyle,Summer,4.0,10,4408.89,3968.0,2025-10-24
+Being Human,Shirt,Denim,Lifestyle,Monsoon,3.8,30,1580.38,1106.27,2025-10-24
+Allen Solly,T-Shirt,Cotton,Shoppers Stop,Summer,4.2,50,2732.36,1366.18,2025-10-24
+Raymond,Pants,Viscose,Amazon India,Spring,4.3,25,4442.16,3331.62,2025-10-24
+Calvin Klein,Sweater,Cotton,Reliance Trends,Spring,4.3,25,5376.08,4032.06,2025-10-24
+Roadster,Jacket,Blend,Amazon India,Monsoon,4.1,0,1113.45,1113.45,2025-10-24
+Roadster,Dress,Silk,Reliance Trends,Spring,3.9,30,2209.54,1546.68,2025-10-24
+Marks & Spencer,Jacket,Silk,Amazon India,Winter,4.5,15,7069.07,6008.71,2025-10-24
+Raymond,Jeans,Denim,Westside,Summer,4.8,30,3983.51,2788.46,2025-10-24
+Allen Solly,Skirt,Linen,Shoppers Stop,Winter,4.3,25,1857.08,1392.81,2025-10-24
+Allen Solly,Skirt,Denim,Shoppers Stop,Monsoon,4.7,10,1731.15,1558.03,2025-10-24
+Adidas,Sweater,Blend,Flipkart,Winter,3.8,25,1001.77,751.33,2025-10-24
+Nike,Jeans,Viscose,Lifestyle,Monsoon,3.5,40,5730.52,3438.31,2025-10-24
+Levi's,Blazer,Blend,Reliance Trends,All-Season,4.1,15,4664.41,3964.75,2025-10-24
+Mast & Harbour,Sweater,Wool,Myntra,Summer,4.0,25,1310.85,983.14,2025-10-24
+Adidas,Jacket,Silk,Myntra,Monsoon,4.2,60,11551.26,4620.5,2025-10-24
+Puma,Polo,Cotton,Lifestyle,All-Season,3.7,15,1418.55,1205.77,2025-10-24
+Roadster,Sweater,Synthetic,Shoppers Stop,Summer,4.0,15,725.43,616.62,2025-10-24
+W for Woman,Jacket,Blend,Reliance Trends,Spring,3.7,70,8383.59,2515.08,2025-10-24
+US Polo Assn,Blazer,Leather,Shoppers Stop,Monsoon,4.0,30,10067.43,7047.2,2025-10-24
+Only,Coat,Polyester,Myntra,Summer,3.5,30,6488.01,4541.61,2025-10-24
+Levi's,T-Shirt,Polyester,Amazon India,All-Season,3.9,40,784.67,470.8,2025-10-24
+Calvin Klein,Hoodie,Cotton,Flipkart,Spring,4.7,20,5605.14,4484.11,2025-10-24
+Being Human,Jeans,Silk,Max Fashion,Monsoon,3.5,30,2871.54,2010.08,2025-10-24
+Marks & Spencer,Coat,Synthetic,Westside,Monsoon,4.5,30,8025.24,5617.67,2025-10-24
+Roadster,Pants,Blend,Max Fashion,Summer,3.8,25,628.93,471.7,2025-10-24
+Levi's,Coat,Denim,Westside,Spring,4.2,40,13095.88,7857.53,2025-10-24
+Allen Solly,Coat,Blend,Amazon India,Monsoon,4.4,20,5533.7,4426.96,2025-10-24
+Forever New,Shirt,Leather,Reliance Trends,Monsoon,3.4,0,1457.61,1457.61,2025-10-24
+Athena,Coat,Viscose,Flipkart,Spring,4.1,40,3414.02,2048.41,2025-10-24
+Nike,Blazer,Linen,Myntra,Winter,4.1,15,8988.69,7640.38,2025-10-24
+Peter England,Skirt,Leather,Shoppers Stop,Summer,3.7,10,1868.02,1681.21,2025-10-24
+Vero Moda,T-Shirt,Silk,Shoppers Stop,Spring,4.0,30,2280.56,1596.4,2025-10-24
+Forever New,Polo,Leather,Max Fashion,Spring,3.7,30,1703.58,1192.51,2025-10-24
+US Polo Assn,Skirt,Linen,Flipkart,Winter,4.2,20,1090.7,872.56,2025-10-24
+Marks & Spencer,Polo,Synthetic,Reliance Trends,Monsoon,4.7,70,3916.99,1175.1,2025-10-24
+Mast & Harbour,Shirt,Viscose,Max Fashion,Spring,4.0,70,2122.53,636.76,2025-10-24
+Forever New,Dress,Wool,Westside,Summer,3.7,0,5837.11,5837.11,2025-10-24
+Roadster,Shirt,Viscose,Westside,Summer,4.1,15,556.81,473.29,2025-10-24
+AND,Shirt,Linen,Ajio,All-Season,3.7,10,942.72,848.45,2025-10-24
+W for Woman,Pants,Linen,Reliance Trends,Monsoon,4.2,10,1219.79,1097.81,2025-10-24
+Forever New,Skirt,Linen,Shoppers Stop,All-Season,3.8,40,2619.39,1571.64,2025-10-24
+Marks & Spencer,Jeans,Polyester,Amazon India,Monsoon,4.4,30,2953.81,2067.67,2025-10-24
+W for Woman,Skirt,Viscose,Reliance Trends,Winter,3.8,25,1379.88,1034.91,2025-10-24
+Forever New,Polo,Cotton,Ajio,All-Season,4.0,0,1081.96,1081.96,2025-10-24
+Marks & Spencer,Hoodie,Cotton,Shoppers Stop,Spring,4.4,20,3989.5,3191.6,2025-10-24
+Levi's,Shirt,Linen,Westside,Spring,3.9,15,3014.15,2562.03,2025-10-24
+Louis Philippe,Dress,Viscose,Flipkart,Spring,4.3,60,2639.57,1055.83,2025-10-24
+Calvin Klein,T-Shirt,Cotton,Amazon India,Winter,4.5,20,2085.9,1668.72,2025-10-24
+Mast & Harbour,Blazer,Linen,Westside,Spring,3.7,20,2680.47,2144.38,2025-10-24
+Being Human,Blazer,Polyester,Westside,Monsoon,3.9,30,2132.81,1492.97,2025-10-24
+HRX,Shirt,Synthetic,Shoppers Stop,Summer,3.8,30,1882.58,1317.81,2025-10-24
+Calvin Klein,Shirt,Linen,Westside,Monsoon,4.2,25,6600.94,4950.7,2025-10-24
+Levi's,Coat,Silk,Ajio,Summer,4.4,0,8908.89,8908.89,2025-10-24
+Zara,Blazer,Denim,Max Fashion,Summer,4.9,15,7113.64,6046.59,2025-10-24
+Calvin Klein,Blazer,Viscose,Flipkart,Summer,4.4,30,9040.3,6328.21,2025-10-24
+W for Woman,Sweater,Leather,Shoppers Stop,Monsoon,3.7,15,1413.04,1201.09,2025-10-24
+W for Woman,Sweater,Denim,Max Fashion,Spring,4.2,10,1177.81,1060.03,2025-10-24
+HRX,Pants,Linen,Shoppers Stop,Spring,4.2,20,2239.06,1791.25,2025-10-24
+Mast & Harbour,Chinos,Synthetic,Amazon India,Summer,3.9,15,855.89,727.51,2025-10-24
+W for Woman,T-Shirt,Viscose,Westside,All-Season,4.2,30,1192.61,834.83,2025-10-24
+Vero Moda,Chinos,Leather,Shoppers Stop,Summer,3.6,20,7085.03,5668.03,2025-10-24
+Puma,Blazer,Wool,Shoppers Stop,Spring,4.1,30,10882.71,7617.9,2025-10-24
+Levi's,Skirt,Silk,Max Fashion,Monsoon,4.3,10,2800.61,2520.55,2025-10-24
+Tommy Hilfiger,Skirt,Synthetic,Flipkart,Winter,4.7,40,6363.45,3818.07,2025-10-24
+Nike,T-Shirt,Leather,Max Fashion,Spring,3.5,15,982.62,835.23,2025-10-24
+Vero Moda,Polo,Blend,Lifestyle,Spring,3.6,10,1551.45,1396.3,2025-10-24
+W for Woman,Coat,Silk,Ajio,All-Season,4.1,20,7422.88,5938.3,2025-10-24
+Wrogn,Shirt,Synthetic,Ajio,Summer,3.4,40,1399.19,839.52,2025-10-24
+Only,Pants,Polyester,Max Fashion,All-Season,4.2,15,1669.42,1419.01,2025-10-24
+Zara,Hoodie,Linen,Westside,Summer,4.6,25,4026.44,3019.83,2025-10-24
+Puma,Coat,Blend,Flipkart,Monsoon,4.0,40,6018.16,3610.89,2025-10-24
+Mast & Harbour,Jeans,Cotton,Shoppers Stop,Monsoon,3.5,20,1950.0,1560.0,2025-10-24
+Louis Philippe,T-Shirt,Denim,Myntra,All-Season,4.6,50,2213.82,1106.91,2025-10-24
+Being Human,Jeans,Viscose,Max Fashion,Summer,4.0,40,2100.16,1260.1,2025-10-24
+Only,Jacket,Leather,Lifestyle,Winter,3.5,25,8545.83,6409.37,2025-10-24
+Vero Moda,Blazer,Polyester,Reliance Trends,Summer,3.5,30,2918.56,2042.99,2025-10-24
+Breakbounce,Skirt,Blend,Reliance Trends,Spring,3.4,60,3144.39,1257.76,2025-10-24
+Flying Machine,Dress,Leather,Ajio,Monsoon,3.7,10,1901.5,1711.35,2025-10-24
+US Polo Assn,Polo,Leather,Westside,All-Season,3.5,20,1390.69,1112.55,2025-10-24
+Wrogn,Polo,Cotton,Myntra,Spring,3.5,50,886.91,443.45,2025-10-24
+Levi's,Coat,Silk,Flipkart,Monsoon,4.1,20,7403.91,5923.13,2025-10-24
+Puma,Pants,Wool,Shoppers Stop,Spring,3.7,40,7828.61,4697.17,2025-10-24
+H&M,Dress,Wool,Reliance Trends,Winter,3.6,30,2424.47,1697.13,2025-10-24
+W for Woman,Pants,Silk,Ajio,Spring,3.6,15,2390.0,2031.5,2025-10-24
+Athena,Chinos,Viscose,Westside,All-Season,3.4,0,1058.82,1058.82,2025-10-24
+Levi's,Shirt,Linen,Ajio,Monsoon,4.7,0,2638.86,2638.86,2025-10-24
+Flying Machine,T-Shirt,Silk,Amazon India,Summer,4.1,20,313.23,250.58,2025-10-24
+Peter England,Coat,Viscose,Lifestyle,Winter,4.0,15,3081.85,2619.58,2025-10-24
+Nike,Dress,Synthetic,Shoppers Stop,Winter,3.6,40,7737.95,4642.77,2025-10-24
+HRX,Hoodie,Synthetic,Reliance Trends,Monsoon,3.7,0,823.46,823.46,2025-10-24
+Raymond,Jeans,Cotton,Shoppers Stop,All-Season,4.2,30,6895.14,4826.6,2025-10-24
+Wrogn,Blazer,Cotton,Amazon India,Spring,3.6,0,1830.68,1830.68,2025-10-24
+Van Heusen,Pants,Leather,Myntra,Spring,4.3,10,2511.45,2260.31,2025-10-24
+Allen Solly,Blazer,Leather,Westside,Summer,4.0,0,5789.67,5789.67,2025-10-24
+Van Heusen,Chinos,Linen,Flipkart,Summer,4.0,30,1782.67,1247.87,2025-10-24
+Marks & Spencer,Shirt,Polyester,Westside,Winter,4.7,30,1788.31,1251.82,2025-10-24
+Raymond,Coat,Linen,Lifestyle,Spring,4.8,0,10114.94,10114.94,2025-10-24
+Breakbounce,T-Shirt,Polyester,Flipkart,Winter,3.8,20,358.54,286.83,2025-10-24
+Wrogn,Hoodie,Linen,Max Fashion,All-Season,3.7,0,447.89,447.89,2025-10-24
+Tommy Hilfiger,Blazer,Synthetic,Reliance Trends,Monsoon,4.6,15,9871.12,8390.45,2025-10-24
+Vero Moda,T-Shirt,Viscose,Amazon India,Spring,4.0,30,970.89,679.62,2025-10-24
+Calvin Klein,Sweater,Polyester,Reliance Trends,Winter,4.1,20,5731.3,4585.04,2025-10-24
+Breakbounce,Skirt,Wool,Lifestyle,Winter,3.7,70,7146.01,2143.8,2025-10-24
+W for Woman,Jacket,Synthetic,Lifestyle,Winter,4.1,30,4593.74,3215.62,2025-10-24
+Mast & Harbour,Pants,Blend,Shoppers Stop,Monsoon,4.2,70,3417.38,1025.21,2025-10-24
+Only,Blazer,Blend,Reliance Trends,Summer,3.6,10,2257.99,2032.19,2025-10-24
+Being Human,Dress,Blend,Ajio,Summer,3.7,20,2928.43,2342.74,2025-10-24
+Allen Solly,Coat,Leather,Myntra,Monsoon,3.9,20,5625.04,4500.03,2025-10-24
+Wrogn,Shirt,Silk,Myntra,Monsoon,3.8,20,1109.5,887.6,2025-10-24
+US Polo Assn,Polo,Leather,Amazon India,Winter,4.1,0,1752.57,1752.57,2025-10-24
+Allen Solly,Skirt,Silk,Shoppers Stop,Summer,4.1,25,2316.92,1737.69,2025-10-24
+Being Human,Pants,Denim,Shoppers Stop,All-Season,4.1,40,1463.23,877.94,2025-10-24
+HRX,Hoodie,Viscose,Lifestyle,All-Season,4.2,0,880.84,880.84,2025-10-24
+Louis Philippe,Skirt,Leather,Reliance Trends,Summer,4.2,15,1400.95,1190.8,2025-10-24
+Vero Moda,Hoodie,Polyester,Amazon India,Winter,3.6,20,1778.48,1422.78,2025-10-24
+H&M,Hoodie,Viscose,Flipkart,All-Season,4.0,0,1016.48,1016.48,2025-10-24
+W for Woman,Dress,Denim,Westside,Spring,3.7,20,3252.87,2602.3,2025-10-24
+Van Heusen,Polo,Viscose,Reliance Trends,All-Season,4.5,10,1215.58,1094.02,2025-10-24
+Louis Philippe,Jacket,Silk,Lifestyle,All-Season,4.7,15,6061.66,5152.41,2025-10-24
+W for Woman,Dress,Wool,Lifestyle,All-Season,3.9,0,2690.54,2690.54,2025-10-24
+Being Human,Hoodie,Cotton,Flipkart,Monsoon,4.1,25,1257.09,942.81,2025-10-24
+Tommy Hilfiger,Blazer,Denim,Myntra,All-Season,4.2,10,10412.6,9371.34,2025-10-24
+Breakbounce,Polo,Linen,Flipkart,Spring,3.7,40,2270.95,1362.57,2025-10-24
+Nike,Shirt,Wool,Westside,All-Season,3.6,30,4079.61,2855.73,2025-10-24
+Peter England,Pants,Synthetic,Amazon India,All-Season,3.5,40,1626.0,975.6,2025-10-24
+Adidas,Polo,Silk,Flipkart,Monsoon,3.5,40,1577.45,946.47,2025-10-24
+Flying Machine,Jacket,Leather,Westside,Monsoon,4.1,25,4725.0,3543.75,2025-10-24
+Being Human,Jeans,Synthetic,Myntra,Monsoon,3.7,20,754.66,603.73,2025-10-24
+Adidas,Polo,Blend,Flipkart,Summer,3.7,20,1729.28,1383.43,2025-10-24
+Louis Philippe,Dress,Leather,Amazon India,Winter,4.1,40,5729.04,3437.43,2025-10-24
+Calvin Klein,Jeans,Polyester,Ajio,Monsoon,4.4,15,2636.99,2241.44,2025-10-24
+Forever New,Coat,Silk,Amazon India,Summer,3.5,0,5137.33,5137.33,2025-10-24
+Calvin Klein,T-Shirt,Polyester,Max Fashion,Monsoon,4.6,40,839.41,503.64,2025-10-24
+Only,Jeans,Cotton,Max Fashion,Spring,3.6,40,1540.28,924.17,2025-10-24
+Louis Philippe,Skirt,Polyester,Lifestyle,Winter,4.1,10,2990.55,2691.5,2025-10-24
+Zara,Chinos,Leather,Lifestyle,Spring,4.5,15,8820.83,7497.71,2025-10-24
+Levi's,Shirt,Leather,Shoppers Stop,Winter,4.0,70,16668.12,5000.44,2025-10-24
+Breakbounce,Chinos,Linen,Ajio,All-Season,3.8,15,1290.55,1096.97,2025-10-24
+Mast & Harbour,Blazer,Silk,Myntra,All-Season,3.4,15,1671.65,1420.9,2025-10-24
+Only,Shirt,Silk,Flipkart,Monsoon,4.0,15,1438.63,1222.83,2025-10-24
+Puma,Jeans,Blend,Ajio,Winter,4.1,0,2108.54,2108.54,2025-10-24
+Peter England,Jacket,Silk,Flipkart,Winter,3.9,20,3650.05,2920.04,2025-10-24
+Marks & Spencer,Coat,Polyester,Lifestyle,Winter,4.1,15,4809.5,4088.07,2025-10-24
+Levi's,Pants,Cotton,Ajio,All-Season,4.0,20,2841.79,2273.43,2025-10-24
+W for Woman,Jeans,Denim,Max Fashion,Winter,3.7,0,944.84,944.84,2025-10-24
+Roadster,Pants,Viscose,Flipkart,Monsoon,3.9,25,1029.9,772.43,2025-10-24
+Puma,Jeans,Synthetic,Myntra,Summer,3.5,10,1527.48,1374.73,2025-10-24
+Zara,Chinos,Leather,Max Fashion,Monsoon,4.3,15,4803.33,4082.83,2025-10-24
+H&M,Sweater,Denim,Myntra,Winter,3.8,50,1686.19,843.09,2025-10-24
+Mast & Harbour,Chinos,Blend,Flipkart,Monsoon,4.1,0,453.22,453.22,2025-10-24
+W for Woman,Sweater,Leather,Lifestyle,Spring,3.5,25,1488.9,1116.68,2025-10-24
+Athena,Jeans,Blend,Lifestyle,Summer,3.6,15,968.52,823.24,2025-10-24
+Breakbounce,Dress,Silk,Max Fashion,Winter,4.2,20,3370.8,2696.64,2025-10-24
+Wrogn,Chinos,Blend,Westside,Winter,3.7,15,1924.54,1635.86,2025-10-24
+Roadster,T-Shirt,Blend,Westside,Monsoon,3.5,0,389.45,389.45,2025-10-24
+Louis Philippe,Shirt,Linen,Shoppers Stop,All-Season,4.3,15,3696.04,3141.64,2025-10-24
+Van Heusen,Polo,Viscose,Westside,Monsoon,4.0,10,1206.96,1086.27,2025-10-24
+Marks & Spencer,Blazer,Denim,Ajio,Summer,4.2,0,4594.09,4594.09,2025-10-24
+Vero Moda,Pants,Linen,Lifestyle,Spring,3.4,0,3348.43,3348.43,2025-10-24
+Flying Machine,Dress,Denim,Ajio,Monsoon,3.7,15,2130.88,1811.25,2025-10-24
+W for Woman,Hoodie,Denim,Westside,Summer,3.9,15,2241.81,1905.53,2025-10-24
+W for Woman,Shirt,Synthetic,Flipkart,Spring,3.6,20,912.49,729.99,2025-10-24
+H&M,Chinos,Linen,Westside,Winter,4.0,30,1215.28,850.69,2025-10-24
+Only,Coat,Denim,Amazon India,Monsoon,4.0,15,5659.69,4810.74,2025-10-24
+Van Heusen,Chinos,Linen,Myntra,Spring,4.2,70,6989.48,2096.84,2025-10-24
+Athena,T-Shirt,Viscose,Ajio,Winter,3.7,0,318.72,318.72,2025-10-24
+H&M,Sweater,Blend,Max Fashion,Spring,4.0,10,934.84,841.36,2025-10-24
+Louis Philippe,Jeans,Wool,Reliance Trends,Winter,4.2,20,3627.59,2902.07,2025-10-24
+Peter England,Jacket,Synthetic,Westside,Winter,3.8,10,2469.36,2222.43,2025-10-24
+Vero Moda,Skirt,Blend,Lifestyle,Spring,3.5,10,1985.69,1787.12,2025-10-24
+Raymond,Jacket,Polyester,Reliance Trends,Summer,4.6,30,6357.15,4450.01,2025-10-24
+Breakbounce,Coat,Linen,Reliance Trends,Spring,4.0,25,2346.75,1760.06,2025-10-24
+Levi's,Pants,Denim,Westside,Summer,4.7,20,3562.02,2849.62,2025-10-24
+Being Human,Hoodie,Silk,Lifestyle,Winter,3.5,15,2388.51,2030.24,2025-10-24
+Allen Solly,Dress,Denim,Westside,Winter,4.4,40,4691.38,2814.83,2025-10-24
+Calvin Klein,Blazer,Wool,Myntra,Summer,4.9,10,13340.23,12006.21,2025-10-24
+Calvin Klein,Jacket,Silk,Lifestyle,Monsoon,4.5,30,18719.8,13103.86,2025-10-24
+Peter England,Chinos,Viscose,Shoppers Stop,All-Season,3.6,15,928.66,789.36,2025-10-24
+Zara,Shirt,Cotton,Westside,Spring,4.8,10,1786.71,1608.04,2025-10-24
+HRX,Sweater,Wool,Westside,All-Season,4.1,20,986.48,789.19,2025-10-24
+Puma,Jeans,Polyester,Lifestyle,Summer,3.7,25,4377.14,3282.85,2025-10-24
+HRX,Polo,Synthetic,Reliance Trends,Summer,3.5,0,298.15,298.15,2025-10-24
+Only,Skirt,Silk,Lifestyle,Winter,3.8,40,3251.56,1950.94,2025-10-24
+Van Heusen,Skirt,Synthetic,Ajio,Winter,4.6,40,1620.85,972.51,2025-10-24
+Van Heusen,Jeans,Viscose,Shoppers Stop,Monsoon,4.3,10,2595.87,2336.28,2025-10-24
+Mast & Harbour,Pants,Viscose,Ajio,Spring,4.0,15,698.51,593.73,2025-10-24
+Being Human,Dress,Blend,Lifestyle,All-Season,3.6,10,1816.1,1634.49,2025-10-24
+Peter England,Sweater,Blend,Lifestyle,All-Season,3.6,0,934.97,934.97,2025-10-24
+Breakbounce,Sweater,Synthetic,Max Fashion,Monsoon,3.9,15,1467.64,1247.49,2025-10-24
+Forever New,Pants,Viscose,Flipkart,Summer,4.2,40,4769.74,2861.84,2025-10-24
+Roadster,Dress,Wool,Max Fashion,Summer,3.5,20,1257.14,1005.71,2025-10-24
+Zara,Sweater,Leather,Myntra,Winter,4.6,40,9437.35,5662.41,2025-10-24
+Being Human,Chinos,Cotton,Flipkart,Summer,3.6,40,1617.01,970.21,2025-10-24
+H&M,Chinos,Cotton,Ajio,Summer,3.8,40,1315.08,789.05,2025-10-24
+Forever New,Polo,Cotton,Reliance Trends,Monsoon,3.4,20,834.11,667.29,2025-10-24
+Raymond,Coat,Blend,Lifestyle,Spring,4.7,20,8749.81,6999.85,2025-10-24
+Being Human,Dress,Linen,Westside,Winter,4.0,10,1481.46,1333.31,2025-10-24
+Wrogn,Skirt,Polyester,Flipkart,Spring,4.2,15,538.95,458.11,2025-10-24
+Calvin Klein,Hoodie,Wool,Max Fashion,Spring,4.6,40,2396.86,1438.11,2025-10-24
+Flying Machine,Hoodie,Synthetic,Flipkart,Winter,3.6,25,953.46,715.1,2025-10-24
+W for Woman,Sweater,Synthetic,Myntra,Winter,3.9,25,1391.41,1043.56,2025-10-24
+Mast & Harbour,Polo,Blend,Westside,Monsoon,3.5,25,355.1,266.33,2025-10-24
+Roadster,Polo,Polyester,Shoppers Stop,Winter,4.1,15,394.0,334.9,2025-10-24
+AND,Hoodie,Polyester,Westside,Spring,3.8,40,3020.15,1812.09,2025-10-24
+Flying Machine,Chinos,Linen,Reliance Trends,Monsoon,3.4,30,1624.55,1137.18,2025-10-24
+Vero Moda,Shirt,Silk,Max Fashion,Winter,3.5,20,1967.74,1574.19,2025-10-24
+Louis Philippe,Sweater,Cotton,Westside,All-Season,4.4,10,1936.13,1742.52,2025-10-24
+Adidas,T-Shirt,Linen,Lifestyle,Winter,3.7,25,1004.41,753.31,2025-10-24
+Puma,Hoodie,Blend,Flipkart,Winter,3.8,70,3067.14,920.14,2025-10-24
+Raymond,Sweater,Denim,Max Fashion,Summer,4.3,25,4244.63,3183.47,2025-10-24
+H&M,Coat,Polyester,Westside,Winter,3.6,0,1785.23,1785.23,2025-10-24
+Peter England,Dress,Denim,Myntra,Spring,3.6,40,2438.55,1463.13,2025-10-24
+W for Woman,Polo,Wool,Reliance Trends,Spring,4.0,30,975.69,682.98,2025-10-24
+Vero Moda,Polo,Leather,Ajio,Monsoon,3.8,15,2456.41,2087.95,2025-10-24
+Forever New,T-Shirt,Linen,Ajio,Winter,4.0,50,1678.04,839.02,2025-10-24
+Adidas,Dress,Cotton,Westside,Spring,3.8,30,5303.35,3712.35,2025-10-24
+Zara,Coat,Synthetic,Reliance Trends,Winter,4.7,25,4414.13,3310.6,2025-10-24
+Levi's,Chinos,Denim,Westside,Spring,3.9,40,3837.45,2302.47,2025-10-24
+Only,Chinos,Synthetic,Max Fashion,Summer,3.9,10,649.71,584.74,2025-10-24
+Louis Philippe,Shirt,Denim,Ajio,Winter,4.7,30,3182.18,2227.53,2025-10-24
+Adidas,Sweater,Synthetic,Lifestyle,Summer,3.6,15,1799.02,1529.17,2025-10-24
+Only,Dress,Polyester,Shoppers Stop,All-Season,4.1,20,1604.5,1283.6,2025-10-24
+Marks & Spencer,Skirt,Viscose,Ajio,Winter,4.4,15,3120.12,2652.1,2025-10-24
+Mast & Harbour,Coat,Linen,Lifestyle,Winter,3.4,25,4662.75,3497.06,2025-10-24
+Wrogn,Shirt,Wool,Westside,Monsoon,3.5,20,1799.41,1439.53,2025-10-24
+Flying Machine,Coat,Leather,Shoppers Stop,Winter,4.0,20,4821.83,3857.46,2025-10-24
+Being Human,Jeans,Polyester,Ajio,Summer,3.4,60,1979.47,791.79,2025-10-24
+Van Heusen,T-Shirt,Silk,Westside,Summer,3.9,0,1485.61,1485.61,2025-10-24
+Zara,Sweater,Blend,Westside,Monsoon,4.1,15,4355.2,3701.92,2025-10-24
+HRX,Blazer,Polyester,Westside,Spring,3.5,50,5223.04,2611.52,2025-10-24
+AND,Sweater,Denim,Max Fashion,Monsoon,3.9,10,2144.87,1930.38,2025-10-24
+Puma,Sweater,Synthetic,Westside,Spring,3.8,15,2832.88,2407.95,2025-10-24
+Forever New,Hoodie,Polyester,Myntra,Winter,3.6,40,2766.6,1659.96,2025-10-24
+Nike,Coat,Leather,Lifestyle,All-Season,4.1,25,22214.67,16661.01,2025-10-24
+Raymond,Hoodie,Cotton,Reliance Trends,Winter,4.5,0,2752.69,2752.69,2025-10-24
+Calvin Klein,Blazer,Silk,Westside,Summer,4.3,25,19015.16,14261.37,2025-10-24
+Forever New,T-Shirt,Cotton,Westside,Winter,3.7,20,807.68,646.14,2025-10-24
+Vero Moda,Coat,Viscose,Myntra,All-Season,4.0,20,4008.16,3206.53,2025-10-24
+Being Human,Sweater,Synthetic,Lifestyle,Monsoon,3.5,25,1991.75,1493.81,2025-10-24
+Only,Hoodie,Silk,Lifestyle,Spring,3.7,25,3622.68,2717.01,2025-10-24
+Marks & Spencer,Jacket,Blend,Flipkart,All-Season,4.6,15,4902.32,4166.97,2025-10-24
+Being Human,Skirt,Synthetic,Shoppers Stop,All-Season,3.5,15,1293.69,1099.64,2025-10-24
+Allen Solly,T-Shirt,Synthetic,Ajio,All-Season,4.7,20,568.09,454.48,2025-10-24
+Van Heusen,T-Shirt,Cotton,Reliance Trends,Winter,4.6,30,724.15,506.9,2025-10-24
+W for Woman,Dress,Viscose,Reliance Trends,All-Season,3.8,20,2611.59,2089.27,2025-10-24
+Puma,Hoodie,Polyester,Flipkart,Monsoon,4.0,0,2145.22,2145.22,2025-10-24
+HRX,T-Shirt,Blend,Myntra,Spring,4.0,15,399.59,339.65,2025-10-24
+Tommy Hilfiger,Sweater,Polyester,Flipkart,Winter,4.5,20,2974.09,2379.27,2025-10-24
+Forever New,Polo,Viscose,Max Fashion,Summer,3.5,20,1903.07,1522.46,2025-10-24
+Mast & Harbour,T-Shirt,Leather,Amazon India,Monsoon,3.5,50,1426.19,713.1,2025-10-24
+Louis Philippe,Pants,Blend,Amazon India,Spring,4.1,70,7172.5,2151.75,2025-10-24
+Levi's,Sweater,Viscose,Reliance Trends,All-Season,4.0,15,2021.99,1718.69,2025-10-24
+Nike,Dress,Blend,Amazon India,All-Season,3.6,50,5032.87,2516.44,2025-10-24
+Flying Machine,Jeans,Linen,Myntra,Spring,3.6,0,1191.33,1191.33,2025-10-24
+AND,Polo,Cotton,Westside,Summer,4.0,30,1240.99,868.69,2025-10-24
+Levi's,Blazer,Denim,Amazon India,Spring,4.2,0,5033.37,5033.37,2025-10-24
+Louis Philippe,Sweater,Blend,Flipkart,Spring,3.9,20,3517.65,2814.12,2025-10-24
+Adidas,Hoodie,Linen,Myntra,Summer,3.9,0,2168.3,2168.3,2025-10-24
+US Polo Assn,Jeans,Silk,Lifestyle,Summer,3.8,50,6720.03,3360.01,2025-10-24
+Nike,Blazer,Blend,Max Fashion,Summer,3.9,15,3614.92,3072.68,2025-10-24
+Raymond,Blazer,Denim,Shoppers Stop,All-Season,4.6,30,7168.15,5017.7,2025-10-24
+Zara,Jeans,Denim,Lifestyle,Summer,4.1,0,4971.72,4971.72,2025-10-24
+H&M,Shirt,Denim,Westside,Spring,4.2,30,894.47,626.13,2025-10-24
+Breakbounce,Coat,Silk,Max Fashion,All-Season,3.5,15,4520.38,3842.32,2025-10-24
+Louis Philippe,Dress,Polyester,Westside,Winter,4.1,10,1407.72,1266.95,2025-10-24
+Allen Solly,Hoodie,Polyester,Lifestyle,Summer,4.3,15,1336.39,1135.93,2025-10-24
+Peter England,Polo,Cotton,Lifestyle,All-Season,4.1,25,1192.39,894.29,2025-10-24
+Van Heusen,Coat,Silk,Amazon India,Summer,4.1,10,3303.04,2972.74,2025-10-24
+Adidas,Coat,Denim,Flipkart,Summer,3.5,25,7142.99,5357.24,2025-10-24
+Athena,T-Shirt,Blend,Westside,Spring,3.9,30,451.13,315.79,2025-10-24
+Allen Solly,Hoodie,Wool,Ajio,Winter,4.3,25,1294.32,970.74,2025-10-24
+Only,Polo,Leather,Myntra,Summer,3.9,40,3009.91,1805.95,2025-10-24
+Levi's,Skirt,Blend,Max Fashion,Spring,4.2,30,2022.78,1415.95,2025-10-24
+Wrogn,Skirt,Denim,Reliance Trends,Monsoon,3.6,20,772.64,618.11,2025-10-24
+Marks & Spencer,Skirt,Synthetic,Amazon India,Summer,4.4,30,2471.38,1729.96,2025-10-24
+Being Human,Polo,Synthetic,Lifestyle,Monsoon,3.6,50,1863.88,931.94,2025-10-24
+W for Woman,Jeans,Linen,Flipkart,Winter,4.1,70,3880.05,1164.01,2025-10-24
+Nike,Pants,Linen,Westside,Winter,3.6,25,2550.57,1912.93,2025-10-24
+Being Human,Skirt,Cotton,Westside,Summer,3.5,15,1995.8,1696.43,2025-10-24
+HRX,Jeans,Synthetic,Shoppers Stop,Monsoon,4.1,20,1303.13,1042.51,2025-10-24
+Being Human,Hoodie,Synthetic,Max Fashion,Summer,4.1,30,947.76,663.43,2025-10-24
+Athena,Dress,Synthetic,Amazon India,Monsoon,3.8,15,1286.35,1093.39,2025-10-24
+Levi's,Chinos,Silk,Ajio,Winter,4.4,10,2445.34,2200.81,2025-10-24
+Being Human,Shirt,Viscose,Amazon India,Winter,3.8,0,694.29,694.29,2025-10-24
+Flying Machine,Dress,Linen,Myntra,All-Season,3.4,15,1417.88,1205.2,2025-10-24
+Forever New,Blazer,Wool,Westside,Monsoon,3.9,25,9992.71,7494.53,2025-10-24
+Puma,Dress,Denim,Ajio,Summer,3.8,50,8304.96,4152.48,2025-10-24
+Flying Machine,Hoodie,Cotton,Ajio,Winter,3.8,20,1215.17,972.14,2025-10-24
+Levi's,Hoodie,Cotton,Westside,All-Season,4.2,15,3624.58,3080.89,2025-10-24
+Roadster,Pants,Polyester,Reliance Trends,Summer,3.7,30,840.07,588.05,2025-10-24
+AND,Blazer,Denim,Reliance Trends,Monsoon,4.0,40,6622.73,3973.64,2025-10-24
+Vero Moda,Skirt,Viscose,Ajio,Monsoon,4.2,10,958.85,862.97,2025-10-24
+Wrogn,Skirt,Leather,Shoppers Stop,Spring,4.1,50,4617.36,2308.68,2025-10-24
+Tommy Hilfiger,Sweater,Silk,Flipkart,Monsoon,4.6,30,7588.51,5311.96,2025-10-24
+AND,Chinos,Leather,Amazon India,Spring,3.7,15,4067.29,3457.2,2025-10-24
+Wrogn,Hoodie,Silk,Reliance Trends,Winter,3.8,30,1605.2,1123.64,2025-10-24
+Flying Machine,Polo,Wool,Amazon India,Summer,4.2,10,689.03,620.13,2025-10-24
+Tommy Hilfiger,Blazer,Viscose,Shoppers Stop,Summer,4.7,20,9328.36,7462.69,2025-10-24
+W for Woman,Shirt,Linen,Reliance Trends,Monsoon,3.5,30,2421.21,1694.85,2025-10-24
+Wrogn,Blazer,Denim,Shoppers Stop,Spring,3.9,60,4097.78,1639.11,2025-10-24
+Roadster,Skirt,Synthetic,Ajio,Summer,4.1,15,803.55,683.02,2025-10-24
+Tommy Hilfiger,Pants,Wool,Reliance Trends,Monsoon,4.8,20,9727.97,7782.37,2025-10-24
+Raymond,Jeans,Silk,Shoppers Stop,Monsoon,4.7,30,4180.69,2926.48,2025-10-24
+Vero Moda,Blazer,Blend,Reliance Trends,Spring,3.8,30,5263.31,3684.32,2025-10-24
+W for Woman,Dress,Synthetic,Lifestyle,All-Season,4.0,40,1627.02,976.21,2025-10-24
+AND,Dress,Viscose,Flipkart,Summer,4.2,25,2556.14,1917.11,2025-10-24
+W for Woman,Pants,Denim,Amazon India,Winter,3.9,25,1743.86,1307.9,2025-10-24
+Vero Moda,Hoodie,Denim,Lifestyle,Spring,4.1,40,2517.41,1510.44,2025-10-24
+W for Woman,Shirt,Leather,Amazon India,Monsoon,4.2,25,2003.57,1502.68,2025-10-24
+H&M,Pants,Viscose,Lifestyle,Winter,3.7,30,2055.74,1439.02,2025-10-24
+Peter England,Sweater,Viscose,Amazon India,Winter,3.6,30,858.05,600.64,2025-10-24
+Wrogn,Jeans,Cotton,Reliance Trends,All-Season,3.6,70,4957.36,1487.21,2025-10-24
+HRX,T-Shirt,Polyester,Westside,Spring,4.0,30,749.6,524.72,2025-10-24
+Levi's,Coat,Viscose,Ajio,Summer,4.6,30,8530.09,5971.06,2025-10-24
+Raymond,Jacket,Viscose,Myntra,Summer,4.2,10,5139.94,4625.94,2025-10-24
+Adidas,Skirt,Viscose,Ajio,Monsoon,4.1,30,1161.43,813.0,2025-10-24
+Louis Philippe,Shirt,Wool,Reliance Trends,Summer,4.4,70,4516.39,1354.92,2025-10-24
+Athena,Dress,Leather,Reliance Trends,Summer,3.6,0,2095.49,2095.49,2025-10-24
+Louis Philippe,Coat,Wool,Flipkart,Spring,4.5,20,6553.21,5242.57,2025-10-24
+W for Woman,Jacket,Blend,Max Fashion,All-Season,4.1,25,1204.2,903.15,2025-10-24
+US Polo Assn,Chinos,Blend,Lifestyle,Monsoon,3.9,60,3281.66,1312.66,2025-10-24
+Peter England,Blazer,Silk,Westside,Summer,4.1,10,1963.21,1766.89,2025-10-24
+Louis Philippe,Skirt,Wool,Flipkart,Spring,4.4,30,2319.11,1623.38,2025-10-24
+Levi's,Chinos,Blend,Shoppers Stop,Summer,4.0,20,4677.45,3741.96,2025-10-24
+Nike,Dress,Viscose,Reliance Trends,Summer,3.5,20,4843.92,3875.13,2025-10-24
+Levi's,Jacket,Cotton,Lifestyle,All-Season,4.5,40,5004.19,3002.51,2025-10-24
+Calvin Klein,Sweater,Wool,Amazon India,Summer,4.2,10,3825.4,3442.86,2025-10-24
+Puma,Dress,Denim,Shoppers Stop,Spring,4.1,10,4840.02,4356.02,2025-10-24
+Flying Machine,Jeans,Cotton,Westside,Winter,4.1,60,3735.92,1494.37,2025-10-24
+W for Woman,Polo,Cotton,Shoppers Stop,All-Season,3.8,40,998.34,599.01,2025-10-24
+Flying Machine,Jeans,Leather,Max Fashion,Summer,4.1,0,1872.67,1872.67,2025-10-24
+Puma,Skirt,Linen,Amazon India,Winter,4.2,20,2069.66,1655.73,2025-10-24
+Peter England,Dress,Silk,Ajio,Spring,3.8,20,3487.25,2789.8,2025-10-24
+Breakbounce,Coat,Cotton,Shoppers Stop,Spring,3.8,50,7503.42,3751.71,2025-10-24
+Calvin Klein,Chinos,Silk,Shoppers Stop,Monsoon,4.5,60,25206.11,10082.44,2025-10-24
+AND,Sweater,Polyester,Westside,Spring,4.2,0,1165.79,1165.79,2025-10-24
+Calvin Klein,Chinos,Denim,Westside,Winter,4.3,25,3647.19,2735.39,2025-10-24
+Athena,Pants,Polyester,Westside,Summer,3.6,10,1011.76,910.59,2025-10-24
+Puma,Blazer,Silk,Ajio,Winter,3.6,15,5883.88,5001.3,2025-10-24
+Roadster,Polo,Polyester,Reliance Trends,Winter,3.4,30,286.63,200.64,2025-10-24
+Nike,Chinos,Leather,Ajio,Monsoon,3.9,0,3539.16,3539.16,2025-10-24
+Allen Solly,Sweater,Linen,Lifestyle,Spring,4.2,10,2490.27,2241.24,2025-10-24
+Van Heusen,Coat,Synthetic,Amazon India,Summer,4.6,20,3437.96,2750.37,2025-10-24
+Levi's,Jeans,Silk,Westside,Winter,4.4,25,4215.83,3161.87,2025-10-24
+Vero Moda,Shirt,Blend,Amazon India,All-Season,3.9,15,1784.27,1516.63,2025-10-24
+Breakbounce,Coat,Blend,Ajio,Winter,3.8,25,2771.24,2078.43,2025-10-24
+Only,Blazer,Leather,Max Fashion,Summer,3.9,30,5024.51,3517.15,2025-10-24
+Louis Philippe,Jacket,Viscose,Flipkart,Monsoon,4.5,0,2246.58,2246.58,2025-10-24
+Raymond,Jacket,Wool,Flipkart,Summer,4.7,0,3968.08,3968.08,2025-10-24
+Calvin Klein,Skirt,Wool,Max Fashion,Monsoon,4.2,25,4079.91,3059.93,2025-10-24
+Vero Moda,Shirt,Blend,Myntra,Spring,3.7,40,1723.66,1034.19,2025-10-24
+Vero Moda,Pants,Leather,Westside,Spring,3.4,25,5303.58,3977.69,2025-10-24
+Marks & Spencer,Jeans,Denim,Reliance Trends,All-Season,4.3,30,2191.29,1533.9,2025-10-24
+W for Woman,Blazer,Wool,Myntra,All-Season,4.2,30,4650.48,3255.33,2025-10-24
+Breakbounce,Dress,Blend,Reliance Trends,Summer,3.8,15,1434.86,1219.63,2025-10-24
+Being Human,Pants,Cotton,Max Fashion,Spring,3.7,25,1771.85,1328.89,2025-10-24
+Mast & Harbour,Coat,Linen,Amazon India,Spring,3.5,20,2316.71,1853.36,2025-10-24
+Nike,Jacket,Wool,Westside,Monsoon,4.0,25,4304.37,3228.28,2025-10-24
+Mast & Harbour,Blazer,Blend,Shoppers Stop,Monsoon,3.9,15,1561.18,1327.0,2025-10-24
+Van Heusen,Blazer,Blend,Myntra,Summer,4.0,10,2156.68,1941.01,2025-10-24
+Athena,Shirt,Viscose,Max Fashion,Winter,4.1,15,651.05,553.39,2025-10-24
+H&M,T-Shirt,Synthetic,Ajio,Spring,4.0,0,408.99,408.99,2025-10-24
+Adidas,Polo,Polyester,Flipkart,Summer,3.5,20,1703.37,1362.69,2025-10-24
+AND,Skirt,Synthetic,Ajio,Winter,3.6,0,789.49,789.49,2025-10-24
+Raymond,Blazer,Cotton,Myntra,Monsoon,4.4,20,6129.15,4903.32,2025-10-24
+HRX,Chinos,Linen,Myntra,All-Season,3.9,10,1657.72,1491.94,2025-10-24
+Calvin Klein,Coat,Blend,Westside,All-Season,4.2,10,13023.42,11721.08,2025-10-24
+Tommy Hilfiger,Hoodie,Silk,Reliance Trends,Spring,4.9,30,5638.16,3946.71,2025-10-24
+Raymond,Shirt,Silk,Max Fashion,Monsoon,4.7,20,2986.45,2389.16,2025-10-24
+Breakbounce,Polo,Synthetic,Reliance Trends,Monsoon,4.0,15,560.31,476.27,2025-10-24
+AND,Blazer,Denim,Reliance Trends,All-Season,4.0,15,4538.74,3857.93,2025-10-24
+Roadster,Jeans,Wool,Max Fashion,Winter,4.1,60,2035.65,814.26,2025-10-24
+Only,Dress,Denim,Shoppers Stop,All-Season,3.8,15,3835.34,3260.04,2025-10-24
+Calvin Klein,Chinos,Denim,Lifestyle,Monsoon,4.2,15,4401.18,3741.01,2025-10-24
+W for Woman,Chinos,Polyester,Shoppers Stop,Monsoon,3.9,15,2797.04,2377.48,2025-10-24
+Roadster,Hoodie,Leather,Myntra,Monsoon,3.5,15,1421.2,1208.02,2025-10-24
+Zara,Skirt,Synthetic,Max Fashion,Winter,4.7,30,2502.97,1752.08,2025-10-24
+Forever New,T-Shirt,Leather,Amazon India,Summer,4.1,20,2244.05,1795.24,2025-10-24
+AND,Hoodie,Silk,Flipkart,Monsoon,4.0,15,2627.71,2233.55,2025-10-24
+Nike,Hoodie,Polyester,Reliance Trends,Summer,4.1,20,2238.0,1790.4,2025-10-24
+Van Heusen,Sweater,Wool,Westside,Winter,4.4,15,2858.72,2429.92,2025-10-24
+Mast & Harbour,Blazer,Linen,Reliance Trends,Spring,3.9,25,2004.35,1503.26,2025-10-24
+AND,T-Shirt,Blend,Reliance Trends,Monsoon,3.9,30,1489.45,1042.61,2025-10-24
+Athena,Coat,Blend,Shoppers Stop,Monsoon,4.1,40,3095.23,1857.14,2025-10-24
+Adidas,Skirt,Denim,Lifestyle,Spring,3.5,30,1452.92,1017.04,2025-10-24
+H&M,Dress,Polyester,Westside,Monsoon,4.1,40,2999.12,1799.47,2025-10-24
+Flying Machine,Coat,Synthetic,Shoppers Stop,Winter,3.5,30,2693.61,1885.53,2025-10-24
+Raymond,Hoodie,Linen,Max Fashion,Spring,4.7,20,1988.41,1590.72,2025-10-24
+Van Heusen,Coat,Denim,Shoppers Stop,Monsoon,4.2,20,3726.57,2981.26,2025-10-24
+Raymond,Hoodie,Cotton,Amazon India,Monsoon,4.4,25,1502.43,1126.82,2025-10-24
+Levi's,Coat,Wool,Ajio,Monsoon,4.5,50,9655.77,4827.89,2025-10-24
+Zara,Hoodie,Silk,Lifestyle,All-Season,4.1,25,4378.79,3284.09,2025-10-24
+Adidas,Hoodie,Wool,Westside,Summer,4.1,0,2388.07,2388.07,2025-10-24
+Peter England,Dress,Wool,Westside,Summer,4.1,20,2031.83,1625.46,2025-10-24
+Athena,Hoodie,Blend,Myntra,All-Season,3.6,10,916.06,824.45,2025-10-24
+Calvin Klein,Jacket,Linen,Max Fashion,Winter,4.2,70,9417.5,2825.25,2025-10-24
+Only,Shirt,Cotton,Myntra,Monsoon,3.7,30,1136.14,795.29,2025-10-24
+Breakbounce,Polo,Synthetic,Shoppers Stop,Summer,3.4,20,1536.49,1229.19,2025-10-24
+Allen Solly,Skirt,Linen,Myntra,Spring,4.4,40,3916.02,2349.61,2025-10-24
+US Polo Assn,Blazer,Viscose,Flipkart,Winter,3.8,20,1974.43,1579.55,2025-10-24
+Roadster,Jacket,Silk,Lifestyle,Winter,3.9,10,1198.56,1078.71,2025-10-24
+US Polo Assn,Skirt,Synthetic,Flipkart,Summer,3.8,30,1768.87,1238.21,2025-10-24
+Only,Skirt,Blend,Westside,Winter,3.7,0,1687.57,1687.57,2025-10-24
+Peter England,Coat,Synthetic,Lifestyle,All-Season,3.9,10,3083.79,2775.41,2025-10-24
+Peter England,Shirt,Blend,Westside,Summer,3.9,60,2881.36,1152.54,2025-10-24
+Flying Machine,Pants,Polyester,Westside,Spring,3.9,25,833.08,624.81,2025-10-24
+HRX,Jeans,Synthetic,Amazon India,Winter,3.7,30,1364.13,954.89,2025-10-24
+AND,Jacket,Polyester,Max Fashion,Summer,3.8,40,3018.15,1810.89,2025-10-24
+Raymond,Skirt,Synthetic,Flipkart,All-Season,4.8,25,2726.45,2044.84,2025-10-24
+US Polo Assn,Sweater,Cotton,Flipkart,Spring,4.2,10,1449.44,1304.5,2025-10-24
+Calvin Klein,Blazer,Polyester,Reliance Trends,Monsoon,4.1,30,8113.49,5679.44,2025-10-24
+Breakbounce,Jeans,Blend,Max Fashion,Winter,3.6,10,1488.25,1339.42,2025-10-24
+Mast & Harbour,T-Shirt,Viscose,Max Fashion,Monsoon,4.2,0,315.18,315.18,2025-10-24
+Allen Solly,Polo,Viscose,Shoppers Stop,Winter,4.7,10,1378.85,1240.96,2025-10-24
+Puma,Jacket,Cotton,Flipkart,Spring,3.7,20,2910.47,2328.37,2025-10-24
+Van Heusen,Pants,Polyester,Westside,Spring,4.4,15,2099.21,1784.33,2025-10-24
+Marks & Spencer,Jacket,Viscose,Amazon India,Monsoon,4.4,15,4067.62,3457.48,2025-10-24
+Adidas,Coat,Wool,Reliance Trends,Summer,3.5,40,5616.79,3370.08,2025-10-24
+Louis Philippe,Jacket,Blend,Myntra,Spring,4.2,10,1503.77,1353.39,2025-10-24
+Forever New,Dress,Cotton,Lifestyle,Winter,3.4,25,3575.43,2681.58,2025-10-24
+Tommy Hilfiger,Shirt,Wool,Myntra,Monsoon,4.8,60,10962.96,4385.19,2025-10-24
+Mast & Harbour,Dress,Wool,Lifestyle,Winter,4.0,20,2095.39,1676.31,2025-10-24
