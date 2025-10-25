@@ -18,9 +18,8 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-# =====================================================
 # 1. DATA COLLECTION MODULE
-# =====================================================
+
 
 class FashionDataScraper:
     """Scrapes fashion product data from multiple retailers"""
@@ -192,9 +191,8 @@ class FashionDataScraper:
         return df
 
 
-# =====================================================
 # 2. DATA PREPROCESSING MODULE
-# =====================================================
+
 
 class FashionDataPreprocessor:
     """Preprocesses fashion data for ML training"""
@@ -250,9 +248,9 @@ class FashionDataPreprocessor:
         print(f"Preprocessor saved to {filename}")
 
 
-# =====================================================
+
 # 3. MODEL TRAINING MODULE
-# =====================================================
+
 
 class FashionPricePredictor:
     """Trains and evaluates price prediction models"""
@@ -339,9 +337,9 @@ class FashionPricePredictor:
         print(f"\nModel saved to {filename}")
 
 
-# =====================================================
+
 # 4. MAIN EXECUTION
-# =====================================================
+
 
 def main():
     print("="*60)
