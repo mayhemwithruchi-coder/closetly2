@@ -34,9 +34,9 @@ limiter = Limiter(
     storage_uri="memory://"
 )
 
-# =====================================================
+
 # MODEL LOADING WITH AUTO-TRAINING
-# =====================================================
+
 
 def ensure_model_exists():
     """Train model if it doesn't exist"""
@@ -97,9 +97,8 @@ except Exception as e:
     label_encoders = {}
 
 
-# =====================================================
 # SECURITY
-# =====================================================
+
 
 def require_api_key(f):
     """API key authentication decorator"""
@@ -113,9 +112,8 @@ def require_api_key(f):
     return decorated_function
 
 
-# =====================================================
 # HELPER FUNCTIONS
-# =====================================================
+
 
 def encode_features(item_data):
     """Encode item features for prediction"""
@@ -144,9 +142,9 @@ def encode_features(item_data):
         raise ValueError(f"Error encoding features: {str(e)}")
 
 
-# =====================================================
+
 # API ENDPOINTS
-# =====================================================
+
 
 @app.route('/')
 def home():
@@ -434,9 +432,8 @@ def get_available_options():
         }), 500
 
 
-# =====================================================
+
 # ERROR HANDLERS
-# =====================================================
 
 @app.errorhandler(404)
 def not_found(e):
@@ -462,9 +459,9 @@ def ratelimit_handler(e):
     }), 429
 
 
-# =====================================================
+
 # RUN SERVER
-# =====================================================
+
 
 if __name__ == '__main__':
     print("\n" + "="*60)
