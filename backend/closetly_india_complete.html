@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Closetly - Personalised Fashion At Your FingerTips</title>
-    <link rel="preconnect" href="">
-    <link rel="dns-prefetch" href="">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <style>
         * {
             margin: 0;
@@ -405,6 +405,7 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
             position: relative;
+            cursor: pointer;
         }
 
         .product-card:hover, .recommendation-card:hover {
@@ -418,12 +419,22 @@
 
         .product-image {
             width: 100%;
-            height: 200px;
+            height: 250px;
+            object-fit: cover;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-image-placeholder {
+            font-size: 4rem;
             color: #999;
         }
 
@@ -437,6 +448,7 @@
             border-radius: 15px;
             font-size: 0.8rem;
             font-weight: bold;
+            z-index: 2;
         }
 
         .product-info {
@@ -534,6 +546,9 @@
             margin-bottom: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
         }
 
         .comparison-item:hover {
@@ -545,11 +560,12 @@
             display: flex;
             align-items: center;
             gap: 15px;
+            flex: 1;
         }
 
         .retailer-logo {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 8px;
             background: #f0f0f0;
             display: flex;
@@ -558,6 +574,14 @@
             font-weight: bold;
             color: #666;
             font-size: 12px;
+            overflow: hidden;
+        }
+
+        .retailer-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 5px;
         }
 
         .product-details {
@@ -600,11 +624,347 @@
             border-radius: 4px;
             font-size: 0.8rem;
             margin-top: 3px;
+            display: inline-block;
         }
 
         .best-deal {
             border: 2px solid #48bb78;
             background: #f0fff4;
+        }
+
+        .product-image-wrapper {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f5f7fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Chatbot Styles */
+        .chat-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10000;
+        }
+
+        .chat-toggle-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .chat-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .chat-toggle-btn.active {
+            background: #ff6b6b;
+        }
+
+        .chat-icon {
+            font-size: 28px;
+        }
+
+        .chat-notification {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width: 20px;
+            height: 20px;
+            background: #ff6b6b;
+            border-radius: 50%;
+            font-size: 12px;
+            color: white;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .chat-container {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 380px;
+            height: 550px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .chat-container.open {
+            display: flex;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .chat-avatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .chat-header-info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .chat-header-info p {
+            margin: 0;
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            animation: messageSlide 0.3s ease;
+        }
+
+        @keyframes messageSlide {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message-bubble {
+            padding: 12px 16px;
+            border-radius: 18px;
+            max-width: 85%;
+            word-wrap: break-word;
+            line-height: 1.4;
+        }
+
+        .bot-message .message-bubble {
+            background: white;
+            color: #333;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-message {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .user-message .message-bubble {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .typing-indicator {
+            display: flex;
+            gap: 5px;
+            padding: 12px 16px;
+            background: white;
+            border-radius: 18px;
+            width: fit-content;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #667eea;
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+            30% { transform: translateY(-10px); opacity: 1; }
+        }
+
+        .quick-replies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .quick-reply-btn {
+            padding: 8px 14px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 20px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .quick-reply-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .chat-input-container {
+            padding: 15px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .chat-input:focus {
+            border-color: #667eea;
+        }
+
+        .chat-send-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .chat-send-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .outfit-upload-zone {
+            background: #f0f2ff;
+            border: 2px dashed #667eea;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .outfit-upload-zone:hover {
+            background: #e6e9ff;
+            border-color: #5a67d8;
+        }
+
+        .outfit-preview-img {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .analysis-card {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .analysis-score-display {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .score-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .score-bar-container {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .score-fill-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #48bb78);
+            transition: width 0.5s ease;
+        }
+
+        .analysis-section {
+            margin-bottom: 12px;
+        }
+
+        .analysis-section h4 {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .analysis-section p {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .upload-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
         }
 
         @media (max-width: 768px) {
@@ -620,6 +980,25 @@
 
             h1 {
                 font-size: 2rem;
+            }
+
+            .chat-container {
+                width: calc(100% - 40px);
+                height: calc(100% - 110px);
+            }
+
+            .comparison-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .retailer-info {
+                flex-direction: column;
+            }
+
+            .price-section {
+                text-align: center;
+                margin-top: 10px;
             }
         }
     </style>
@@ -853,6 +1232,31 @@
         </div>
     </div>
 
+    <!-- AI Chatbot Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle-btn" id="chatToggle" onclick="toggleChatbot()">
+            <span class="chat-icon">🤖</span>
+            <span class="chat-notification" id="chatNotification">1</span>
+        </button>
+
+        <div class="chat-container" id="chatbotContainer">
+            <div class="chat-header">
+                <div class="chat-avatar">👗</div>
+                <div class="chat-header-info">
+                    <h3>Style Advisor</h3>
+                    <p>AI-powered outfit expert</p>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatbotMessages"></div>
+
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chatbotInput" placeholder="Ask about your outfit..." onkeypress="handleChatKeyPress(event)">
+                <button class="chat-send-btn" onclick="sendChatMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let currentStep = 0;
         let selectedGender = '';
@@ -863,6 +1267,42 @@
         let userProfile = {};
         let assessmentMethod = 'visual';
         let measurements = {};
+        let chatbotOpen = false;
+        let chatbotHistory = [];
+        let uploadedOutfitImage = null;
+
+        // Retailer URL mapping for redirects
+        const retailerURLs = {
+            'Myntra': 'https://www.myntra.com/shop/',
+            'Ajio': 'https://www.ajio.com/search/?text=',
+            'Flipkart': 'https://www.flipkart.com/search?q=',
+            'Amazon India': 'https://www.amazon.in/s?k=',
+            'Lifestyle': 'https://www.lifestylestores.com/in/en/search/?text=',
+            'Westside': 'https://www.westside.com/search?q=',
+            'Shoppers Stop': 'https://www.shoppersstop.com/search?q=',
+            'Reliance Trends': 'https://www.reliancetrends.com/search?q=',
+            'Max Fashion': 'https://www.maxfashion.in/in/en/search/?text='
+        };
+
+        // Product image placeholders (you can replace these with actual image URLs)
+        const productImages = {
+            'Wrap Midi Dress': 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400',
+            'High-Waisted Jeans': 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400',
+            'Fitted Blazer': 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400',
+            'Silk Blouse': 'https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=400',
+            'Pencil Skirt': 'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400',
+            'Bodycon Dress': 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400',
+            'Oxford Shirt': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400',
+            'Slim Fit Chinos': 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400',
+            'Formal Suit': 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400',
+            'Polo Shirt': 'https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400',
+            'Leather Jacket': 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400',
+            'Denim Jeans': 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400',
+            'Oversized Hoodie': 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400',
+            'Denim Jacket': 'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400',
+            'Basic White Tee': 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400',
+            'Joggers': 'https://images.unsplash.com/photo-1517438322307-e67111335449?w=400'
+        };
 
         const bodyTypeRecommendations = {
             women: {
@@ -1032,30 +1472,57 @@
 
         const priceComparisonData = {
             'Blazer': [
-                { retailer: 'Myntra', brand: 'Marks & Spencer', price: 2999, originalPrice: 4499, rating: 4.5, logo: 'M' },
-                { retailer: 'Ajio', brand: 'Van Heusen', price: 2699, originalPrice: 3999, rating: 4.3, logo: 'A' },
-                { retailer: 'Flipkart', brand: 'Peter England', price: 2499, originalPrice: 3499, rating: 4.6, logo: 'F' },
-                { retailer: 'Amazon', brand: 'Allen Solly', price: 2799, originalPrice: 3799, rating: 4.4, logo: '🛒' }
+                { retailer: 'Myntra', brand: 'Marks & Spencer', price: 2999, originalPrice: 4499, rating: 4.5, image: productImages['Fitted Blazer'] },
+                { retailer: 'Ajio', brand: 'Van Heusen', price: 2699, originalPrice: 3999, rating: 4.3, image: productImages['Fitted Blazer'] },
+                { retailer: 'Flipkart', brand: 'Peter England', price: 2499, originalPrice: 3499, rating: 4.6, image: productImages['Fitted Blazer'] },
+                { retailer: 'Amazon India', brand: 'Allen Solly', price: 2799, originalPrice: 3799, rating: 4.4, image: productImages['Fitted Blazer'] }
             ],
             'Formal Shirt': [
-                { retailer: 'Myntra', brand: 'Van Heusen', price: 1299, originalPrice: 1799, rating: 4.6, logo: 'M' },
-                { retailer: 'Lifestyle', brand: 'Louis Philippe', price: 1599, originalPrice: 2299, rating: 4.5, logo: 'L' },
-                { retailer: 'Amazon', brand: 'Arrow', price: 1199, originalPrice: 1699, rating: 4.3, logo: '🛒' },
-                { retailer: 'Flipkart', brand: 'Peter England', price: 999, originalPrice: 1499, rating: 4.4, logo: 'F' }
+                { retailer: 'Myntra', brand: 'Van Heusen', price: 1299, originalPrice: 1799, rating: 4.6, image: productImages['Oxford Shirt'] },
+                { retailer: 'Lifestyle', brand: 'Louis Philippe', price: 1599, originalPrice: 2299, rating: 4.5, image: productImages['Oxford Shirt'] },
+                { retailer: 'Amazon India', brand: 'Arrow', price: 1199, originalPrice: 1699, rating: 4.3, image: productImages['Oxford Shirt'] },
+                { retailer: 'Flipkart', brand: 'Peter England', price: 999, originalPrice: 1499, rating: 4.4, image: productImages['Oxford Shirt'] }
             ],
             'Jeans': [
-                { retailer: 'Myntra', brand: 'Levi\'s 511', price: 2299, originalPrice: 3199, rating: 4.7, logo: 'M' },
-                { retailer: 'Ajio', brand: 'Flying Machine', price: 1599, originalPrice: 2299, rating: 4.4, logo: 'A' },
-                { retailer: 'Amazon', brand: 'Wrangler', price: 1799, originalPrice: 2499, rating: 4.3, logo: '🛒' },
-                { retailer: 'Lifestyle', brand: 'Lee', price: 2099, originalPrice: 2899, rating: 4.2, logo: 'L' }
+                { retailer: 'Myntra', brand: 'Levi\'s 511', price: 2299, originalPrice: 3199, rating: 4.7, image: productImages['Denim Jeans'] },
+                { retailer: 'Ajio', brand: 'Flying Machine', price: 1599, originalPrice: 2299, rating: 4.4, image: productImages['Denim Jeans'] },
+                { retailer: 'Amazon India', brand: 'Wrangler', price: 1799, originalPrice: 2499, rating: 4.3, image: productImages['Denim Jeans'] },
+                { retailer: 'Lifestyle', brand: 'Lee', price: 2099, originalPrice: 2899, rating: 4.2, image: productImages['Denim Jeans'] }
             ],
             'Dress': [
-                { retailer: 'Myntra', brand: 'AND', price: 1999, originalPrice: 2999, rating: 4.5, logo: 'M' },
-                { retailer: 'Ajio', brand: 'Vero Moda', price: 1799, originalPrice: 2599, rating: 4.4, logo: 'A' },
-                { retailer: 'Lifestyle', brand: 'Forever New', price: 2499, originalPrice: 3499, rating: 4.6, logo: 'L' },
-                { retailer: 'Amazon', brand: 'Athena', price: 1399, originalPrice: 1999, rating: 4.3, logo: '🛒' }
+                { retailer: 'Myntra', brand: 'AND', price: 1999, originalPrice: 2999, rating: 4.5, image: productImages['Wrap Midi Dress'] },
+                { retailer: 'Ajio', brand: 'Vero Moda', price: 1799, originalPrice: 2599, rating: 4.4, image: productImages['Bodycon Dress'] },
+                { retailer: 'Lifestyle', brand: 'Forever New', price: 2499, originalPrice: 3499, rating: 4.6, image: productImages['Wrap Midi Dress'] },
+                { retailer: 'Amazon India', brand: 'Athena', price: 1399, originalPrice: 1999, rating: 4.3, image: productImages['Bodycon Dress'] }
             ]
         };
+
+        const outfitKnowledge = {
+            bodyTypeAdvice: {
+                'Hourglass': 'Your balanced silhouette looks stunning in fitted styles! Try wrap dresses, high-waisted jeans, and belted blazers.',
+                'Pear': 'Balance your figure with statement tops and darker bottoms. Boat necks and A-line skirts are perfect!',
+                'Apple': 'Empire waist dresses and V-necks elongate your torso beautifully. Flow is your friend!',
+                'Rectangle': 'Add curves with peplum tops, belts, and textured fabrics. Layering works wonders!',
+                'Inverted Triangle': 'Balance broad shoulders with A-line bottoms and wide-leg pants. Soft fabrics are key!',
+                'Athletic': 'Your proportions work with most styles! Try fitted cuts and structured pieces.',
+                'Trapezoid': 'Create shoulder emphasis with structured blazers and vertical stripes.',
+                'Oval': 'V-necks and vertical patterns elongate beautifully. Dark tops with bright bottoms create balance!',
+                'Balanced': 'You can wear almost anything! Experiment with different styles.',
+                'Linear': 'Structured pieces and tailored fits complement your silhouette perfectly.'
+            },
+            colorAdvice: {
+                'spring': 'Warm, bright colors like coral, peach, and golden yellow make you glow! ✨',
+                'summer': 'Cool, soft pastels like lavender, powder blue, and soft pink suit you best! 💜',
+                'autumn': 'Rich earth tones like rust, olive, and camel enhance your warmth! 🍂',
+                'winter': 'Bold jewel tones, pure white, and black create stunning contrast! ❄️'
+            }
+        };
+
+        function getRetailerSearchURL(retailer, brand, productName) {
+            const searchQuery = encodeURIComponent(`${brand} ${productName}`);
+            const baseURL = retailerURLs[retailer] || 'https://www.google.com/search?q=';
+            return baseURL + searchQuery;
+        }
 
         document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('.gender-option').forEach(option => {
@@ -1221,7 +1688,8 @@
                     gender: selectedGender,
                     bodyType: bodyType,
                     colors: dominantColors,
-                    colorDescription: palette.description
+                    colorDescription: palette.description,
+                    colorSeason: randomSeason
                 };
                 
                 document.getElementById('colorAnalysisLoading').style.display = 'none';
@@ -1318,11 +1786,17 @@
             
             products.forEach(product => {
                 const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
+                const productImage = productImages[product.name] || '';
+                const searchURL = getRetailerSearchURL('Myntra', product.brand, product.name);
+                
                 const card = document.createElement('div');
                 card.className = 'product-card';
+                card.onclick = () => window.open(searchURL, '_blank');
                 card.innerHTML = `
                     ${discount > 0 ? `<div class="product-badge">-${discount}%</div>` : ''}
-                    <div class="product-image">👕</div>
+                    <div class="product-image">
+                        ${productImage ? `<img src="${productImage}" alt="${product.name}">` : '<span class="product-image-placeholder">👕</span>'}
+                    </div>
                     <div class="product-info">
                         <div class="product-brand">${product.brand}</div>
                         <div class="product-name">${product.name}</div>
@@ -1334,7 +1808,7 @@
                             <div class="price-current">₹${product.price}</div>
                             ${product.originalPrice > product.price ? `<div class="price-compare">₹${product.originalPrice}</div>` : ''}
                         </div>
-                        <button class="shop-btn" onclick="alert('Redirecting to ${product.brand} on Myntra/Flipkart!')">Shop Now</button>
+                        <button class="shop-btn" onclick="event.stopPropagation(); window.open('${searchURL}', '_blank')">Shop Now on Myntra</button>
                     </div>
                 `;
                 grid.appendChild(card);
@@ -1356,12 +1830,17 @@
                 sorted.forEach((item, index) => {
                     const discount = Math.round(((item.originalPrice - item.price) / item.originalPrice) * 100);
                     const isBest = index === 0;
+                    const searchURL = getRetailerSearchURL(item.retailer, item.brand, productType);
                     
-                    const itemDiv = document.createElement('div');
+                    const itemDiv = document.createElement('a');
+                    itemDiv.href = searchURL;
+                    itemDiv.target = '_blank';
                     itemDiv.className = `comparison-item ${isBest ? 'best-deal' : ''}`;
                     itemDiv.innerHTML = `
                         <div class="retailer-info">
-                            <div class="retailer-logo">${item.logo}</div>
+                            <div class="product-image-wrapper">
+                                ${item.image ? `<img src="${item.image}" alt="${item.brand} ${productType}">` : '<span style="font-size: 2rem;">👔</span>'}
+                            </div>
                             <div class="product-details">
                                 <div class="product-title">${item.brand} - ${productType}</div>
                                 <div class="product-rating-small">
@@ -1375,7 +1854,7 @@
                             <div class="current-price">₹${item.price}</div>
                             <div class="original-price">₹${item.originalPrice}</div>
                             ${discount > 0 ? `<div class="discount-badge">${discount}% OFF</div>` : ''}
-                            ${isBest ? '<div style="color: #48bb78; font-size: 0.8rem; margin-top: 3px;">Best Deal</div>' : ''}
+                            ${isBest ? '<div style="color: #48bb78; font-size: 0.8rem; margin-top: 3px;">✨ Best Deal</div>' : ''}
                         </div>
                     `;
                     section.appendChild(itemDiv);
@@ -1420,9 +1899,407 @@
             document.getElementById('imagePreview').style.display = 'none';
             document.getElementById('uploadContent').style.display = 'block';
         }
+
+        // ============ CHATBOT FUNCTIONALITY ============
         
+        function toggleChatbot() {
+            chatbotOpen = !chatbotOpen;
+            const container = document.getElementById('chatbotContainer');
+            const btn = document.getElementById('chatToggle');
+            const notification = document.getElementById('chatNotification');
+            
+            if (chatbotOpen) {
+                container.classList.add('open');
+                btn.classList.add('active');
+                notification.style.display = 'none';
+                
+                if (chatbotHistory.length === 0) {
+                    initializeChatbot();
+                }
+            } else {
+                container.classList.remove('open');
+                btn.classList.remove('active');
+            }
+        }
+        
+        function initializeChatbot() {
+            const welcomeMsg = `Hi! I'm your AI Style Advisor! 👋\n\nI can help you with:\n✨ Outfit suitability for your body type\n🎨 Color matching advice\n👗 Style recommendations\n📸 Upload outfit photos for analysis\n\nHow can I help you today?`;
+            
+            addChatMessage('bot', welcomeMsg, [
+                'Upload outfit photo',
+                'Color advice',
+                'Body type tips',
+                'Occasion help'
+            ]);
+        }
+        
+        function sendChatMessage() {
+            const input = document.getElementById('chatbotInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            addChatMessage('user', message);
+            input.value = '';
+            
+            showChatTyping();
+            setTimeout(() => {
+                hideChatTyping();
+                const response = generateChatResponse(message);
+                addChatMessage('bot', response.text, response.quickReplies, {
+                    uploadButton: response.uploadButton
+                });
+            }, 1500);
+        }
+        
+        function generateChatResponse(message) {
+            const msg = message.toLowerCase();
+            
+            if (msg.includes('upload') || msg.includes('photo') || msg.includes('picture') || msg.includes('image')) {
+                return {
+                    text: 'I\'d love to see your outfit! 📸\n\nClick below to upload a photo and I\'ll analyze it for you:',
+                    uploadButton: true,
+                    quickReplies: ['Color advice', 'Body type tips']
+                };
+            }
+            
+            if (msg.includes('suit') || msg.includes('outfit') || msg.includes('analyze') || msg.includes('look')) {
+                const advice = outfitKnowledge.bodyTypeAdvice[bodyType] || 'Complete the body type quiz first to get personalized advice!';
+                const score = bodyType ? Math.floor(Math.random() * 20) + 75 : 0;
+                
+                let response = bodyType ? 
+                    `## Outfit Analysis\n\n**Suitability Score: ${score}/100** ${score >= 85 ? '🌟' : '✨'}\n\n` +
+                    `For your ${bodyType} body type:\n\n${advice}\n\n` +
+                    `**Best styles:**\n${bodyTypeRecommendations[selectedGender]?.[bodyType]?.recommendations.slice(0,3).map(r => '• ' + r).join('\n') || '• Complete quiz for recommendations'}` :
+                    'Complete the style quiz first to get personalized outfit analysis! 👗';
+                
+                return {
+                    text: response,
+                    quickReplies: bodyType ? ['Color advice', 'More tips', 'Occasion help'] : ['Start quiz']
+                };
+            }
+            
+            if (msg.includes('color') || msg.includes('colour')) {
+                const season = userProfile.colorSeason?.toLowerCase() || 'spring';
+                const colorAdvice = outfitKnowledge.colorAdvice[season];
+                
+                let response = dominantColors.length > 0 ?
+                    `## 🎨 Your Color Guide\n\n${colorAdvice}\n\n**Your personal palette:**\n` +
+                    dominantColors.slice(0, 4).map(c => `• ${c}`).join('\n') +
+                    `\n\n${userProfile.colorDescription || 'These colors complement your natural features!'}` :
+                    'Upload your photo in the color analysis step to get personalized color recommendations! 📸';
+                
+                return {
+                    text: response,
+                    quickReplies: ['Body type tips', 'Upload outfit']
+                };
+            }
+            
+            if (msg.includes('body') || msg.includes('figure') || msg.includes('shape') || msg.includes('type')) {
+                const advice = outfitKnowledge.bodyTypeAdvice[bodyType] || 'Take the body type quiz to get personalized tips!';
+                
+                let response = bodyType ?
+                    `## 👗 ${bodyType} Body Type Guide\n\n${advice}\n\n**Top recommendations:**\n` +
+                    (bodyTypeRecommendations[selectedGender]?.[bodyType]?.recommendations.slice(0,4).map(r => '• ' + r).join('\n') || '') :
+                    'Complete the body assessment to get tips tailored to your unique shape! 💫';
+                
+                return {
+                    text: response,
+                    quickReplies: bodyType ? ['Color guide', 'Analyze outfit'] : ['Start assessment']
+                };
+            }
+            
+            if (msg.includes('wedding') || msg.includes('party') || msg.includes('office') || msg.includes('casual') || msg.includes('occasion')) {
+                let occasion = 'casual';
+                if (msg.includes('wedding')) occasion = 'wedding';
+                else if (msg.includes('office') || msg.includes('work')) occasion = 'office';
+                else if (msg.includes('party')) occasion = 'party';
+                
+                const occasions = {
+                    wedding: '💍 **Wedding Outfit:**\nIn India, bright colors are encouraged! Try elegant sarees, lehengas, or Indo-western fusion. Avoid white/cream.',
+                    office: '💼 **Office Wear:**\nGo for smart blazers, formal pants, neat shirts. In India, well-fitted kurtas with trousers also work great!',
+                    party: '🎉 **Party Look:**\nBe bold! Try cocktail dresses, statement pieces, or Indo-western fusion. Shimmer and embellishments work great!',
+                    casual: '👕 **Casual Outfit:**\nComfortable jeans, cotton tops, breathable fabrics. Keep it relaxed but put-together!'
+                };
+                
+                let response = occasions[occasion] + '\n\n';
+                if (bodyType) {
+                    response += `**For your ${bodyType} body type:** ${bodyTypeRecommendations[selectedGender]?.[bodyType]?.recommendations[0] || 'Fitted styles work well!'}`;
+                }
+                
+                return {
+                    text: response,
+                    quickReplies: ['Color advice', 'More occasions', 'Analyze outfit']
+                };
+            }
+            
+            return {
+                text: `I can help you with:\n\n📸 Outfit suitability analysis\n🎨 Color matching for Indian skin tones\n👗 Body type specific styling\n🎭 Occasion-appropriate looks\n\nWhat would you like to know?`,
+                quickReplies: ['Body type tips', 'Color guide', 'Occasion help', 'Analyze outfit']
+            };
+        }
+        
+        function addChatMessage(type, text, quickReplies = [], options = {}) {
+            const container = document.getElementById('chatbotMessages');
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `chat-message ${type}-message`;
+            
+            const bubble = document.createElement('div');
+            bubble.className = 'message-bubble';
+            bubble.innerHTML = text.replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/##\s*(.*?)$/gm, '<h4 style="margin:10px 0 5px 0">$1</h4>');
+            msgDiv.appendChild(bubble);
+            
+            if (options.uploadButton) {
+                const uploadDiv = document.createElement('div');
+                uploadDiv.className = 'outfit-upload-zone';
+                uploadDiv.onclick = () => document.getElementById('chatOutfitInput').click();
+                uploadDiv.innerHTML = `
+                    <div class="upload-icon">📸</div>
+                    <div style="font-size: 14px; color: #667eea; font-weight: 600;">Click to Upload Outfit Photo</div>
+                    <div style="font-size: 12px; color: #999; margin-top: 5px;">JPG, PNG (Max 5MB)</div>
+                `;
+                msgDiv.appendChild(uploadDiv);
+                
+                if (!document.getElementById('chatOutfitInput')) {
+                    const fileInput = document.createElement('input');
+                    fileInput.type = 'file';
+                    fileInput.id = 'chatOutfitInput';
+                    fileInput.accept = 'image/*';
+                    fileInput.style.display = 'none';
+                    fileInput.onchange = handleOutfitPhotoUpload;
+                    document.body.appendChild(fileInput);
+                }
+            }
+            
+            if (options.imagePreview) {
+                const imgDiv = document.createElement('div');
+                imgDiv.style.marginTop = '10px';
+                const img = document.createElement('img');
+                img.src = options.imagePreview;
+                img.className = 'outfit-preview-img';
+                imgDiv.appendChild(img);
+                msgDiv.appendChild(imgDiv);
+            }
+            
+            if (options.score !== undefined) {
+                const analysisCard = document.createElement('div');
+                analysisCard.className = 'analysis-card';
+                analysisCard.innerHTML = `
+                    <div class="analysis-score-display">
+                        <span style="font-weight: 600;">Outfit Score:</span>
+                        <span class="score-value">${options.score}/100</span>
+                    </div>
+                    <div class="score-bar-container">
+                        <div class="score-fill-bar" style="width: ${options.score}%"></div>
+                    </div>
+                    ${options.analysis ? `
+                        <div class="analysis-section">
+                            <h4>💎 What Works:</h4>
+                            <p>${options.analysis.good}</p>
+                        </div>
+                        <div class="analysis-section">
+                            <h4>💡 Suggestions:</h4>
+                            <p>${options.analysis.suggestions}</p>
+                        </div>
+                    ` : ''}
+                `;
+                msgDiv.appendChild(analysisCard);
+            }
+            
+            if (quickReplies.length > 0) {
+                const repliesDiv = document.createElement('div');
+                repliesDiv.className = 'quick-replies';
+                quickReplies.forEach(reply => {
+                    const btn = document.createElement('button');
+                    btn.className = 'quick-reply-btn';
+                    btn.textContent = reply;
+                    btn.onclick = () => sendQuickReply(reply);
+                    repliesDiv.appendChild(btn);
+                });
+                msgDiv.appendChild(repliesDiv);
+            }
+            
+            container.appendChild(msgDiv);
+            container.scrollTop = container.scrollHeight;
+            chatbotHistory.push({ type, text });
+        }
+        
+        function handleOutfitPhotoUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            if (!file.type.startsWith('image/')) {
+                alert('Please upload an image file (JPG, PNG)');
+                return;
+            }
+            
+            if (file.size > 5 * 1024 * 1024) {
+                alert('File size should be less than 5MB');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                uploadedOutfitImage = e.target.result;
+                
+                addChatMessage('user', '📸 Here\'s my outfit!', [], { imagePreview: uploadedOutfitImage });
+                
+                showChatTyping();
+                setTimeout(() => {
+                    hideChatTyping();
+                    const analysis = analyzeOutfitPhoto();
+                    addChatMessage('bot', analysis.text, analysis.quickReplies, {
+                        score: analysis.score,
+                        analysis: analysis.details
+                    });
+                }, 2000);
+            };
+            reader.readAsDataURL(file);
+        }
+        
+        function analyzeOutfitPhoto() {
+            const baseScore = Math.floor(Math.random() * 20) + 70;
+            const bonus = (bodyType && dominantColors.length > 0) ? 5 : 0;
+            const finalScore = Math.min(95, baseScore + bonus);
+            
+            let goodPoints = [];
+            let suggestions = [];
+            
+            if (bodyType) {
+                const bodyAdvice = outfitKnowledge.bodyTypeAdvice[bodyType];
+                if (bodyAdvice) {
+                    goodPoints.push(`This style complements your ${bodyType} body type`);
+                    
+                    const recommendations = bodyTypeRecommendations[selectedGender]?.[bodyType]?.recommendations || [];
+                    if (recommendations.length > 0) {
+                        suggestions.push(`Try: ${recommendations[Math.floor(Math.random() * recommendations.length)]}`);
+                    }
+                }
+            }
+            
+            if (dominantColors.length > 0) {
+                const season = userProfile.colorSeason?.toLowerCase() || 'spring';
+                goodPoints.push(`The colors work well with your ${season} color palette`);
+                suggestions.push('Consider accessories in your personal palette colors for more harmony');
+            }
+            
+            const generalTips = [
+                'The fit looks comfortable and flattering',
+                'Good color coordination overall',
+                'Nice balance in proportions',
+                'The style suits the occasion well'
+            ];
+            goodPoints.push(generalTips[Math.floor(Math.random() * generalTips.length)]);
+            
+            const improvementTips = [
+                'Add a statement accessory to elevate the look',
+                'A belt could add more definition to the waist',
+                'Try tucking in the top for a more polished look',
+                'Consider adding layers for more visual interest',
+                'Swap the shoes for something more streamlined'
+            ];
+            suggestions.push(improvementTips[Math.floor(Math.random() * improvementTips.length)]);
+            
+            let responseText = `## 👗 Outfit Analysis Complete!\n\n`;
+            responseText += finalScore >= 85 ? 
+                'You look amazing! This outfit really works for you. ✨' : 
+                finalScore >= 75 ? 
+                'Great outfit choice! A few tweaks would make it even better. 💫' :
+                'Nice start! Here are some suggestions to enhance your look. 💅';
+            
+            return {
+                text: responseText,
+                score: finalScore,
+                details: {
+                    good: goodPoints.join('. ') + '.',
+                    suggestions: suggestions.join('. ') + '.'
+                },
+                quickReplies: ['Upload another', 'Color tips', 'Body type advice', 'Occasion help']
+            };
+        }
+        
+        function sendQuickReply(text) {
+            document.getElementById('chatbotInput').value = text;
+            sendChatMessage();
+        }
+        
+        function showChatTyping() {
+            const container = document.getElementById('chatbotMessages');
+            const typing = document.createElement('div');
+            typing.id = 'typingIndicator';
+            typing.className = 'typing-indicator';
+            typing.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+            container.appendChild(typing);
+            container.scrollTop = container.scrollHeight;
+        }
+        
+        function hideChatTyping() {
+            const typing = document.getElementById('typingIndicator');
+            if (typing) typing.remove();
+        }
+        
+        function handleChatKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendChatMessage();
+            }
+        }
     </script>
-    <!-- Load the price API integration script from the same directory -->
-    <script src="price_api_integration.js"></script>
+    
+    <!-- Price API Integration Placeholder -->
+    <script>
+        // This section would integrate with your Flask backend API
+        // Example: Fetch real-time prices from the ML model
+        
+        async function fetchPricesFromAPI(brand, category) {
+            try {
+                const response = await fetch('/api/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        brand: brand,
+                        category: category,
+                        material: 'Cotton',
+                        retailer: 'Myntra',
+                        season: 'All-Season',
+                        rating: 4.0,
+                        discount_percent: 0
+                    })
+                });
+                
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error fetching prices:', error);
+                return null;
+            }
+        }
+        
+        async function compareAcrossRetailers(brand, category, productName) {
+            try {
+                const response = await fetch('/api/compare', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        product_name: productName,
+                        brand: brand,
+                        category: category
+                    })
+                });
+                
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error comparing prices:', error);
+                return null;
+            }
+        }
+        
+        console.log('Closetly Complete Platform Loaded Successfully! 🎉');
+        console.log('Features: Product Images ✓ | Retailer Links ✓ | AI Chatbot ✓ | Price Comparison ✓');
+    </script>
 </body>
 </html>
