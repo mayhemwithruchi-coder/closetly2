@@ -1,18 +1,8 @@
 """
 Flask API for Fashion Price Prediction - Render Deployment Ready
+Enhanced with Images and Retailer Links
 """
-from flask import Flask, send_file
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return send_file('closely_india_complete.html')
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
-
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
@@ -34,6 +24,36 @@ limiter = Limiter(
     storage_uri="memory://"
 )
 
+# Retailer URL mapping
+RETAILER_URLS = {
+    'Myntra': 'https://www.myntra.com/shop/',
+    'Ajio': 'https://www.ajio.com/search/?text=',
+    'Flipkart': 'https://www.flipkart.com/search?q=',
+    'Amazon India': 'https://www.amazon.in/s?k=',
+    'Lifestyle': 'https://www.lifestylestores.com/in/en/search/?text=',
+    'Reliance Trends': 'https://www.reliancetrends.com/search?q=',
+    'Westside': 'https://www.westside.com/search?q=',
+    'Shoppers Stop': 'https://www.shoppersstop.com/search?q=',
+    'Max Fashion': 'https://www.maxfashion.in/in/en/search/?text='
+}
+
+# Product image mapping
+CATEGORY_IMAGES = {
+    'Jeans': 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400',
+    'Dress': 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400',
+    'Shirt': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400',
+    'Blazer': 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400',
+    'T-Shirt': 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400',
+    'Jacket': 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400',
+    'Sweater': 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400',
+    'Pants': 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400',
+    'Skirt': 'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400',
+    'Coat': 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400',
+    'Hoodie': 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400',
+    'Polo': 'https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400',
+    'Chinos': 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400'
+}
+
 
 # MODEL LOADING WITH AUTO-TRAINING
 
@@ -49,8 +69,6 @@ def ensure_model_exists():
         print("="*60 + "\n")
 
         try:
-            # Import the training module
-            # Assuming fashion_price_ml.py is in the current directory
             sys.path.insert(0, '.')
             from fashion_price_ml import main as train_model
 
@@ -65,6 +83,7 @@ def ensure_model_exists():
         except Exception as e:
             print(f"❌ Error during training: {e}")
             raise
+
 
 # Ensure model exists before loading
 ensure_model_exists()
@@ -115,6 +134,18 @@ def require_api_key(f):
 # HELPER FUNCTIONS
 
 
+def get_product_url(retailer, brand, product_name):
+    """Generate retailer-specific product URL"""
+    base_url = RETAILER_URLS.get(retailer, 'https://www.google.com/search?q=')
+    search_query = f"{brand} {product_name}".replace(' ', '+')
+    return base_url + search_query
+
+
+def get_product_image(category):
+    """Get product image URL based on category"""
+    return CATEGORY_IMAGES.get(category, 'https://via.placeholder.com/400x400?text=Product')
+
+
 def encode_features(item_data):
     """Encode item features for prediction"""
     try:
@@ -126,7 +157,6 @@ def encode_features(item_data):
                 try:
                     encoded_val = label_encoders[col].transform([item_data[col]])[0]
                 except:
-                    # If value not in training data, use 0
                     encoded_val = 0
                 encoded_features.append(encoded_val)
             else:
@@ -142,45 +172,68 @@ def encode_features(item_data):
         raise ValueError(f"Error encoding features: {str(e)}")
 
 
-
 # API ENDPOINTS
 
 
 @app.route('/')
 def home():
-    """API Home"""
+    """Serve the main HTML page or API info"""
+    # Try to serve HTML file first (for browser access)
+    try:
+        if os.path.exists('closetly_india_complete.html'):
+            return send_file('closetly_india_complete.html')
+    except Exception as e:
+        print(f"Could not serve HTML: {e}")
+    
+    # Fallback to JSON API info (for API testing)
     return jsonify({
-        'message': 'Fashion Price Prediction API',
-        'version': '1.0',
+        'message': 'Fashion Price Prediction API - Closetly',
+        'version': '2.0',
         'model': model_name,
         'model_loaded': model is not None,
         'status': 'operational' if model is not None else 'degraded',
+        'features': {
+            'product_images': True,
+            'retailer_links': True,
+            'price_prediction': True,
+            'price_comparison': True,
+            'ai_chatbot': True
+        },
         'endpoints': {
+            '/': 'GET - Serve HTML UI or API info',
+            '/health': 'GET - Check API health',
             '/predict': 'POST - Predict price for a fashion item',
             '/compare': 'POST - Compare prices across retailers',
             '/batch_predict': 'POST - Predict prices for multiple items',
-            '/available_options': 'GET - Get available options',
-            '/health': 'GET - Check API health'
-        }
+            '/available_options': 'GET - Get available brands, categories, etc.'
+        },
+        'documentation': 'https://github.com/yourusername/closetly',
+        'support': 'contact@closetly.com'
     })
 
 
 @app.route('/health')
 def health():
-    """Health check endpoint"""
+    """Health check endpoint for monitoring"""
     return jsonify({
         'status': 'healthy' if model is not None else 'degraded',
         'model_loaded': model is not None,
         'model_name': model_name,
-        'timestamp': datetime.now().isoformat()
+        'features_enabled': {
+            'images': True,
+            'retailer_links': True,
+            'price_prediction': model is not None
+        },
+        'timestamp': datetime.now().isoformat(),
+        'uptime': 'operational'
     })
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/api/predict', methods=['POST'])
 @limiter.limit("10 per minute")
 def predict_price():
     """
-    Predict price for a single fashion item
+    Predict price for a single fashion item with image and link
 
     Request JSON format:
     {
@@ -192,6 +245,8 @@ def predict_price():
         "rating": 4.5,
         "discount_percent": 20
     }
+    
+    Response includes: predicted_price, image_url, product_url
     """
     try:
         if model is None:
@@ -219,7 +274,7 @@ def predict_price():
 
         # Set defaults for optional fields
         data.setdefault('material', 'Cotton')
-        data.setdefault('retailer', 'Amazon India')
+        data.setdefault('retailer', 'Myntra')
         data.setdefault('season', 'All-Season')
         data.setdefault('rating', 4.0)
         data.setdefault('discount_percent', 0)
@@ -237,12 +292,18 @@ def predict_price():
         # Calculate original price if discount given
         original_price = predicted_price / (1 - data['discount_percent']/100) if data['discount_percent'] > 0 else predicted_price
 
+        # Get product image and URL
+        product_name = f"{data['brand']} {data['category']}"
+        image_url = get_product_image(data['category'])
+        product_url = get_product_url(data['retailer'], data['brand'], data['category'])
+
         return jsonify({
             'success': True,
             'item': {
                 'brand': data['brand'],
                 'category': data['category'],
-                'material': data['material']
+                'material': data['material'],
+                'product_name': product_name
             },
             'prediction': {
                 'current_price': round(predicted_price, 2),
@@ -253,6 +314,11 @@ def predict_price():
                 },
                 'discount_percent': data['discount_percent'],
                 'currency': 'INR'
+            },
+            'media': {
+                'image_url': image_url,
+                'product_url': product_url,
+                'retailer': data['retailer']
             },
             'model': model_name,
             'timestamp': datetime.now().isoformat()
@@ -265,10 +331,22 @@ def predict_price():
         }), 500
 
 
-@app.route('/compare', methods=['POST'])
+@app.route('/api/compare', methods=['POST'])
 @limiter.limit("20 per minute")
 def compare_prices():
-    """Compare prices across multiple retailers"""
+    """
+    Compare prices across multiple retailers with images and links
+    
+    Request JSON format:
+    {
+        "product_name": "Formal Blazer",
+        "brand": "Van Heusen",
+        "category": "Blazer",
+        "material": "Wool" (optional)
+    }
+    
+    Response includes comparisons for all major retailers
+    """
     try:
         if model is None:
             return jsonify({
@@ -284,12 +362,15 @@ def compare_prices():
                 'success': False
             }), 400
 
-        product_name = data.get('product_name', '')
+        product_name = data.get('product_name', f"{data.get('brand', '')} {data.get('category', '')}")
         brand = data.get('brand', '')
         category = data.get('category', '')
 
         retailers = ['Myntra', 'Ajio', 'Flipkart', 'Amazon India', 'Lifestyle', 'Westside']
         comparisons = []
+
+        # Get product image
+        image_url = get_product_image(category)
 
         for retailer in retailers:
             item_data = {
@@ -298,7 +379,7 @@ def compare_prices():
                 'material': data.get('material', 'Cotton'),
                 'retailer': retailer,
                 'season': data.get('season', 'All-Season'),
-                'rating': data.get('rating', 4.0),
+                'rating': data.get('rating', 4.0) + np.random.uniform(-0.2, 0.2),
                 'discount_percent': np.random.choice([0, 10, 15, 20, 25, 30]),
                 'brand_popularity': 100
             }
@@ -306,11 +387,16 @@ def compare_prices():
             features = encode_features(item_data)
             predicted_price = model.predict([features])[0]
 
+            # Generate retailer-specific URL
+            product_url = get_product_url(retailer, brand, category)
+
             comparisons.append({
                 'retailer': retailer,
                 'predicted_price': round(predicted_price, 2),
                 'discount': item_data['discount_percent'],
-                'search_url': f"https://www.{retailer.lower().replace(' ', '')}.com/s?q={product_name}"
+                'product_url': product_url,
+                'image_url': image_url,
+                'rating': round(item_data['rating'], 1)
             })
 
         # Sort by price
@@ -320,8 +406,13 @@ def compare_prices():
             'success': True,
             'product': product_name,
             'brand': brand,
+            'category': category,
+            'image_url': image_url,
             'comparisons': comparisons,
             'best_deal': comparisons[0],
+            'worst_deal': comparisons[-1],
+            'savings': round(comparisons[-1]['predicted_price'] - comparisons[0]['predicted_price'], 2),
+            'average_price': round(sum(c['predicted_price'] for c in comparisons) / len(comparisons), 2),
             'timestamp': datetime.now().isoformat()
         })
 
@@ -332,10 +423,20 @@ def compare_prices():
         }), 500
 
 
-@app.route('/batch_predict', methods=['POST'])
+@app.route('/api/batch_predict', methods=['POST'])
 @limiter.limit("5 per minute")
 def batch_predict():
-    """Predict prices for multiple items at once"""
+    """
+    Predict prices for multiple items at once with images and links
+    
+    Request JSON format:
+    {
+        "items": [
+            {"brand": "Zara", "category": "Dress"},
+            {"brand": "Nike", "category": "Hoodie"}
+        ]
+    }
+    """
     try:
         if model is None:
             return jsonify({
@@ -365,7 +466,7 @@ def batch_predict():
             try:
                 # Set defaults
                 item.setdefault('material', 'Cotton')
-                item.setdefault('retailer', 'Amazon India')
+                item.setdefault('retailer', 'Myntra')
                 item.setdefault('season', 'All-Season')
                 item.setdefault('rating', 4.0)
                 item.setdefault('discount_percent', 0)
@@ -374,12 +475,23 @@ def batch_predict():
                 features = encode_features(item)
                 predicted_price = model.predict([features])[0]
 
+                # Get image and URL
+                image_url = get_product_image(item.get('category', 'T-Shirt'))
+                product_url = get_product_url(
+                    item.get('retailer', 'Myntra'),
+                    item.get('brand', 'Unknown'),
+                    item.get('category', 'Product')
+                )
+
                 predictions.append({
                     'item': {
                         'brand': item.get('brand', 'Unknown'),
                         'category': item.get('category', 'Unknown')
                     },
                     'predicted_price': round(predicted_price, 2),
+                    'image_url': image_url,
+                    'product_url': product_url,
+                    'retailer': item.get('retailer', 'Myntra'),
                     'success': True
                 })
             except Exception as e:
@@ -392,6 +504,8 @@ def batch_predict():
         return jsonify({
             'success': True,
             'total_items': len(items),
+            'successful_predictions': sum(1 for p in predictions if p.get('success')),
+            'failed_predictions': sum(1 for p in predictions if not p.get('success')),
             'predictions': predictions,
             'timestamp': datetime.now().isoformat()
         })
@@ -403,9 +517,9 @@ def batch_predict():
         }), 500
 
 
-@app.route('/available_options', methods=['GET'])
+@app.route('/api/available_options', methods=['GET'])
 def get_available_options():
-    """Get available brands, categories, materials, etc."""
+    """Get available brands, categories, materials, retailers, and seasons"""
     try:
         if not label_encoders:
             return jsonify({
@@ -414,16 +528,19 @@ def get_available_options():
             }), 503
 
         options = {
-            'brands': list(label_encoders['brand'].classes_) if 'brand' in label_encoders else [],
-            'categories': list(label_encoders['category'].classes_) if 'category' in label_encoders else [],
-            'materials': list(label_encoders['material'].classes_) if 'material' in label_encoders else [],
-            'retailers': list(label_encoders['retailer'].classes_) if 'retailer' in label_encoders else [],
-            'seasons': list(label_encoders['season'].classes_) if 'season' in label_encoders else []
+            'brands': sorted(list(label_encoders['brand'].classes_)) if 'brand' in label_encoders else [],
+            'categories': sorted(list(label_encoders['category'].classes_)) if 'category' in label_encoders else [],
+            'materials': sorted(list(label_encoders['material'].classes_)) if 'material' in label_encoders else [],
+            'retailers': sorted(list(label_encoders['retailer'].classes_)) if 'retailer' in label_encoders else [],
+            'seasons': sorted(list(label_encoders['season'].classes_)) if 'season' in label_encoders else []
         }
 
         return jsonify({
             'success': True,
-            'options': options
+            'options': options,
+            'retailer_urls': RETAILER_URLS,
+            'total_brands': len(options['brands']),
+            'total_categories': len(options['categories'])
         })
     except Exception as e:
         return jsonify({
@@ -432,6 +549,33 @@ def get_available_options():
         }), 500
 
 
+# Legacy endpoint aliases (for backward compatibility)
+@app.route('/predict', methods=['POST'])
+@limiter.limit("10 per minute")
+def predict_price_legacy():
+    """Legacy endpoint - redirects to /api/predict"""
+    return predict_price()
+
+
+@app.route('/compare', methods=['POST'])
+@limiter.limit("20 per minute")
+def compare_prices_legacy():
+    """Legacy endpoint - redirects to /api/compare"""
+    return compare_prices()
+
+
+@app.route('/batch_predict', methods=['POST'])
+@limiter.limit("5 per minute")
+def batch_predict_legacy():
+    """Legacy endpoint - redirects to /api/batch_predict"""
+    return batch_predict()
+
+
+@app.route('/available_options', methods=['GET'])
+def get_available_options_legacy():
+    """Legacy endpoint - redirects to /api/available_options"""
+    return get_available_options()
+
 
 # ERROR HANDLERS
 
@@ -439,7 +583,11 @@ def get_available_options():
 def not_found(e):
     return jsonify({
         'error': 'Endpoint not found',
-        'success': False
+        'success': False,
+        'available_endpoints': [
+            '/', '/health', '/api/predict', '/api/compare', 
+            '/api/batch_predict', '/api/available_options'
+        ]
     }), 404
 
 
@@ -447,7 +595,8 @@ def not_found(e):
 def internal_error(e):
     return jsonify({
         'error': 'Internal server error',
-        'success': False
+        'success': False,
+        'message': 'Please contact support if this persists'
     }), 500
 
 
@@ -455,9 +604,9 @@ def internal_error(e):
 def ratelimit_handler(e):
     return jsonify({
         'error': 'Rate limit exceeded. Please try again later.',
-        'success': False
+        'success': False,
+        'retry_after': '60 seconds'
     }), 429
-
 
 
 # RUN SERVER
@@ -465,11 +614,24 @@ def ratelimit_handler(e):
 
 if __name__ == '__main__':
     print("\n" + "="*60)
-    print("FASHION PRICE PREDICTION API SERVER")
+    print("CLOSETLY - FASHION PRICE PREDICTION API")
     print("="*60)
     print(f"Model: {model_name}")
     print(f"Model Loaded: {model is not None}")
-    print("Starting server...")
+    print("\n✨ Enhanced Features:")
+    print("  ✓ Product Images (Unsplash)")
+    print("  ✓ Retailer Links (Direct redirect)")
+    print("  ✓ Price Predictions (ML-powered)")
+    print("  ✓ Multi-retailer Comparison")
+    print("  ✓ AI Chatbot (Frontend)")
+    print("\n🌐 API Endpoints:")
+    print("  • GET  /              - Home/HTML UI")
+    print("  • GET  /health        - Health check")
+    print("  • POST /api/predict   - Single prediction")
+    print("  • POST /api/compare   - Price comparison")
+    print("  • POST /api/batch_predict - Batch predictions")
+    print("  • GET  /api/available_options - Get options")
+    print("\nStarting server...")
     print("="*60 + "\n")
 
     port = int(os.environ.get('PORT', 5000))
