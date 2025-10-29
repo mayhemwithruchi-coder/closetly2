@@ -1,5 +1,5 @@
 """
-Fashion Price Prediction ML Model
+Fashion Price Prediction ML Model - Enhanced with Product Images
 Complete pipeline for scraping, training, and predicting fashion item prices
 """
 
@@ -30,43 +30,8 @@ class FashionDataScraper:
         }
         self.data = []
 
-    def scrape_amazon_fashion(self, search_query, pages=5):
-        """Scrape Amazon fashion products"""
-        base_url = "https://www.amazon.com/s?k="
-
-        for page in range(1, pages + 1):
-            url = f"{base_url}{search_query}&page={page}"
-            try:
-                response = requests.get(url, headers=self.headers, timeout=10)
-                soup = BeautifulSoup(response.content, 'html.parser')
-
-                products = soup.find_all('div', {'data-component-type': 's-search-result'})
-
-                for product in products:
-                    try:
-                        title = product.find('h2', {'class': 'a-size-mini'})
-                        price = product.find('span', {'class': 'a-price-whole'})
-                        rating = product.find('span', {'class': 'a-icon-alt'})
-                        brand = product.find('span', {'class': 'a-size-base-plus'})
-
-                        if title and price:
-                            self.data.append({
-                                'name': title.text.strip(),
-                                'price': float(price.text.replace(',', '').replace('$', '')),
-                                'brand': brand.text.strip() if brand else 'Generic',
-                                'rating': float(rating.text.split()[0]) if rating else 0,
-                                'retailer': 'Amazon',
-                                'date_scraped': datetime.now().strftime('%Y-%m-%d')
-                            })
-                    except Exception as e:
-                        continue
-
-            except Exception as e:
-                print(f"Error scraping page {page}: {e}")
-                continue
-
     def generate_synthetic_data(self, n_samples=1000):
-        """Generate synthetic fashion data for training - INDIAN MARKET"""
+        """Generate synthetic fashion data for training - INDIAN MARKET with IMAGES"""
 
         brands = {
             'premium_indian': ['Van Heusen', 'Allen Solly', 'Louis Philippe', 'Peter England', 'Raymond',
@@ -89,6 +54,36 @@ class FashionDataScraper:
                      'Reliance Trends', 'Westside', 'Shoppers Stop', 'Max Fashion']
 
         seasons = ['Spring', 'Summer', 'Monsoon', 'Winter', 'All-Season']
+
+        # Product image mapping (Unsplash or placeholder URLs)
+        category_image_urls = {
+            'Jeans': 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400',
+            'Dress': 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400',
+            'Shirt': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400',
+            'Blazer': 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400',
+            'T-Shirt': 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400',
+            'Jacket': 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400',
+            'Sweater': 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400',
+            'Pants': 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400',
+            'Skirt': 'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400',
+            'Coat': 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400',
+            'Hoodie': 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400',
+            'Polo': 'https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400',
+            'Chinos': 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400'
+        }
+
+        # Retailer URL templates
+        retailer_urls = {
+            'Myntra': 'https://www.myntra.com/shop/',
+            'Ajio': 'https://www.ajio.com/search/?text=',
+            'Flipkart': 'https://www.flipkart.com/search?q=',
+            'Amazon India': 'https://www.amazon.in/s?k=',
+            'Lifestyle': 'https://www.lifestylestores.com/in/en/search/?text=',
+            'Reliance Trends': 'https://www.reliancetrends.com/search?q=',
+            'Westside': 'https://www.westside.com/search?q=',
+            'Shoppers Stop': 'https://www.shoppersstop.com/search?q=',
+            'Max Fashion': 'https://www.maxfashion.in/in/en/search/?text='
+        }
 
         # Brand price ranges (base prices in INR)
         brand_base_prices = {
@@ -168,9 +163,20 @@ class FashionDataScraper:
 
             original_price = price / (1 - discount/100) if discount > 0 else price
 
+            # Product name
+            product_name = f"{brand} {category}"
+            
+            # Image URL
+            image_url = category_image_urls.get(category, 'https://via.placeholder.com/400x400?text=Product')
+            
+            # Retailer product URL
+            search_query = product_name.replace(' ', '+')
+            product_url = retailer_urls[retailer] + search_query
+
             data.append({
                 'brand': brand,
                 'category': category,
+                'product_name': product_name,
                 'material': material,
                 'retailer': retailer,
                 'season': season,
@@ -178,6 +184,8 @@ class FashionDataScraper:
                 'discount_percent': discount,
                 'original_price': round(original_price, 2),
                 'current_price': round(price, 2),
+                'image_url': image_url,
+                'product_url': product_url,
                 'date_scraped': datetime.now().strftime('%Y-%m-%d')
             })
 
@@ -238,7 +246,7 @@ class FashionDataPreprocessor:
 
         return X, y
 
-    def save_preprocessor(self, filename='preprocessor.pkl'):
+    def save_preprocessor(self, filename='fashion_preprocessor.pkl'):
         """Save preprocessor for later use"""
         with open(filename, 'wb') as f:
             pickle.dump({
@@ -246,7 +254,6 @@ class FashionDataPreprocessor:
                 'scaler': self.scaler
             }, f)
         print(f"Preprocessor saved to {filename}")
-
 
 
 # 3. MODEL TRAINING MODULE
@@ -300,8 +307,8 @@ class FashionPricePredictor:
                 'predictions': y_pred
             }
 
-            print(f"  MAE: ${mae:.2f}")
-            print(f"  RMSE: ${rmse:.2f}")
+            print(f"  MAE: ₹{mae:.2f}")
+            print(f"  RMSE: ₹{rmse:.2f}")
             print(f"  R² Score: {r2:.4f}")
             print(f"  MAPE: {mape:.2f}%")
 
@@ -324,7 +331,7 @@ class FashionPricePredictor:
         prediction = self.best_model.predict([features])[0]
         return round(prediction, 2)
 
-    def save_model(self, filename='price_predictor_model.pkl'):
+    def save_model(self, filename='fashion_price_model.pkl'):
         """Save the best trained model"""
         if self.best_model is None:
             raise ValueError("No model to save!")
@@ -337,22 +344,21 @@ class FashionPricePredictor:
         print(f"\nModel saved to {filename}")
 
 
-
 # 4. MAIN EXECUTION
 
 
 def main():
     print("="*60)
-    print("FASHION PRICE PREDICTION ML PIPELINE")
+    print("FASHION PRICE PREDICTION ML PIPELINE (Enhanced with Images)")
     print("="*60)
 
     # Step 1: Generate/Load Data
     print("\n[Step 1/4] Generating Training Data...")
     scraper = FashionDataScraper()
     df = scraper.generate_synthetic_data(n_samples=2000)
-    print(f"Generated {len(df)} samples")
+    print(f"Generated {len(df)} samples with product images and URLs")
     print("\nData Sample:")
-    print(df.head())
+    print(df[['product_name', 'brand', 'category', 'current_price', 'retailer', 'image_url']].head())
 
     # Step 2: Preprocess Data
     print("\n[Step 2/4] Preprocessing Data...")
@@ -385,8 +391,8 @@ def main():
         'brand': 'Zara',
         'category': 'Blazer',
         'material': 'Wool',
-        'retailer': 'Nordstrom',
-        'season': 'Fall',
+        'retailer': 'Myntra',
+        'season': 'Winter',
         'rating': 4.5,
         'discount_percent': 20
     }
@@ -401,7 +407,6 @@ def main():
         if col in preprocessor.label_encoders and example_item[col] in preprocessor.label_encoders[col].classes_:
             encoded_val = preprocessor.label_encoders[col].transform([example_item[col]])[0]
         else:
-            # Handle unseen labels by assigning a default value (e.g., 0)
             encoded_val = 0
         encoded_features.append(encoded_val)
 
@@ -412,7 +417,7 @@ def main():
     ])
 
     predicted_price = predictor.predict_price(encoded_features)
-    print(f"\nPredicted Price: ${predicted_price}")
+    print(f"\nPredicted Price: ₹{predicted_price}")
 
     print("\n" + "="*60)
     print("PIPELINE COMPLETE!")
@@ -420,7 +425,11 @@ def main():
     print("\nFiles created:")
     print("  - fashion_price_model.pkl (trained model)")
     print("  - fashion_preprocessor.pkl (data preprocessor)")
-    print("  - fashion_training_data.csv (training dataset)")
+    print("  - fashion_training_data.csv (training dataset with images & URLs)")
+    print("\n✨ Enhanced features:")
+    print("  ✓ Product images (Unsplash URLs)")
+    print("  ✓ Retailer product URLs")
+    print("  ✓ Indian market retailers")
 
 
 if __name__ == "__main__":
