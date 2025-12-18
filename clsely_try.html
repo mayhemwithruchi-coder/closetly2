@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closetly - Your Personal Style AI</title>
+    <style>
+        /* AUTHENTICATION STYLES (from closetly.html) */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .auth-container { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+        .auth-card { background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); max-width: 440px; width: 100%; padding: 48px 40px; animation: slideUp 0.5s ease; }
+        .auth-logo h1 { font-size: 2.5rem; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; text-align: center; }
+        .form-group { margin-bottom: 24px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; }
+        .form-group input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; }
+        .auth-btn { width: 100%; padding: 16px; background: linear-gradient(45deg, #667eea, #764ba2); color: white; border: none; border-radius: 12px; font-weight: 600; cursor: pointer; }
+        
+        /* MAIN APP STYLES (from closetly_india_complete.html) */
+        .main-app { display: none; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; background: rgba(255, 255, 255, 0.95); border-radius: 20px; backdrop-filter: blur(10px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+        .step { display: none; }
+        .step.active { display: block; animation: fadeIn 0.5s ease; }
+        .quiz-section { background: white; padding: 30px; border-radius: 15px; }
+        .gender-option, .option { background: #f7fafc; border: 2px solid #e2e8f0; border-radius: 15px; padding: 20px; cursor: pointer; transition: 0.3s; margin-bottom: 10px; }
+        .selected { background: linear-gradient(45deg, #667eea, #764ba2) !important; color: white !important; }
+        
+        /* PRICE COMPARISON & SHOPPING */
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product-card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); padding: 15px; }
+        
+        /* CHATBOT WIDGET */
+        .chat-widget { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+        .chat-toggle-btn { width: 60px; height: 60px; border-radius: 50%; background: #667eea; border: none; color: white; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .chat-container { position: fixed; bottom: 90px; right: 20px; width: 350px; height: 500px; background: white; border-radius: 20px; display: none; flex-direction: column; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+        .chat-header { background: #667eea; color: white; padding: 15px; border-top-left-radius: 20px; border-top-right-radius: 20px; }
+        .chat-messages { flex: 1; padding: 15px; overflow-y: auto; }
+        .chat-input-area { padding: 15px; display: flex; gap: 10px; border-top: 1px solid #eee; }
+        
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <div id="loginPage" class="auth-container">
+        <div class="auth-card">
+            <div class="auth-logo"><h1>✨ Closetly</h1><p>Welcome back, Stylist</p></div>
+            <form id="loginForm">
+                <div class="form-group"><label>Email</label><input type="email" id="lEmail" required></div>
+                <div class="form-group"><label>Password</label><input type="password" id="lPass" required></div>
+                <button type="submit" class="auth-btn">Log In</button>
+            </form>
+            <p style="text-align:center; margin-top:15px;">New? <a href="#" onclick="toggleAuth()">Sign Up</a></p>
+        </div>
+    </div>
+
+    <div id="signupPage" class="auth-container" style="display:none;">
+        <div class="auth-card">
+            <div class="auth-logo"><h1>✨ Closetly</h1><p>Start your style journey</p></div>
+            <form id="signupForm">
+                <div class="form-group"><label>Name</label><input type="text" id="sName" required></div>
+                <div class="form-group"><label>Email</label><input type="email" id="sEmail" required></div>
+                <div class="form-group"><label>Password</label><input type="password" id="sPass" required></div>
+                <button type="submit" class="auth-btn">Join Now</button>
+            </form>
+            <p style="text-align:center; margin-top:15px;">Joined? <a href="#" onclick="toggleAuth()">Log In</a></p>
+        </div>
+    </div>
+
+    <div id="mainApp" class="main-app">
+        <div class="container">
+            <header style="text-align:center; margin-bottom:30px;">
+                <h1>Closetly</h1>
+                <p id="welcomeUser">Personalized Fashion At Your Fingertips</p>
+            </header>
+
+            <div class="step active" id="step0">
+                <div class="quiz-section">
+                    <h2>Select your style preference:</h2>
+                    <div class="gender-selection" style="display:flex; gap:10px; margin:20px 0;">
+                        <div class="gender-option" onclick="selectGender('women', this)">👩 Women</div>
+                        <div class="gender-option" onclick="selectGender('men', this)">👨 Men</div>
+                        <div class="gender-option" onclick="selectGender('unisex', this)">✨ Unisex</div>
+                    </div>
+                    <button class="auth-btn" onclick="goToStep(1)">Next: Body Quiz</button>
+                </div>
+            </div>
+
+            <div class="step" id="step1">
+                <div class="quiz-section">
+                    <h2>Body Assessment</h2>
+                    <div class="question">
+                        <p>How would you describe your shoulder width?</p>
+                        <div class="option" onclick="setBodyVal('q1','wider',this)">Wider than hips</div>
+                        <div class="option" onclick="setBodyVal('q1','equal',this)">Equal to hips</div>
+                    </div>
+                    <button class="auth-btn" onclick="goToStep(2)">Next: Color Analysis</button>
+                </div>
+            </div>
+
+            <div class="step" id="step3">
+                <div class="results">
+                    <h2>Your Style Profile</h2>
+                    <div id="bodyResult" style="padding:20px; background:#eef2ff; border-radius:10px; margin-bottom:20px;"></div>
+                    
+                    <div class="tabs" style="margin-bottom:20px;">
+                        <button class="auth-btn" style="width:auto; padding:10px 20px;" onclick="showSubTab('shopping')">Shop Products</button>
+                        <button class="auth-btn" style="width:auto; padding:10px 20px; background:grey;" onclick="logout()">Logout</button>
+                    </div>
+
+                    <div id="shoppingTab" class="product-grid">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-widget">
+        <button class="chat-toggle-btn" onclick="toggleChat()">💬</button>
+        <div class="chat-container" id="chatBox">
+            <div class="chat-header"><h3>Closetly AI Assistant</h3></div>
+            <div class="chat-messages" id="msgs"></div>
+            <div class="chat-input-area">
+                <input type="text" id="chatIn" placeholder="Ask about style..." style="flex:1; border-radius:20px; padding:10px;">
+                <button onclick="sendChat()" style="border:none; background:none; cursor:pointer;">➡️</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State variables
+        let currentUser = null;
+        let userChoices = { gender: '', body: {}, color: null };
+
+        // AUTHENTICATION LOGIC
+        function toggleAuth() {
+            const login = document.getElementById('loginPage');
+            const signup = document.getElementById('signupPage');
+            login.style.display = login.style.display === 'none' ? 'flex' : 'none';
+            signup.style.display = signup.style.display === 'none' ? 'flex' : 'none';
+        }
+
+        document.getElementById('loginForm').onsubmit = (e) => {
+            e.preventDefault();
+            currentUser = { name: "User", email: document.getElementById('lEmail').value };
+            document.getElementById('loginPage').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            document.getElementById('welcomeUser').innerText = `Welcome, ${currentUser.email}`;
+        };
+
+        // NAVIGATION LOGIC
+        function goToStep(num) {
+            document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+            document.getElementById('step' + num).classList.add('active');
+            if(num === 3) generateResults();
+        }
+
+        function selectGender(val, el) {
+            userChoices.gender = val;
+            document.querySelectorAll('.gender-option').forEach(o => o.classList.remove('selected'));
+            el.classList.add('selected');
+        }
+
+        function setBodyVal(q, val, el) {
+            userChoices.body[q] = val;
+            el.parentElement.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+            el.classList.add('selected');
+        }
+
+        // RESULTS & SHOPPING
+        function generateResults() {
+            const resDiv = document.getElementById('bodyResult');
+            resDiv.innerHTML = `<h3>Profile Found</h3><p>Preference: ${userChoices.gender}</p>`;
+            
+            const shop = document.getElementById('shoppingTab');
+            const dummyProducts = [
+                { name: "Classic Blazer", price: "₹2,499", brand: "Zara" },
+                { name: "Denim Jacket", price: "₹1,899", brand: "Levis" }
+            ];
+            shop.innerHTML = dummyProducts.map(p => `
+                <div class="product-card">
+                    <h4>${p.name}</h4>
+                    <p>${p.brand} - ${p.price}</p>
+                    <button class="auth-btn" style="padding:5px;">Buy Now</button>
+                </div>
+            `).join('');
+        }
+
+        // CHATBOT LOGIC
+        function toggleChat() {
+            const box = document.getElementById('chatBox');
+            box.style.display = box.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        function sendChat() {
+            const input = document.getElementById('chatIn');
+            const msgs = document.getElementById('msgs');
+            if(!input.value) return;
+            
+            msgs.innerHTML += `<div style="text-align:right; margin:5px;"><b>You:</b> ${input.value}</div>`;
+            setTimeout(() => {
+                msgs.innerHTML += `<div style="text-align:left; margin:5px; color:#667eea;"><b>Closetly:</b> I recommend pairing that with neutral colors!</div>`;
+                msgs.scrollTop = msgs.scrollHeight;
+            }, 800);
+            input.value = '';
+        }
+
+        function logout() { location.reload(); }
+    </script>
+</body>
+</html>
